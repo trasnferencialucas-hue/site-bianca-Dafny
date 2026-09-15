@@ -1,0 +1,1906 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+  :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;font:14px system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#F7F5F1;color:#191820}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+</style>
+<title>Bianca Dafny Fotografia</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&display=swap">
+
+<meta data-head name="description" content="Fotógrafa no Algarve. Casamentos, elopements, casais, famílias e retratos com luz natural e emoção real. Sessões em Lagos, Albufeira, Vilamoura, Faro e todo o Algarve.">
+<meta data-head name="author" content="Bianca Dafny">
+<meta data-head name="robots" content="index, follow, max-image-preview:large">
+<meta data-head name="theme-color" content="#F7F5F1">
+<meta data-head property="og:type" content="website">
+<meta data-head property="og:site_name" content="Bianca Dafny Fotografia">
+<meta data-head property="og:locale" content="pt_PT">
+<meta data-head property="og:locale:alternate" content="en_GB">
+<meta data-head property="og:title" content="Bianca Dafny Fotografia — Fotógrafa no Algarve">
+<meta data-head property="og:description" content="Fotografia com alma, luz e histórias no Algarve. Casamentos, elopements, casais, famílias e marcas.">
+<meta data-head property="og:image" content="img/noivos-pergola-horizontal-algarve-xl.webp">
+<meta data-head name="twitter:card" content="summary_large_image">
+<meta data-head name="twitter:title" content="Bianca Dafny Fotografia — Fotógrafa no Algarve">
+<meta data-head name="twitter:description" content="Fotografia com alma, luz e histórias no Algarve.">
+<meta data-head name="twitter:image" content="img/noivos-pergola-horizontal-algarve-xl.webp">
+<link data-head rel="canonical" href="https://biancadafny.com/">
+<link data-head rel="alternate" hreflang="pt-pt" href="https://biancadafny.com/">
+<link data-head rel="alternate" hreflang="en" href="https://biancadafny.com/en/">
+<link data-head rel="alternate" hreflang="x-default" href="https://biancadafny.com/">
+
+<style>
+/* ============================================================
+   Bianca Dafny Fotografia — design tokens
+   Palette : light linen / soft ink / dune sand / pine (single light theme)
+   Type    : Bodoni Moda (display)  ·  Archivo (body, labels)
+   ============================================================ */
+:root{
+  color-scheme:light;
+
+  --paper:#F7F5F1;      /* linho claro — fundo principal */
+  --paper-2:#EFEBE4;    /* areia lavada — superfícies */
+  --paper-3:#FBFAF8;    /* quase branco — respiração */
+  --ink:#191820;        /* tinta com ligeiro desvio violeta */
+  --ink-2:#3C3A44;
+  --ink-3:#6B6771;
+  --line:#DED8CD;
+  --sand:#C9BBA7;
+  --sand-deep:#776850;
+  --pine:#3C5A55;       /* acento: pinheiro manso */
+  --shade:rgba(25,24,32,.5);
+  --field:#FFFFFF;
+
+  --f-display:"Bodoni Moda","Didot","Times New Roman",serif;
+  --f-body:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  --gut:clamp(20px,5vw,72px);
+  --maxw:1500px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --slow:cubic-bezier(.16,.84,.44,1);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:16px;
+  font-weight:300;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--pine);outline-offset:3px;border-radius:2px}
+::selection{background:var(--sand);color:var(--ink)}
+
+/* ---------- type ---------- */
+h1,h2,h3,h4{margin:0;font-weight:400;text-wrap:balance}
+.d1{font-family:var(--f-display);font-size:clamp(2.6rem,6.6vw,6rem);line-height:1.02;letter-spacing:-.015em}
+.d2{font-family:var(--f-display);font-size:clamp(2rem,4.4vw,3.9rem);line-height:1.08;letter-spacing:-.012em}
+.d3{font-family:var(--f-display);font-size:clamp(1.55rem,2.7vw,2.5rem);line-height:1.14;letter-spacing:-.01em}
+.d4{font-family:var(--f-display);font-size:clamp(1.25rem,1.8vw,1.6rem);line-height:1.2}
+.it{font-style:italic}
+.lead{font-size:clamp(1.05rem,1.45vw,1.28rem);line-height:1.6;color:var(--ink-2);font-weight:300}
+p{margin:0 0 1.05em}
+.prose{max-width:66ch}
+.prose p{color:var(--ink-2)}
+.eyebrow{
+  font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;
+  font-weight:500;color:var(--sand-deep);margin:0 0 1.4rem;display:block;
+}
+.eyebrow--line{display:flex;align-items:center;gap:.9rem}
+.eyebrow--line::after{content:"";flex:1;height:1px;background:var(--line)}
+.small{font-size:.8rem;letter-spacing:.02em;color:var(--ink-3)}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---------- layout ---------- */
+.shell{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
+.band{padding-block:clamp(64px,10vw,140px)}
+.band--tight{padding-block:clamp(48px,6vw,86px)}
+.rule{height:1px;background:var(--line);border:0;margin:0}
+.grid{display:grid;gap:clamp(24px,3.4vw,54px)}
+.stack{display:flex;flex-direction:column}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:.7rem;
+  padding:1.02rem 1.7rem;border:1px solid var(--ink);
+  font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500;
+  position:relative;overflow:hidden;isolation:isolate;
+  transition:color .45s var(--ease),border-color .45s var(--ease);
+}
+.btn::before{
+  content:"";position:absolute;inset:0;background:var(--ink);z-index:-1;
+  transform:translateY(101%);transition:transform .5s var(--slow);
+}
+.btn:hover::before,.btn:focus-visible::before{transform:translateY(0)}
+.btn:hover,.btn:focus-visible{color:var(--paper)}
+.btn--ghost{border-color:rgba(255,255,255,.55);color:#fff}
+.btn--ghost::before{background:#fff}
+.btn--ghost:hover,.btn--ghost:focus-visible{color:#191820;border-color:#fff}
+.btn--sm{padding:.78rem 1.25rem;font-size:.66rem}
+.lnk{
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:500;
+  padding-bottom:.35rem;background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:100% 1px;background-position:0 100%;background-repeat:no-repeat;
+  transition:background-size .45s var(--slow),color .3s;
+}
+.lnk:hover,.lnk:focus-visible{background-size:22% 1px;color:var(--sand-deep)}
+.lnk .ar{transition:transform .45s var(--slow)}
+.lnk:hover .ar{transform:translateX(5px)}
+
+/* ---------- header ---------- */
+.hdr{
+  position:fixed;top:0;left:0;right:0;z-index:70;
+  padding-top:env(safe-area-inset-top,0px);
+  transition:background .5s var(--ease),border-color .5s,transform .45s var(--ease);
+  border-bottom:1px solid transparent;
+}
+.hdr.solid{background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(14px);border-bottom-color:var(--line)}
+.hdr.up{transform:translateY(-102%)}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:74px;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
+.mark{display:flex;flex-direction:column;line-height:1;gap:.28rem}
+.mark b{font-family:var(--f-display);font-weight:400;font-size:1.22rem;letter-spacing:.01em}
+.mark span{font-size:.54rem;letter-spacing:.34em;text-transform:uppercase;color:var(--ink-3)}
+.hdr.onimg:not(.solid) .mark b,.hdr.onimg:not(.solid) .mark span,
+.hdr.onimg:not(.solid) .nav a,.hdr.onimg:not(.solid) .tools button{color:#fff}
+.hdr.onimg:not(.solid) .mark span{color:rgba(255,255,255,.7)}
+.nav{display:flex;gap:clamp(1.1rem,2vw,2.1rem);align-items:center}
+.nav a{font-size:.68rem;letter-spacing:.19em;text-transform:uppercase;font-weight:400;position:relative;padding-block:.4rem}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .45s var(--slow)}
+.nav a:hover::after,.nav a.on::after{transform:scaleX(1)}
+.tools{display:flex;align-items:center;gap:.9rem}
+.langs{display:flex;align-items:center;gap:.3rem;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase}
+.langs button{opacity:.5;transition:opacity .3s}
+.langs button:hover{opacity:.85}
+.hdr.onimg:not(.solid) .langs button{opacity:.66;text-shadow:0 1px 10px rgba(0,0,0,.4)}
+.hdr.onimg:not(.solid) .langs button.on{opacity:1}
+.langs button.on{opacity:1;text-decoration:underline;text-underline-offset:4px}
+.langs i{opacity:.3;font-style:normal}
+.burger{display:none;width:30px;height:16px;position:relative}
+.burger span{position:absolute;left:0;right:0;height:1px;background:currentColor;transition:transform .4s var(--ease),opacity .3s}
+.burger span:nth-child(1){top:0}
+.burger span:nth-child(2){bottom:0}
+body.menu .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+body.menu .burger span:nth-child(2){transform:translateY(-8px) rotate(-45deg)}
+@media(max-width:940px){
+  .nav{display:none}
+  .burger{display:block}
+}
+
+/* ---------- mobile menu ---------- */
+.menu{
+  position:fixed;inset:0;z-index:65;background:var(--paper);
+  display:flex;flex-direction:column;justify-content:center;gap:.2rem;
+  padding:calc(90px + env(safe-area-inset-top,0px)) var(--gut) calc(40px + env(safe-area-inset-bottom,0px));
+  opacity:0;visibility:hidden;transition:opacity .45s var(--ease),visibility .45s;
+}
+body.menu .menu{opacity:1;visibility:visible}
+.menu a{font-family:var(--f-display);font-size:clamp(2rem,9vw,3rem);line-height:1.5;opacity:0;transform:translateY(14px);transition:opacity .5s var(--ease),transform .5s var(--ease)}
+body.menu .menu a{opacity:1;transform:none}
+body.menu .menu a:nth-child(1){transition-delay:.08s}
+body.menu .menu a:nth-child(2){transition-delay:.13s}
+body.menu .menu a:nth-child(3){transition-delay:.18s}
+body.menu .menu a:nth-child(4){transition-delay:.23s}
+body.menu .menu a:nth-child(5){transition-delay:.28s}
+body.menu .menu a:nth-child(6){transition-delay:.33s}
+.menu-foot{margin-top:2.2rem;display:flex;flex-direction:column;gap:.5rem}
+
+/* ---------- reveal ---------- */
+.js .r{opacity:0;transform:translateY(26px);transition:opacity 1s var(--ease),transform 1.1s var(--slow)}
+.js .r.in{opacity:1;transform:none}
+.js .r[data-d="1"]{transition-delay:.1s}
+.js .r[data-d="2"]{transition-delay:.2s}
+.js .r[data-d="3"]{transition-delay:.3s}
+.js .r[data-d="4"]{transition-delay:.4s}
+.fig{overflow:hidden;position:relative;background:var(--paper-2)}
+.fig img{width:100%;height:100%;object-fit:cover}
+.js .fig img{transform:scale(1.07);transition:transform 1.5s var(--slow),filter 1.2s ease}
+.js .r.in .fig img,.js .fig.in img{transform:scale(1)}
+@media (prefers-reduced-motion:reduce){
+  .js .r{opacity:1;transform:none;transition:none}
+  .js .fig img{transform:none;transition:none}
+  *{animation-duration:.01ms !important;transition-duration:.01ms !important;scroll-behavior:auto !important}
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;height:clamp(520px,86svh,900px);min-height:520px;overflow:hidden;display:flex;align-items:flex-end}
+.hero .fig{position:absolute;inset:0}
+.hero img{width:100%;height:100%;object-fit:cover;animation:drift 26s var(--ease) forwards}
+@keyframes drift{from{transform:scale(1.1)}to{transform:scale(1)}}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(15,14,17,.42) 0%,rgba(15,14,17,.06) 34%,rgba(15,14,17,.12) 58%,rgba(15,14,17,.72) 100%);
+}
+.hero-in{position:relative;z-index:2;width:100%;color:#fff;padding-bottom:clamp(38px,6vw,76px);max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
+.hero h1{font-family:var(--f-display);font-size:clamp(2.35rem,6vw,5.4rem);line-height:1.04;letter-spacing:-.018em;max-width:15ch;text-shadow:0 2px 40px rgba(0,0,0,.28)}
+.hero p{max-width:46ch;color:rgba(255,255,255,.88);margin:1.3rem 0 2.1rem;font-size:clamp(.95rem,1.25vw,1.12rem)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.hero .eyebrow{color:rgba(255,255,255,.72);margin-bottom:1.1rem}
+.scrollcue{position:absolute;right:var(--gut);bottom:clamp(38px,6vw,76px);z-index:2;display:flex;align-items:center;gap:.7rem;color:rgba(255,255,255,.75);font-size:.6rem;letter-spacing:.24em;text-transform:uppercase}
+.scrollcue i{display:block;width:44px;height:1px;background:rgba(255,255,255,.45);position:relative;overflow:hidden}
+.scrollcue i::after{content:"";position:absolute;inset:0;background:#fff;animation:sweep 2.6s var(--ease) infinite}
+@keyframes sweep{0%{transform:translateX(-100%)}60%,100%{transform:translateX(100%)}}
+@media(max-width:700px){.scrollcue{display:none}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.js .hero .eyebrow,.js .hero h1,.js .hero p,.js .hero-cta{animation:rise .9s var(--slow) both}
+.js .hero .eyebrow{animation-delay:.10s}
+.js .hero h1{animation-delay:.20s}
+.js .hero p{animation-delay:.34s}
+.js .hero-cta{animation-delay:.46s}
+@media (prefers-reduced-motion:reduce){.js .hero .eyebrow,.js .hero h1,.js .hero p,.js .hero-cta{animation:none}}
+@media(max-width:760px){
+  .hero::after{background:linear-gradient(180deg,rgba(15,14,17,.5) 0%,rgba(15,14,17,.2) 26%,rgba(15,14,17,.5) 62%,rgba(15,14,17,.86) 100%)}
+  .hero h1{max-width:18ch}
+  .foot-bot{padding-bottom:calc(1.6rem + env(safe-area-inset-bottom,0px) + 54px)}
+}
+
+/* ---------- manifesto ---------- */
+.manifesto{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,64px)}
+@media(min-width:900px){.manifesto{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:start}}
+.manifesto blockquote{margin:0;font-family:var(--f-display);font-size:clamp(1.7rem,3.5vw,3.1rem);line-height:1.16;letter-spacing:-.01em}
+.sig{font-family:var(--f-display);font-style:italic;font-size:1.5rem;color:var(--sand-deep);margin-top:1.4rem;display:block}
+
+/* ---------- services ---------- */
+.svc-grid{display:grid;grid-template-columns:1fr;gap:clamp(20px,2.4vw,34px) clamp(20px,2.4vw,34px)}
+@media(min-width:600px){.svc-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1040px){.svc-grid{grid-template-columns:repeat(3,1fr)}}
+.svc{display:flex;flex-direction:column;gap:1rem;position:relative}
+.svc .fig{aspect-ratio:3/4}
+.svc--text .fig{background:var(--paper-3);display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+.svc--text .fig span{font-family:var(--f-display);font-size:clamp(2.6rem,5vw,4rem);color:var(--line);line-height:1}
+.svc h3{display:flex;align-items:baseline;justify-content:space-between;gap:1rem}
+.svc h3 em{font-family:var(--f-body);font-style:normal;font-size:.62rem;letter-spacing:.18em;color:var(--ink-3);text-transform:uppercase}
+.svc p{color:var(--ink-3);font-size:.93rem;margin:0}
+.svc a.cover{position:absolute;inset:0;z-index:2}
+.svc:hover .fig img{transform:scale(1.045)}
+
+/* ---------- editorial gallery (home) ---------- */
+.stories{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(14px,1.8vw,26px)}
+.stories .cell{grid-column:span 12}
+@media(min-width:760px){
+  .stories .cell{grid-column:span 6}
+  .c-a{grid-column:1/8}
+  .c-b{grid-column:8/13;align-self:end}
+  .c-c{grid-column:1/5;align-self:start}
+  .c-d{grid-column:5/13}
+  .c-e{grid-column:1/7}
+  .c-f{grid-column:7/13;align-self:center}
+}
+.cell .fig{cursor:zoom-in}
+.cap{margin-top:.7rem;display:flex;justify-content:space-between;gap:1rem;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+
+/* ---------- algarve strip ---------- */
+.places{display:flex;flex-wrap:wrap;gap:.5rem .55rem;margin-top:1.6rem}
+.places span{
+  border:1px solid var(--line);padding:.42rem .85rem;border-radius:999px;
+  font-size:.68rem;letter-spacing:.1em;color:var(--ink-2);
+}
+.wide .fig{aspect-ratio:21/9}
+@media(max-width:700px){.wide .fig{aspect-ratio:4/3}}
+
+/* ---------- about teaser ---------- */
+.about{display:grid;gap:clamp(26px,4vw,64px);align-items:center}
+@media(min-width:900px){.about{grid-template-columns:minmax(0,.85fr) minmax(0,1fr)}}
+.portrait{position:relative}
+.portrait .fig{aspect-ratio:4/5}
+.portrait figcaption{position:absolute;left:0;bottom:-1.9rem;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+
+/* ---------- testimonials ---------- */
+.quotes{display:grid;gap:clamp(24px,3vw,44px);grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr))}
+.quote{border-top:1px solid var(--line);padding-top:1.5rem}
+.quote p{font-family:var(--f-display);font-size:1.18rem;line-height:1.42;color:var(--ink)}
+.quote footer{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+
+/* ---------- faq ---------- */
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{
+  list-style:none;cursor:pointer;padding:1.35rem 2.4rem 1.35rem 0;position:relative;
+  font-family:var(--f-display);font-size:clamp(1.05rem,1.7vw,1.35rem);line-height:1.3;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:.4rem;top:50%;width:13px;height:1px;background:var(--ink);transition:transform .4s var(--ease)}
+.faq summary::before{content:"";position:absolute;right:.4rem;top:50%;width:13px;height:1px;background:var(--ink);transform:rotate(90deg);transition:transform .4s var(--ease),opacity .3s}
+.faq details[open] summary::before{transform:rotate(0);opacity:0}
+.faq .ans{padding:0 clamp(0px,6vw,90px) 1.5rem 0;color:var(--ink-2);max-width:72ch;font-size:.95rem}
+
+/* ---------- cta band ---------- */
+.cta{position:relative;overflow:hidden;color:#fff;text-align:center;padding-block:clamp(80px,12vw,170px)}
+.cta .fig{position:absolute;inset:0}
+.cta .fig img{filter:brightness(.52) saturate(.9)}
+.cta-in{position:relative;z-index:2}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.82);max-width:48ch;margin:1.1rem auto 2.2rem}
+
+/* ---------- footer ---------- */
+.foot{border-top:1px solid var(--line);padding-block:clamp(48px,6vw,84px) 0}
+.foot-grid{display:grid;gap:clamp(28px,4vw,56px);grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr))}
+.foot h4{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--sand-deep);margin-bottom:1rem;font-weight:500}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.55rem}
+.foot a{font-size:.9rem;color:var(--ink-2);transition:color .3s}
+.foot a:hover{color:var(--ink)}
+.foot-bot{display:flex;flex-wrap:wrap;gap:.8rem 2rem;justify-content:space-between;margin-top:clamp(40px,5vw,70px);padding-block:1.6rem calc(1.6rem + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);font-size:.72rem;color:var(--ink-3)}
+.foot-mark{font-family:var(--f-display);font-size:clamp(3rem,13vw,10rem);line-height:.9;letter-spacing:-.02em;color:var(--line);margin-top:clamp(30px,5vw,60px);user-select:none}
+
+/* ---------- portfolio ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:.4rem .5rem;margin-bottom:clamp(28px,3.4vw,48px)}
+.filters button{
+  border:1px solid var(--line);padding:.5rem 1rem;border-radius:999px;
+  font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+  transition:color .35s,border-color .35s,background .35s;
+}
+.filters button:hover{color:var(--ink);border-color:var(--ink-3)}
+.filters button.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.masonry{columns:1;column-gap:clamp(14px,1.8vw,26px)}
+@media(min-width:620px){.masonry{columns:2}}
+@media(min-width:1080px){.masonry{columns:3}}
+.masonry .item{break-inside:avoid;margin-bottom:clamp(14px,1.8vw,26px);position:relative}
+.item .fig{cursor:zoom-in}
+.item.hide{display:none}
+
+/* ---------- lightbox ---------- */
+.lb{
+  position:fixed;inset:0;z-index:90;background:color-mix(in srgb,var(--paper-3) 96%,transparent);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;visibility:hidden;transition:opacity .4s var(--ease),visibility .4s;
+  padding:clamp(52px,7vw,90px) clamp(12px,5vw,80px);
+}
+body.lb-open .lb{opacity:1;visibility:visible}
+.lb img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;box-shadow:0 30px 90px rgba(0,0,0,.22)}
+.lb-bar{position:absolute;top:calc(env(safe-area-inset-top,0px) + 14px);left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding-inline:clamp(14px,4vw,40px);font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.lb-nav{position:absolute;bottom:calc(env(safe-area-inset-bottom,0px) + 18px);left:0;right:0;display:flex;justify-content:center;gap:1.4rem;align-items:center}
+.lb-nav button{border:1px solid var(--line);width:46px;height:46px;border-radius:50%;display:grid;place-items:center;transition:background .3s,color .3s,border-color .3s}
+.lb-nav button:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.lb-cap{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);max-width:40ch;text-align:center}
+
+/* ---------- cursor ---------- */
+.cur{
+  position:fixed;top:0;left:0;z-index:80;width:82px;height:82px;border-radius:50%;
+  background:var(--ink);color:var(--paper);display:grid;place-items:center;pointer-events:none;
+  font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;
+  transform:translate(-50%,-50%) scale(0);transition:transform .35s var(--slow),opacity .3s;opacity:0;
+}
+.cur.on{transform:translate(-50%,-50%) scale(1);opacity:1}
+@media(hover:none),(pointer:coarse){.cur{display:none}}
+
+/* ---------- service / article pages ---------- */
+.ph{position:relative;height:clamp(360px,58svh,620px);overflow:hidden;display:flex;align-items:flex-end;color:#fff}
+.ph .fig{position:absolute;inset:0}
+.ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,14,17,.4),rgba(15,14,17,.15) 45%,rgba(15,14,17,.68))}
+.ph-in{position:relative;z-index:2;width:100%;padding-bottom:clamp(30px,4vw,60px);max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
+.ph .eyebrow{color:rgba(255,255,255,.72)}
+.crumb{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2rem;display:flex;gap:.6rem;flex-wrap:wrap}
+.crumb a:hover{color:var(--ink)}
+.two{display:grid;gap:clamp(28px,4.5vw,72px)}
+@media(min-width:900px){.two{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.incl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.incl li{padding:.85rem 0;border-bottom:1px solid var(--line);display:flex;gap:.9rem;align-items:baseline;font-size:.95rem;color:var(--ink-2)}
+.incl li::before{content:"";width:5px;height:5px;background:var(--pine);flex:none;transform:translateY(-3px);border-radius:50%}
+.steps{display:grid;gap:clamp(20px,2.6vw,38px);grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));counter-reset:s}
+.step{border-top:1px solid var(--ink);padding-top:1.1rem}
+.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);font-family:var(--f-display);font-size:1.5rem;color:var(--sand-deep);display:block;margin-bottom:.6rem}
+.step h4{margin-bottom:.4rem}
+.step p{font-size:.9rem;color:var(--ink-3);margin:0}
+.gal3{display:grid;gap:clamp(14px,1.8vw,26px);grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.gal3 .fig{aspect-ratio:3/4;cursor:zoom-in}
+.pricebox{border:1px solid var(--line);padding:clamp(22px,3vw,38px);background:var(--paper-3)}
+.pricebox .amt{font-family:var(--f-display);font-size:clamp(1.8rem,3vw,2.6rem);line-height:1;display:block;margin:.4rem 0 .2rem}
+
+/* ---------- journal ---------- */
+.posts{display:grid;gap:clamp(26px,3vw,46px);grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.post{display:flex;flex-direction:column;gap:.95rem;position:relative}
+.post .fig{aspect-ratio:4/3}
+.post:hover .fig img{transform:scale(1.045)}
+.post .meta{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.article{max-width:74ch;margin-inline:auto}
+.article h2{margin:2.6rem 0 1rem}
+.article h3{margin:2rem 0 .7rem;font-family:var(--f-body);font-size:1.02rem;font-weight:500;letter-spacing:.02em}
+.article p,.article li{color:var(--ink-2)}
+.article ul{padding-left:1.1rem;margin:0 0 1.2rem}
+.article li{margin-bottom:.5rem}
+.article .pull{font-family:var(--f-display);font-size:clamp(1.4rem,2.4vw,2rem);line-height:1.22;color:var(--ink);border-left:1px solid var(--sand);padding-left:1.4rem;margin:2.4rem 0}
+.article .fig{margin:2.4rem 0 .6rem;aspect-ratio:3/2}
+.related{display:grid;gap:1.4rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));border-top:1px solid var(--line);padding-top:2rem;margin-top:3.5rem}
+
+/* ---------- contact form ---------- */
+.form{display:grid;gap:1.4rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.field{display:flex;flex-direction:column;gap:.5rem}
+.field--full{grid-column:1/-1}
+.field label{font-size:.63rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.field input,.field select,.field textarea{
+  font:inherit;font-size:.95rem;color:var(--ink);background:var(--field);
+  border:1px solid var(--line);padding:.85rem .95rem;border-radius:0;width:100%;
+  transition:border-color .3s;
+}
+.field textarea{min-height:130px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--ink);outline:none}
+.field input:focus-visible,.field select:focus-visible,.field textarea:focus-visible{outline:2px solid var(--pine);outline-offset:1px}
+.sent{border:1px solid var(--line);padding:clamp(24px,4vw,44px);background:var(--paper-3)}
+.contact-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1.5rem}
+.contact-list h4{font-size:.63rem;letter-spacing:.2em;text-transform:uppercase;color:var(--sand-deep);margin-bottom:.3rem;font-weight:500}
+.contact-list a{font-family:var(--f-display);font-size:clamp(1.1rem,1.8vw,1.4rem)}
+
+/* ---------- mobile sticky cta ---------- */
+.mcta{
+  position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:1px;
+  background:var(--line);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  transform:translateY(102%);transition:transform .45s var(--slow);
+}
+.mcta.show{transform:translateY(0)}
+.mcta a{flex:1;background:var(--paper);text-align:center;padding:1rem .6rem;font-size:.65rem;letter-spacing:.18em;text-transform:uppercase}
+.mcta a.pri{background:var(--ink);color:var(--paper)}
+@media(max-width:760px){.mcta{display:flex}body.menu .mcta,body.lb-open .mcta{transform:translateY(102%)}}
+
+/* ---------- grão de filme ---------- */
+body::after{
+  content:"";position:fixed;inset:0;z-index:100;pointer-events:none;opacity:.045;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode:multiply;
+}
+@media(max-width:760px){body::after{display:none}}
+
+/* ---------- misc ---------- */
+[hidden]{display:none !important}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--paper);padding:.8rem 1.2rem;z-index:100}
+.skip:focus{left:8px;top:8px}
+.marq{border-block:1px solid var(--line);padding-block:1.1rem;overflow:hidden;white-space:nowrap}
+.marq-in{display:inline-flex;gap:3rem;animation:slide 42s linear infinite;font-family:var(--f-display);font-size:1.15rem;color:var(--ink-3)}
+.marq-in span::after{content:"·";margin-left:3rem;color:var(--sand)}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.marq-in{animation:none}}
+.masonry--2{columns:1}
+@media(min-width:760px){.masonry--2{columns:2}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Saltar para o conteúdo</a>
+
+<header class="hdr onimg" id="hdr">
+  <div class="hdr-in">
+    <a class="mark" href="#/" aria-label="Bianca Dafny Fotografia — início">
+      <b>Bianca Dafny</b>
+      <span>Fotografia · Algarve</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#/portfolio" data-nav="portfolio" data-i18n="nav.port">Portfólio</a>
+      <a href="#/servicos" data-nav="servicos" data-i18n="nav.serv">Serviços</a>
+      <a href="#/sobre" data-nav="sobre" data-i18n="nav.about">Sobre</a>
+      <a href="#/journal" data-nav="journal" data-i18n="nav.journal">Journal</a>
+      <a href="#/contacto" data-nav="contacto" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="tools">
+      <div class="langs" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="pt" class="on" aria-pressed="true">PT</button><i>/</i><button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav class="menu" id="menu" aria-label="Menu" aria-hidden="true">
+  <a href="#/" data-i18n="nav.home">Início</a>
+  <a href="#/portfolio" data-i18n="nav.port">Portfólio</a>
+  <a href="#/servicos" data-i18n="nav.serv">Serviços</a>
+  <a href="#/sobre" data-i18n="nav.about">Sobre</a>
+  <a href="#/journal" data-i18n="nav.journal">Journal</a>
+  <a href="#/contacto" data-i18n="nav.contact">Contacto</a>
+  <div class="menu-foot small">
+    <a href="mailto:biancadafnyrocha17@gmail.com">biancadafnyrocha17@gmail.com</a>
+    <a href="https://instagram.com/biancadafny.fotografia" target="_blank" rel="noopener">@biancadafny.fotografia</a>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ═══════════════════════════ HOME ═══════════════════════════ -->
+<section data-route="home">
+
+  <div class="hero">
+    <div class="fig">
+      <picture>
+        <source media="(max-width:760px)" srcset="img/elopement-duna-por-do-sol-algarve-md.webp 1000w, img/elopement-duna-por-do-sol-algarve-xl.webp 1800w" sizes="100vw">
+        <img src="img/noivos-pergola-horizontal-algarve-xl.webp" srcset="img/noivos-pergola-horizontal-algarve-md.webp 1000w, img/noivos-pergola-horizontal-algarve-xl.webp 1800w" sizes="100vw" alt="Noivos a olhar um para o outro sob uma pérgola de glicínias ao fim da tarde no Algarve" width="1800" height="1200" fetchpriority="high" decoding="async">
+      </picture>
+    </div>
+    <div class="hero-in">
+      <span class="eyebrow" data-i18n="hero.eyebrow">Fotógrafa no Algarve · Portugal</span>
+      <h1 data-i18n="hero.h1">Fotografia com alma, luz e histórias no Algarve.</h1>
+      <p data-i18n="hero.sub">Fotografia profissional no Algarve para pessoas, marcas e momentos que merecem ser lembrados.</p>
+      <div class="hero-cta">
+        <a class="btn btn--ghost" href="#/portfolio" data-i18n="hero.cta1">Ver o meu trabalho</a>
+        <a class="btn btn--ghost" href="#/contacto" data-i18n="hero.cta2">Vamos criar algo juntos</a>
+      </div>
+    </div>
+    <div class="scrollcue" aria-hidden="true"><span data-i18n="hero.scroll">Deslize</span><i></i></div>
+  </div>
+
+  <div class="shell band">
+    <div class="manifesto">
+      <blockquote class="r" data-i18n="man.quote">Não fotografo apenas momentos.<br>Fotografo aquilo que se <span class="it">sente</span>.</blockquote>
+      <div class="r" data-d="1">
+        <p class="lead" data-i18n="man.p1">Trabalho com luz natural, tempo sem pressa e uma direção discreta — o suficiente para se sentirem à vontade diante da câmara.</p>
+        <p data-i18n="man.p2">Nasceu de uma obsessão antiga: a forma como a luz do fim da tarde cai sobre os pinhais e as dunas do Algarve, e como as pessoas mudam quando param de posar. É aí, nesse intervalo entre a pose e o riso verdadeiro, que costumo carregar no botão.</p>
+        <a class="lnk" href="#/sobre"><span data-i18n="man.link">Conhecer a minha abordagem</span><span class="ar" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="marq" aria-hidden="true">
+    <div class="marq-in">
+      <span>Casamentos</span><span>Elopements</span><span>Casais</span><span>Famílias</span><span>Gravidez</span><span>Retratos</span><span>Marcas</span><span>Hospitality</span><span>Algarve</span>
+      <span>Casamentos</span><span>Elopements</span><span>Casais</span><span>Famílias</span><span>Gravidez</span><span>Retratos</span><span>Marcas</span><span>Hospitality</span><span>Algarve</span>
+    </div>
+  </div>
+
+  <div class="shell band">
+    <span class="eyebrow eyebrow--line r" data-i18n="svc.eyebrow">O que fotografo</span>
+    <h2 class="d2 r" style="max-width:20ch;margin-bottom:clamp(30px,4vw,60px)" data-i18n="svc.h2">Seis formas de contar a mesma coisa: a verdade de quem está à frente da câmara.</h2>
+    <div class="svc-grid">
+
+      <article class="svc r">
+        <div class="fig"><img src="img/noivos-pergola-algarve-md.webp" data-full="img/noivos-pergola-algarve-xl.webp" alt="Noivos abraçados sob uma pérgola verde numa quinta do Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.1.t">Casamentos &amp; Elopements</span><em>01</em></h3>
+        <p data-i18n="svc.1.d">Dias inteiros ou fugas a dois na falésia, fotografados como um documentário com luz bonita.</p>
+        <a class="cover" href="#/s/casamentos" aria-label="Fotógrafa de casamento no Algarve"></a>
+      </article>
+
+      <article class="svc r" data-d="1">
+        <div class="fig"><img src="img/familia-caminhada-pinhal-algarve-md.webp" data-full="img/familia-caminhada-pinhal-algarve-xl.webp" alt="Família a caminhar e a brincar entre pinheiros ao pôr do sol no Algarve" width="1000" height="667" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.2.t">Famílias</span><em>02</em></h3>
+        <p data-i18n="svc.2.d">Sessões em movimento, com as crianças a serem crianças e ninguém a dizer «olha para aqui».</p>
+        <a class="cover" href="#/s/familias" aria-label="Fotógrafa de famílias no Algarve"></a>
+      </article>
+
+      <article class="svc r" data-d="2">
+        <div class="fig"><img src="img/casal-passadico-abraco-algarve-md.webp" data-full="img/casal-passadico-abraco-algarve-xl.webp" alt="Casal abraçado num passadiço de madeira sobre as dunas do Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.3.t">Casais</span><em>03</em></h3>
+        <p data-i18n="svc.3.d">Pedidos de casamento, aniversários ou simplesmente porque sim. Uma hora dourada só vossa.</p>
+        <a class="cover" href="#/s/casais" aria-label="Fotógrafa de casais no Algarve"></a>
+      </article>
+
+      <article class="svc r" data-d="3">
+        <div class="fig"><img src="img/casal-retrato-preto-e-branco-algarve-md.webp" data-full="img/casal-retrato-preto-e-branco-algarve-xl.webp" alt="Retrato a preto e branco de dois rostos encostados, com luz lateral" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.4.t">Retratos &amp; Gravidez</span><em>04</em></h3>
+        <p data-i18n="svc.4.d">Retrato individual, maternidade, newborn em casa. Intimidade sem artifício.</p>
+        <a class="cover" href="#/s/retratos" aria-label="Fotógrafa de retratos no Algarve"></a>
+      </article>
+
+      <article class="svc r">
+        <div class="fig"><img src="img/marca-produto-mala-detalhe-algarve-md.webp" alt="Detalhe de uma mala branca em pele fotografada para uma marca de acessórios" width="1000" height="1778" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.5.t">Fotografia para Marcas</span><em>05</em></h3>
+        <p data-i18n="svc.5.d">Personal branding, produto e conteúdo para redes sociais com a estética certa para a sua marca.</p>
+        <a class="cover" href="#/s/marcas" aria-label="Fotografia para marcas no Algarve"></a>
+      </article>
+
+      <article class="svc r" data-d="1">
+        <div class="fig"><img src="img/villa-piscina-vista-aerea-algarve-md.webp" alt="Piscina e deck de uma villa no Algarve vistos de cima" width="1000" height="798" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.6.t">Turismo &amp; Hospitality</span><em>06</em></h3>
+        <p data-i18n="svc.6.d">Hotéis, villas, restaurantes e experiências. Imagens que fazem reservar.</p>
+        <a class="cover" href="#/s/hospitality" aria-label="Fotografia para hotéis e turismo no Algarve"></a>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="shell band--tight">
+    <span class="eyebrow eyebrow--line r" data-i18n="sel.eyebrow">Selected stories</span>
+    <div class="stories" id="stories">
+      <div class="cell c-a r">
+        <div class="fig" style="aspect-ratio:3/2"><img src="img/familia-pinhal-luz-dourada-algarve-md.webp" data-full="img/familia-pinhal-luz-dourada-algarve-xl.webp" alt="Família sentada num tronco num pinhal com luz dourada a atravessar as árvores, Algarve" width="1000" height="667" loading="lazy" decoding="async"></div>
+        <div class="cap"><span>Família · Pinhal</span><span class="num">Quinta do Lago</span></div>
+      </div>
+      <div class="cell c-b r" data-d="1">
+        <div class="fig" style="aspect-ratio:2/3"><img src="img/casal-rostos-luz-dourada-algarve-md.webp" data-full="img/casal-rostos-luz-dourada-algarve-xl.webp" alt="Grande plano de um casal com os rostos encostados, iluminados pelo sol baixo" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <div class="cap"><span>Retrato · Detalhe</span><span class="num">Faro</span></div>
+      </div>
+      <div class="cell c-c r">
+        <div class="fig" style="aspect-ratio:2/3"><img src="img/sessao-gravidez-praia-por-do-sol-algarve-md.webp" data-full="img/sessao-gravidez-praia-por-do-sol-algarve-xl.webp" alt="Mulher grávida a sorrir numa duna ao pôr do sol numa praia do Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <div class="cap"><span>Gravidez · Praia</span><span class="num">Alvor</span></div>
+      </div>
+      <div class="cell c-d r" data-d="1">
+        <div class="fig" style="aspect-ratio:3/2"><img src="img/casal-passadico-duna-algarve-md.webp" data-full="img/casal-passadico-duna-algarve-xl.webp" alt="Casal sentado no corrimão de um passadiço de madeira sobre a duna, céu azul limpo" width="1000" height="667" loading="lazy" decoding="async"></div>
+        <div class="cap"><span>Casal · Passadiço</span><span class="num">Quinta do Lago</span></div>
+      </div>
+      <div class="cell c-e r">
+        <div class="fig" style="aspect-ratio:2/3"><img src="img/elopement-duna-por-do-sol-algarve-md.webp" data-full="img/elopement-duna-por-do-sol-algarve-xl.webp" alt="Noivo a pegar a noiva ao colo numa duna dourada ao pôr do sol, elopement no Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <div class="cap"><span>Elopement · Duna</span><span class="num">Praia de Faro</span></div>
+      </div>
+      <div class="cell c-f r" data-d="1">
+        <div class="fig" style="aspect-ratio:2/3"><img src="img/detalhe-vestido-renda-areia-algarve-md.webp" data-full="img/detalhe-vestido-renda-areia-algarve-xl.webp" alt="Detalhe de um vestido de renda e pés descalços na areia durante uma sessão de casal" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <div class="cap"><span>Detalhe · Renda</span><span class="num">Algarve</span></div>
+      </div>
+    </div>
+    <div style="margin-top:clamp(30px,4vw,54px)">
+      <a class="lnk" href="#/portfolio"><span data-i18n="sel.link">Ver o portfólio completo</span><span class="ar" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="shell">
+      <div class="two" style="margin-bottom:clamp(30px,4vw,56px)">
+        <div class="r">
+          <span class="eyebrow" data-i18n="alg.eyebrow">O Algarve através da minha lente</span>
+          <h2 class="d2" data-i18n="alg.h2">Conheço a hora exacta a que cada praia fica bonita.</h2>
+        </div>
+        <div class="r" data-d="1">
+          <p class="lead" data-i18n="alg.p1">Vinte minutos de luz podem mudar tudo. Por isso planeio cada sessão em função da maré, da estação e do sítio — e não o contrário.</p>
+          <p data-i18n="alg.p2">Dos pinhais de Vilamoura às falésias cor de fogo de Lagos, passando pelas salinas de Tavira e pelos passadiços da Ria Formosa, escolho os lugares que ainda não estão em toda a gente.</p>
+          <div class="places" aria-label="Locais onde fotografo no Algarve">
+            <span>Lagos</span><span>Portimão</span><span>Albufeira</span><span>Vilamoura</span><span>Loulé</span><span>Faro</span><span>Tavira</span><span>Carvoeiro</span><span>Lagoa</span><span>Sagres</span><span>Alvor</span><span>Quinta do Lago</span><span>Vale do Lobo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shell wide r">
+      <div class="fig"><img src="img/familia-brincadeira-pinhal-algarve-md.webp" data-full="img/familia-brincadeira-pinhal-algarve-xl.webp" alt="Pais a baloiçar o filho pelos braços num pinhal junto à praia, ao fim do dia no Algarve" width="1000" height="667" loading="lazy" decoding="async"></div>
+      <div class="cap"><span data-i18n="alg.cap">Pinhal junto à praia · última hora de sol</span><span class="num">Algarve</span></div>
+    </div>
+  </div>
+
+  <div class="shell band">
+    <div class="about">
+      <figure class="portrait r" style="margin:0">
+        <div class="fig"><img src="img/casal-pinhal-preto-e-branco-algarve-md.webp" data-full="img/casal-pinhal-preto-e-branco-algarve-xl.webp" alt="Retrato a preto e branco de um casal num pinhal, com o cabelo ao vento" width="1000" height="1500" loading="lazy" decoding="async"></div>
+      </figure>
+      <div class="r" data-d="1">
+        <span class="eyebrow" data-i18n="ab.eyebrow">Sobre mim</span>
+        <h2 class="d2" style="margin-bottom:1.2rem" data-i18n="ab.h2">Sou a Bianca. Não peço sorrisos — espero por eles.</h2>
+        <p class="lead" data-i18n="ab.p1">Vivo no Algarve, trabalho em todo o sul de Portugal e acredito que uma boa fotografia começa muito antes do clique: começa na conversa.</p>
+        <p data-i18n="ab.p2">Não gosto de sessões rígidas nem de sorrisos encomendados. Gosto de vos pôr a andar, a falar, a rir de alguma coisa vossa — e de ficar por perto, quase invisível, a apanhar o que acontece a seguir.</p>
+        <a class="lnk" href="#/sobre"><span data-i18n="ab.link">Ler a minha história</span><span class="ar" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="shell band--tight">
+    <span class="eyebrow eyebrow--line r" data-i18n="tst.eyebrow">O que dizem</span>
+    <div class="quotes">
+      <blockquote class="quote r">
+        <p data-i18n="tst.1.q">«Chegámos nervosos e ao fim de dez minutos estávamos só a ser nós. As fotografias são exactamente isso.»</p>
+        <footer data-i18n="tst.1.a">Marta &amp; João · Casamento em Lagos</footer>
+      </blockquote>
+      <blockquote class="quote r" data-d="1">
+        <p data-i18n="tst.2.q">«O nosso filho não parou quieto um segundo e a Bianca simplesmente foi atrás dele. Temos a nossa família inteira naquelas fotos.»</p>
+        <footer data-i18n="tst.2.a">Família Andrade · Vilamoura</footer>
+      </blockquote>
+      <blockquote class="quote r" data-d="2">
+        <p data-i18n="tst.3.q">«Booked her for our villa's new website. Bookings went up. The photos feel like the Algarve, not like a catalogue.»</p>
+        <footer data-i18n="tst.3.a">Casa Aurora · Quinta do Lago</footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="shell band--tight">
+    <div class="two">
+      <div class="r">
+        <span class="eyebrow" data-i18n="faq.eyebrow">Perguntas frequentes</span>
+        <h2 class="d3" data-i18n="faq.h2">Aquilo que me perguntam antes de reservar.</h2>
+        <p class="small" style="margin-top:1.2rem" data-i18n="faq.note">Não encontra a sua pergunta? Escreva-me — respondo normalmente no mesmo dia.</p>
+      </div>
+      <div class="faq r" data-d="1" id="faq-home">
+        <details>
+          <summary data-i18n="faq.1.q">Quanto custa um fotógrafo no Algarve?</summary>
+          <div class="ans" data-i18n="faq.1.a">Um ensaio começa em 100&nbsp;€ e inclui cerca de 30 fotografias editadas em alta resolução. Os casamentos começam em 800&nbsp;€. O valor final depende da duração da cobertura, do número de locais e da deslocação — por isso envio sempre um orçamento personalizado, em 24 horas.</div>
+        </details>
+        <details>
+          <summary data-i18n="faq.2.q">Em que zonas do Algarve fotografa?</summary>
+          <div class="ans" data-i18n="faq.2.a">Fotografo em todo o Algarve. Trabalho com frequência em Lagos, Portimão, Alvor, Carvoeiro, Albufeira, Vilamoura, Quinta do Lago, Loulé, Faro e Tavira, e desloco-me de Sagres a Vila Real de Santo António. Para fora da região — Alentejo, Lisboa ou destinos internacionais — a deslocação entra no orçamento. Diga-me onde está e sugiro-lhe os melhores locais ali perto.</div>
+        </details>
+        <details>
+          <summary data-i18n="faq.3.q">Quando recebo as fotografias?</summary>
+          <div class="ans" data-i18n="faq.3.a">Uma pré-visualização com 10 a 15 imagens em 48 horas. A galeria completa em até 10 dias úteis para sessões e 4 a 6 semanas para casamentos, numa galeria online privada com download em alta resolução.</div>
+        </details>
+        <details>
+          <summary data-i18n="faq.4.q">E se não soubermos posar?</summary>
+          <div class="ans" data-i18n="faq.4.a">Ainda bem. Quase ninguém sabe — e é isso que torna as fotografias verdadeiras. Dou indicações simples e concretas (andem, falem, encostem-se) e o resto acontece sozinho. Recebe também um pequeno guia antes da sessão com ideias de roupa e preparação.</div>
+        </details>
+        <details>
+          <summary data-i18n="faq.5.q">Qual é a melhor hora para fotografar no Algarve?</summary>
+          <div class="ans" data-i18n="faq.5.a">A minha preferida é a hora dourada — os 60 a 90 minutos antes do pôr do sol — e, no verão, o nascer do sol, com praias vazias e luz limpa. Mas não é a única hipótese: faço sessões a meio da manhã, ao início da tarde ou em dias de céu encoberto, que dão uma luz suave e muito bonita. Adapto-me sempre à rotina das crianças e ao vosso horário. Escolhida a data, digo-lhe a hora que recomendo para aquele local.</div>
+        </details>
+        <details>
+          <summary data-i18n="faq.6.q">Como reservo a data?</summary>
+          <div class="ans" data-i18n="faq.6.a">Com o formulário de contacto ou por WhatsApp. A data fica reservada com a assinatura do contrato e um sinal de 30%. Para casamentos de verão, recomendo reservar com 8 a 12 meses de antecedência.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <div class="fig"><img src="img/familia-praia-preto-e-branco-algarve-md.webp" alt="" aria-hidden="true" width="1000" height="1500" loading="lazy" decoding="async"></div>
+    <div class="cta-in shell">
+      <h2 class="d1" data-i18n="cta.h">Vamos contar a sua história?</h2>
+      <p data-i18n="cta.p">Conte-me quem são, o que estão a celebrar e onde. Respondo com disponibilidade, valores e uma ou duas ideias de sítios.</p>
+      <a class="btn btn--ghost" href="#/contacto" data-i18n="cta.b">Entrar em contacto</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════ PORTFÓLIO ═══════════════════════════ -->
+<section data-route="portfolio" hidden>
+  <div class="shell" style="padding-top:clamp(120px,14vw,190px)">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><span data-i18n="nav.port">Portfólio</span></nav>
+    <span class="eyebrow" data-i18n="pf.eyebrow">Arquivo selecionado · 2023—2026</span>
+    <h1 class="d1" style="max-width:16ch" data-i18n="pf.h1">Histórias fotografadas no Algarve.</h1>
+    <p class="lead prose" style="margin-top:1.4rem;margin-bottom:clamp(36px,5vw,64px)" data-i18n="pf.sub">Uma seleção pequena e propositada. Prefiro mostrar poucas imagens e boas a mostrar tudo o que já fiz — as galerias completas envio por email, conforme o que procura.</p>
+
+    <div class="filters" id="filters" role="group" aria-label="Filtrar portfólio">
+      <button type="button" class="on" data-f="all" data-i18n="pf.f.all">Tudo</button>
+      <button type="button" data-f="wed" data-i18n="pf.f.wed">Casamentos &amp; Elopements</button>
+      <button type="button" data-f="cou" data-i18n="pf.f.cou">Casais</button>
+      <button type="button" data-f="fam" data-i18n="pf.f.fam">Famílias</button>
+      <button type="button" data-f="pre" data-i18n="pf.f.pre">Gravidez</button>
+      <button type="button" data-f="por" data-i18n="pf.f.por">Retratos</button>
+      <button type="button" data-f="alg" data-i18n="pf.f.alg">Algarve</button>
+    </div>
+
+    <div class="masonry" id="masonry">
+      <div class="item" data-cat="wed cou alg"><div class="fig"><img src="img/elopement-duna-por-do-sol-algarve-md.webp" data-full="img/elopement-duna-por-do-sol-algarve-xl.webp" data-cap="Elopement numa duna ao pôr do sol · Praia de Faro" alt="Noivo pega a noiva ao colo numa duna dourada durante um elopement no Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="wed cou"><div class="fig"><img src="img/noivos-pergola-horizontal-algarve-md.webp" data-full="img/noivos-pergola-horizontal-algarve-xl.webp" data-cap="Noivos sob a pérgola · Quinta no interior algarvio" alt="Noivos a sorrir um para o outro sob uma pérgola coberta de glicínias no Algarve" width="1000" height="667" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="fam alg"><div class="fig"><img src="img/familia-pinhal-luz-dourada-algarve-md.webp" data-full="img/familia-pinhal-luz-dourada-algarve-xl.webp" data-cap="Família no pinhal · última luz" alt="Família sentada num tronco caído num pinhal iluminado pelo sol dourado, Algarve" width="1000" height="667" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="por cou"><div class="fig"><img src="img/casal-rostos-luz-dourada-algarve-md.webp" data-full="img/casal-rostos-luz-dourada-algarve-xl.webp" data-cap="Rostos encostados · retrato de casal" alt="Grande plano de dois rostos encostados com luz quente de fim de tarde" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="pre alg"><div class="fig"><img src="img/sessao-gravidez-praia-por-do-sol-algarve-md.webp" data-full="img/sessao-gravidez-praia-por-do-sol-algarve-xl.webp" data-cap="Sessão de gravidez na praia · hora dourada" alt="Mulher grávida de mãos na barriga a sorrir numa duna ao pôr do sol no Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="cou alg"><div class="fig"><img src="img/casal-passadico-duna-algarve-md.webp" data-full="img/casal-passadico-duna-algarve-xl.webp" data-cap="Passadiço sobre a duna · Quinta do Lago" alt="Casal sentado no corrimão de um passadiço de madeira com pinheiros mansos ao fundo" width="1000" height="667" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="por cou"><div class="fig"><img src="img/casal-retrato-preto-e-branco-algarve-md.webp" data-full="img/casal-retrato-preto-e-branco-algarve-xl.webp" data-cap="Retrato a preto e branco" alt="Retrato a preto e branco de um casal com os rostos muito próximos" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="fam"><div class="fig"><img src="img/familia-caminhada-pinhal-algarve-md.webp" data-full="img/familia-caminhada-pinhal-algarve-xl.webp" data-cap="A caminhar no pinhal · sessão de família" alt="Pais a baloiçar o filho pelos braços durante uma caminhada num pinhal do Algarve" width="1000" height="667" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="wed cou"><div class="fig"><img src="img/casal-passadico-abraco-algarve-md.webp" data-full="img/casal-passadico-abraco-algarve-xl.webp" data-cap="Um abraço no passadiço" alt="Casal abraçado num passadiço de madeira com o céu azul ao fundo" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="pre fam"><div class="fig"><img src="img/familia-gravidez-pinhal-algarve-md.webp" data-full="img/familia-gravidez-pinhal-algarve-xl.webp" data-cap="À espera do segundo · sessão de família" alt="Casal com um filho pequeno sentados no chão de um pinhal, com a mãe grávida" width="1000" height="667" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="pre cou"><div class="fig"><img src="img/casal-gravidez-praia-algarve-md.webp" data-full="img/casal-gravidez-praia-algarve-xl.webp" data-cap="Sapatinhos na areia · gravidez a dois" alt="Casal grávido na praia a segurar uns sapatinhos de bebé nas mãos" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="wed por"><div class="fig"><img src="img/detalhe-vestido-renda-areia-algarve-md.webp" data-full="img/detalhe-vestido-renda-areia-algarve-xl.webp" data-cap="Renda, areia e pés descalços" alt="Detalhe de vestido de renda e pés descalços na areia de uma praia algarvia" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="fam alg"><div class="fig"><img src="img/familia-praia-preto-e-branco-algarve-md.webp" data-full="img/familia-praia-preto-e-branco-algarve-xl.webp" data-cap="Fim de tarde na praia · preto e branco" alt="Família a caminhar à beira-mar a preto e branco, com o filho aos ombros do pai" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="wed cou"><div class="fig"><img src="img/noivos-pergola-algarve-md.webp" data-full="img/noivos-pergola-algarve-xl.webp" data-cap="Debaixo da glicínia" alt="Noivos de pé sob uma pérgola de madeira coberta de trepadeiras, vistos de baixo" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="por cou"><div class="fig"><img src="img/casal-pinhal-preto-e-branco-algarve-md.webp" data-full="img/casal-pinhal-preto-e-branco-algarve-xl.webp" data-cap="Vento no pinhal · preto e branco" alt="Casal a preto e branco encostado, com o cabelo ao vento e pinheiros ao fundo" width="1000" height="1500" loading="lazy" decoding="async"></div></div>
+      <div class="item" data-cat="fam alg"><div class="fig"><img src="img/familia-brincadeira-pinhal-algarve-md.webp" data-full="img/familia-brincadeira-pinhal-algarve-xl.webp" data-cap="A voar entre pinheiros" alt="Criança suspensa pelos braços dos pais a rir, num pinhal ao fim do dia" width="1000" height="667" loading="lazy" decoding="async"></div></div>
+    </div>
+
+    <p class="small" id="pf-empty" hidden style="padding:3rem 0" data-i18n="pf.empty">Ainda não há imagens públicas nesta categoria. Escreva-me e envio-lhe uma galeria privada.</p>
+  </div>
+
+  <div class="shell band">
+    <div class="two" style="align-items:center">
+      <h2 class="d2 r" data-i18n="pf.cta.h">Viu alguma coisa que se pareça convosco?</h2>
+      <div class="r" data-d="1">
+        <p data-i18n="pf.cta.p">Conte-me o que estão a celebrar e envio-lhe galerias completas semelhantes, disponibilidade e valores.</p>
+        <a class="btn" href="#/contacto" data-i18n="pf.cta.b">Pedir orçamento</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SERVIÇOS (índice) ═══════════════════════════ -->
+<section data-route="servicos" hidden>
+  <div class="shell" style="padding-top:clamp(120px,14vw,190px)">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><span data-i18n="nav.serv">Serviços</span></nav>
+    <span class="eyebrow" data-i18n="sv.eyebrow">Serviços de fotografia no Algarve</span>
+    <h1 class="d1" style="max-width:15ch" data-i18n="sv.h1">Cada história pede um ritmo diferente.</h1>
+    <p class="lead prose" style="margin-top:1.4rem;margin-bottom:clamp(40px,6vw,76px)" data-i18n="sv.sub">Trabalho com poucos clientes por mês para poder estar inteira em cada um. Escolha o que se aproxima mais de si — e se nenhum encaixar, escreva-me e desenhamos à medida.</p>
+    <div class="svc-grid">
+      <article class="svc r">
+        <div class="fig"><img src="img/noivos-pergola-algarve-md.webp" alt="Noivos sob uma pérgola numa quinta do Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.1.t">Casamentos &amp; Elopements</span><em>01</em></h3>
+        <p data-i18n="sv.1.d">Desde 800 € · dia completo, meio-dia ou fuga a dois.</p>
+        <a class="cover" href="#/s/casamentos" aria-label="Fotógrafa de casamento no Algarve"></a>
+      </article>
+      <article class="svc r" data-d="1">
+        <div class="fig"><img src="img/familia-gravidez-pinhal-algarve-md.webp" alt="Família sentada num pinhal do Algarve ao fim da tarde" width="1000" height="667" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.2.t">Famílias</span><em>02</em></h3>
+        <p data-i18n="sv.2.d">Desde 100 € · 1 hora, na praia, no pinhal ou em casa.</p>
+        <a class="cover" href="#/s/familias" aria-label="Fotógrafa de famílias no Algarve"></a>
+      </article>
+      <article class="svc r" data-d="2">
+        <div class="fig"><img src="img/casal-passadico-duna-algarve-md.webp" alt="Casal num passadiço sobre as dunas do Algarve" width="1000" height="667" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.3.t">Casais</span><em>03</em></h3>
+        <p data-i18n="sv.3.d">Desde 100 € · namoro, pedido de casamento ou aniversário.</p>
+        <a class="cover" href="#/s/casais" aria-label="Fotógrafa de casais no Algarve"></a>
+      </article>
+      <article class="svc r" data-d="3">
+        <div class="fig"><img src="img/casal-gravidez-praia-algarve-md.webp" alt="Casal grávido na praia com sapatinhos de bebé" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.4.t">Retratos &amp; Gravidez</span><em>04</em></h3>
+        <p data-i18n="sv.4.d">Desde 100 € · retrato individual, maternidade e newborn.</p>
+        <a class="cover" href="#/s/retratos" aria-label="Fotógrafa de retratos e gravidez no Algarve"></a>
+      </article>
+      <article class="svc r">
+        <div class="fig"><img src="img/marca-produto-mala-detalhe-algarve-md.webp" alt="Detalhe de uma mala branca em pele fotografada para uma marca de acessórios" width="1000" height="1778" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.5.t">Fotografia para Marcas</span><em>05</em></h3>
+        <p data-i18n="sv.5.d">Sob orçamento · personal branding, produto e conteúdo.</p>
+        <a class="cover" href="#/s/marcas" aria-label="Fotografia para marcas no Algarve"></a>
+      </article>
+      <article class="svc r" data-d="1">
+        <div class="fig"><img src="img/villa-piscina-vista-aerea-algarve-md.webp" alt="Piscina e deck de uma villa no Algarve vistos de cima" width="1000" height="798" loading="lazy" decoding="async"></div>
+        <h3 class="d4"><span data-i18n="svc.6.t">Turismo &amp; Hospitality</span><em>06</em></h3>
+        <p data-i18n="sv.6.d">Sob orçamento · hotéis, villas, restaurantes e experiências.</p>
+        <a class="cover" href="#/s/hospitality" aria-label="Fotografia para hotelaria e turismo no Algarve"></a>
+      </article>
+    </div>
+  </div>
+
+  <div class="shell band">
+    <span class="eyebrow eyebrow--line r" data-i18n="sv.how.eyebrow">Como funciona</span>
+    <div class="steps r">
+      <div class="step"><h4 class="d4" data-i18n="sv.how.1t">Conversa</h4><p data-i18n="sv.how.1p">Conta-me quem são, o que estão a celebrar e as datas possíveis. Respondo em 24 horas com disponibilidade e valores.</p></div>
+      <div class="step"><h4 class="d4" data-i18n="sv.how.2t">Reserva</h4><p data-i18n="sv.how.2p">Contrato simples e sinal de 30%. A data fica vossa e começamos a planear o sítio e a hora certa da luz.</p></div>
+      <div class="step"><h4 class="d4" data-i18n="sv.how.3t">Sessão</h4><p data-i18n="sv.how.3p">No dia, quase não dou por mim. Vocês andam, falam, riem — eu ando à volta e vou apanhando.</p></div>
+      <div class="step"><h4 class="d4" data-i18n="sv.how.4t">Entrega</h4><p data-i18n="sv.how.4p">Pré-visualização em 48 horas e galeria privada com download em alta resolução, pronta a imprimir.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ SERVIÇO · casamentos ═══════ -->
+<section data-route="s/casamentos" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/noivos-pergola-horizontal-algarve-xl.webp" alt="Noivos sob uma pérgola de glicínias ao fim da tarde numa quinta do Algarve" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow" data-i18n="s.casamentos.eye">Fotógrafa de casamento no Algarve</span>
+      <h1 class="d1" style="max-width:16ch" data-i18n="s.casamentos.h1">O vosso dia, contado como ele aconteceu.</h1>
+    </div>
+  </div>
+  <div class="shell band--tight">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/servicos" data-i18n="nav.serv">Serviços</a><span>/</span><span data-i18n="s.casamentos.nav">Casamentos &amp; Elopements</span></nav>
+    <p class="lead prose r" data-i18n="s.casamentos.lead">Fotografo casamentos e elopements em todo o Algarve — de quintas no interior a cerimónias descalças na areia. Sem listas intermináveis de poses, sem ninguém a gritar instruções. Só o dia a acontecer, com alguém atento a guardá-lo.</p>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="r"><span class="eyebrow" data-i18n="lbl.who">Para quem é</span><p data-i18n="s.casamentos.who">Casais que preferem uma fotografia honesta a uma fotografia encenada. Que querem rir-se das fotos daqui a vinte anos e reconhecer-se nelas. Desde casamentos de 120 convidados em Lagos a elopements de duas pessoas e um pôr do sol em Sagres.</p></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.incl">O que está incluído</span><ul class="incl">
+      <li data-i18n="s.casamentos.i0">Reunião de planeamento e visita ao local (presencial ou online)</li>
+      <li data-i18n="s.casamentos.i1">Cobertura de 6, 8, 10 horas ou dia completo</li>
+      <li data-i18n="s.casamentos.i2">Sessão de casal na hora dourada, longe dos convidados</li>
+      <li data-i18n="s.casamentos.i3">Todas as fotografias do dia, editadas a cor e a preto e branco</li>
+      <li data-i18n="s.casamentos.i4">Galeria online privada, com download e partilha</li>
+      <li data-i18n="s.casamentos.i5">Segundo fotógrafo e vídeo mediante orçamento</li>
+      <li data-i18n="s.casamentos.i6">Entrega em 4 a 6 semanas</li>
+    </ul></div>
+  </div></div>
+  <div class="shell band--tight"><span class="eyebrow eyebrow--line r" data-i18n="lbl.gal">Da minha câmara</span><div class="gal3">
+    <figure class="r" data-d="0" style="margin:0"><div class="fig"><img src="img/elopement-duna-por-do-sol-algarve-md.webp" data-full="img/elopement-duna-por-do-sol-algarve-xl.webp" data-cap="Elopement na duna · Praia de Faro" alt="Noivo pega a noiva ao colo numa duna dourada no Algarve" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.casamentos.c0">Elopement na duna · Praia de Faro</span></figcaption></figure>
+    <figure class="r" data-d="1" style="margin:0"><div class="fig"><img src="img/detalhe-vestido-renda-areia-algarve-md.webp" data-full="img/detalhe-vestido-renda-areia-algarve-xl.webp" data-cap="Renda e areia" alt="Detalhe de vestido de renda e pés descalços na areia" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.casamentos.c1">Renda e areia</span></figcaption></figure>
+    <figure class="r" data-d="2" style="margin:0"><div class="fig"><img src="img/noivos-pergola-algarve-md.webp" data-full="img/noivos-pergola-algarve-xl.webp" data-cap="Debaixo da glicínia" alt="Noivos de pé sob uma pérgola coberta de trepadeiras" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.casamentos.c2">Debaixo da glicínia</span></figcaption></figure>
+  </div></div>
+  <div class="shell band--tight"><div class="two">
+    <div class="pricebox r"><span class="eyebrow" data-i18n="lbl.inv">Investimento</span><span class="amt" data-i18n="s.casamentos.price">Desde 800 €</span><p class="small" data-i18n="s.casamentos.pricen">Elopements a partir de 100 €, com uma hora de fotografia. O valor final de um casamento depende da duração da cobertura, do número de locais e da deslocação — envio sempre um orçamento personalizado.</p><a class="btn btn--sm" href="#/contacto" data-i18n="lbl.quote">Pedir orçamento</a></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.faq">Perguntas frequentes</span><div class="faq">
+      <details><summary data-i18n="s.casamentos.q0">Com quanto tempo devo reservar?</summary><div class="ans" data-i18n="s.casamentos.a0">Para casamentos entre maio e setembro, idealmente 8 a 12 meses antes. Aceito apenas um número limitado de casamentos por ano para poder dedicar-me a cada um.</div></details>
+      <details><summary data-i18n="s.casamentos.q1">Fotografa casamentos fora do Algarve?</summary><div class="ans" data-i18n="s.casamentos.a1">Sim. Alentejo e Lisboa sem custo adicional significativo; resto de Portugal, Espanha e destinos internacionais mediante orçamento de viagem e alojamento.</div></details>
+      <details><summary data-i18n="s.casamentos.q2">E se chover?</summary><div class="ans" data-i18n="s.casamentos.a2">Chuva no Algarve é rara, mas dá fotografias lindas. Tenho sempre um plano B de locais cobertos e guarda-chuvas transparentes no carro.</div></details>
+    </div></div>
+  </div></div>
+  <div class="shell band--tight" style="padding-bottom:clamp(64px,9vw,120px)"><hr class="rule"><div class="two" style="padding-top:clamp(30px,4vw,54px);align-items:center">
+    <h2 class="d3 r" data-i18n="lbl.ctah">Falamos?</h2>
+    <div class="r" data-d="1"><p data-i18n="lbl.ctap">Diga-me a data e o sítio que tem em mente. Respondo em 24 horas com disponibilidade, valores e sugestões.</p><a class="btn" href="#/contacto" data-i18n="lbl.ctab">Falar comigo</a></div>
+  </div></div>
+</section>
+
+<!-- ═══════ SERVIÇO · familias ═══════ -->
+<section data-route="s/familias" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/familia-pinhal-luz-dourada-algarve-xl.webp" alt="Família sentada num tronco num pinhal do Algarve com luz dourada" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow" data-i18n="s.familias.eye">Fotógrafa de famílias no Algarve</span>
+      <h1 class="d1" style="max-width:16ch" data-i18n="s.familias.h1">As crianças não posam. Ainda bem.</h1>
+    </div>
+  </div>
+  <div class="shell band--tight">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/servicos" data-i18n="nav.serv">Serviços</a><span>/</span><span data-i18n="s.familias.nav">Famílias</span></nav>
+    <p class="lead prose r" data-i18n="s.familias.lead">Sessões de família no pinhal, na praia ou em casa, feitas ao ritmo das crianças. Ninguém tem de ficar quieto, ninguém tem de sorrir a pedido — e é exactamente por isso que estas fotografias ficam parecidas convosco.</p>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="r"><span class="eyebrow" data-i18n="lbl.who">Para quem é</span><p data-i18n="s.familias.who">Famílias de férias no Algarve que querem levar mais do que fotografias de telemóvel. Famílias que vivem cá e se aperceberam de que há três anos que não têm uma fotografia todos juntos. Avós, primos, reuniões grandes — também faço.</p></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.incl">O que está incluído</span><ul class="incl">
+      <li data-i18n="s.familias.i0">Ajuda na escolha do local e da hora certa de luz</li>
+      <li data-i18n="s.familias.i1">Guia de preparação e sugestões de roupa antes da sessão</li>
+      <li data-i18n="s.familias.i2">1 hora de sessão (2 horas na opção estendida)</li>
+      <li data-i18n="s.familias.i3">Cerca de 30 fotografias editadas em alta resolução</li>
+      <li data-i18n="s.familias.i4">Retratos individuais de cada criança</li>
+      <li data-i18n="s.familias.i5">Galeria privada com download em alta resolução</li>
+      <li data-i18n="s.familias.i6">Entrega em até 10 dias úteis</li>
+    </ul></div>
+  </div></div>
+  <div class="shell band--tight"><span class="eyebrow eyebrow--line r" data-i18n="lbl.gal">Da minha câmara</span><div class="gal3">
+    <figure class="r" data-d="0" style="margin:0"><div class="fig"><img src="img/familia-caminhada-pinhal-algarve-md.webp" data-full="img/familia-caminhada-pinhal-algarve-xl.webp" data-cap="A caminhar no pinhal" alt="Pais a baloiçar o filho pelos braços num pinhal" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.familias.c0">A caminhar no pinhal</span></figcaption></figure>
+    <figure class="r" data-d="1" style="margin:0"><div class="fig"><img src="img/familia-praia-preto-e-branco-algarve-md.webp" data-full="img/familia-praia-preto-e-branco-algarve-xl.webp" data-cap="Fim de tarde na praia" alt="Família a caminhar à beira-mar a preto e branco" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.familias.c1">Fim de tarde na praia</span></figcaption></figure>
+    <figure class="r" data-d="2" style="margin:0"><div class="fig"><img src="img/familia-gravidez-pinhal-algarve-md.webp" data-full="img/familia-gravidez-pinhal-algarve-xl.webp" data-cap="À espera do segundo" alt="Família sentada no chão de um pinhal, mãe grávida" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.familias.c2">À espera do segundo</span></figcaption></figure>
+  </div></div>
+  <div class="shell band--tight"><div class="two">
+    <div class="pricebox r"><span class="eyebrow" data-i18n="lbl.inv">Investimento</span><span class="amt" data-i18n="s.familias.price">Desde 100 €</span><p class="small" data-i18n="s.familias.pricen">Sessão de 1 hora 100 €, com cerca de 30 fotografias editadas. Sessões mais longas e famílias alargadas sob orçamento.</p><a class="btn btn--sm" href="#/contacto" data-i18n="lbl.quote">Pedir orçamento</a></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.faq">Perguntas frequentes</span><div class="faq">
+      <details><summary data-i18n="s.familias.q0">Qual é a melhor idade para fotografar crianças?</summary><div class="ans" data-i18n="s.familias.a0">Todas funcionam — só muda a estratégia. Com bebés fotografamos ao colo e em casa; entre os 2 e os 5 anos a sessão é toda em movimento e brincadeira; a partir daí já conseguimos alguns retratos calmos.</div></details>
+      <details><summary data-i18n="s.familias.q1">E se o meu filho não colaborar?</summary><div class="ans" data-i18n="s.familias.a1">Não existe «não colaborar». Birras, corridas e fugas fazem parte e, honestamente, dão algumas das melhores fotografias. Nunca forço uma criança a nada.</div></details>
+      <details><summary data-i18n="s.familias.q2">Podemos fazer a sessão na nossa villa?</summary><div class="ans" data-i18n="s.familias.a2">Claro. Sessões em casa ou na villa alugada são das minhas preferidas: pequeno-almoço, banho, sofá. Basta haver luz natural.</div></details>
+    </div></div>
+  </div></div>
+  <div class="shell band--tight" style="padding-bottom:clamp(64px,9vw,120px)"><hr class="rule"><div class="two" style="padding-top:clamp(30px,4vw,54px);align-items:center">
+    <h2 class="d3 r" data-i18n="lbl.ctah">Falamos?</h2>
+    <div class="r" data-d="1"><p data-i18n="lbl.ctap">Diga-me a data e o sítio que tem em mente. Respondo em 24 horas com disponibilidade, valores e sugestões.</p><a class="btn" href="#/contacto" data-i18n="lbl.ctab">Falar comigo</a></div>
+  </div></div>
+</section>
+
+<!-- ═══════ SERVIÇO · casais ═══════ -->
+<section data-route="s/casais" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/casal-passadico-duna-algarve-xl.webp" alt="Casal sentado num passadiço de madeira sobre as dunas do Algarve" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow" data-i18n="s.casais.eye">Fotógrafa de casais no Algarve</span>
+      <h1 class="d1" style="max-width:16ch" data-i18n="s.casais.h1">Uma hora dourada só vossa.</h1>
+    </div>
+  </div>
+  <div class="shell band--tight">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/servicos" data-i18n="nav.serv">Serviços</a><span>/</span><span data-i18n="s.casais.nav">Casais</span></nav>
+    <p class="lead prose r" data-i18n="s.casais.lead">Sessões de casal, pedidos de casamento e aniversários fotografados no melhor momento do dia. Chegam nervosos, saem a dizer que foi um encontro — e levam fotografias que não parecem fotografias de estúdio.</p>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="r"><span class="eyebrow" data-i18n="lbl.who">Para quem é</span><p data-i18n="s.casais.who">Casais que não gostam de ser fotografados (a maioria dos meus clientes). Quem está de passagem pelo Algarve e quer guardar a viagem. Quem vai pedir em casamento e quer o momento registado sem que a outra pessoa desconfie.</p></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.incl">O que está incluído</span><ul class="incl">
+      <li data-i18n="s.casais.i0">Escolha do local em conjunto: praia, falésia, pinhal ou vila branca</li>
+      <li data-i18n="s.casais.i1">Hora agendada em função do pôr do sol da data escolhida</li>
+      <li data-i18n="s.casais.i2">1 hora de sessão com direção discreta</li>
+      <li data-i18n="s.casais.i3">Cerca de 30 fotografias editadas, a cor e a preto e branco</li>
+      <li data-i18n="s.casais.i4">Opção de pedido de casamento surpresa, planeado comigo</li>
+      <li data-i18n="s.casais.i5">Galeria privada com download em alta resolução</li>
+      <li data-i18n="s.casais.i6">Entrega em até 10 dias úteis</li>
+    </ul></div>
+  </div></div>
+  <div class="shell band--tight"><span class="eyebrow eyebrow--line r" data-i18n="lbl.gal">Da minha câmara</span><div class="gal3">
+    <figure class="r" data-d="0" style="margin:0"><div class="fig"><img src="img/casal-passadico-abraco-algarve-md.webp" data-full="img/casal-passadico-abraco-algarve-xl.webp" data-cap="Um abraço no passadiço" alt="Casal abraçado num passadiço de madeira" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.casais.c0">Um abraço no passadiço</span></figcaption></figure>
+    <figure class="r" data-d="1" style="margin:0"><div class="fig"><img src="img/casal-pinhal-preto-e-branco-algarve-md.webp" data-full="img/casal-pinhal-preto-e-branco-algarve-xl.webp" data-cap="Vento no pinhal" alt="Casal a preto e branco num pinhal com o cabelo ao vento" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.casais.c1">Vento no pinhal</span></figcaption></figure>
+    <figure class="r" data-d="2" style="margin:0"><div class="fig"><img src="img/casal-rostos-luz-dourada-algarve-md.webp" data-full="img/casal-rostos-luz-dourada-algarve-xl.webp" data-cap="Rostos, muito perto" alt="Grande plano de dois rostos encostados com luz quente" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.casais.c2">Rostos, muito perto</span></figcaption></figure>
+  </div></div>
+  <div class="shell band--tight"><div class="two">
+    <div class="pricebox r"><span class="eyebrow" data-i18n="lbl.inv">Investimento</span><span class="amt" data-i18n="s.casais.price">Desde 100 €</span><p class="small" data-i18n="s.casais.pricen">Sessão de 1 hora 100 €, com cerca de 30 fotografias editadas. Pedidos de casamento surpresa e sessões com dois locais sob orçamento.</p><a class="btn btn--sm" href="#/contacto" data-i18n="lbl.quote">Pedir orçamento</a></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.faq">Perguntas frequentes</span><div class="faq">
+      <details><summary data-i18n="s.casais.q0">Não sabemos posar. É um problema?</summary><div class="ans" data-i18n="s.casais.a0">É a frase que mais ouço e nunca foi um problema. Dou instruções concretas e fáceis — andar, encostar a testa, contar uma história ao ouvido — e fotografo o que acontece entre elas.</div></details>
+      <details><summary data-i18n="s.casais.q1">Onde é o melhor sítio para uma sessão de casal no Algarve?</summary><div class="ans" data-i18n="s.casais.a1">Depende da luz e da época. No verão prefiro dunas e pinhais, que ficam vazios ao fim do dia; fora de época, as falésias de Lagos e do Carvoeiro ficam espectaculares. Sugiro sempre dois ou três locais para a vossa data.</div></details>
+      <details><summary data-i18n="s.casais.q2">Podemos levar roupa para trocar?</summary><div class="ans" data-i18n="s.casais.a2">Sim, mas normalmente não é preciso. Prefiro que estejam confortáveis numa só roupa a perder vinte minutos de luz a trocar de fato.</div></details>
+    </div></div>
+  </div></div>
+  <div class="shell band--tight" style="padding-bottom:clamp(64px,9vw,120px)"><hr class="rule"><div class="two" style="padding-top:clamp(30px,4vw,54px);align-items:center">
+    <h2 class="d3 r" data-i18n="lbl.ctah">Falamos?</h2>
+    <div class="r" data-d="1"><p data-i18n="lbl.ctap">Diga-me a data e o sítio que tem em mente. Respondo em 24 horas com disponibilidade, valores e sugestões.</p><a class="btn" href="#/contacto" data-i18n="lbl.ctab">Falar comigo</a></div>
+  </div></div>
+</section>
+
+<!-- ═══════ SERVIÇO · retratos ═══════ -->
+<section data-route="s/retratos" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/casal-gravidez-praia-algarve-xl.webp" alt="Casal grávido na praia do Algarve a segurar sapatinhos de bebé" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow" data-i18n="s.retratos.eye">Fotógrafa de retratos no Algarve</span>
+      <h1 class="d1" style="max-width:16ch" data-i18n="s.retratos.h1">Um retrato é uma conversa que ficou parada.</h1>
+    </div>
+  </div>
+  <div class="shell band--tight">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/servicos" data-i18n="nav.serv">Serviços</a><span>/</span><span data-i18n="s.retratos.nav">Retratos &amp; Gravidez</span></nav>
+    <p class="lead prose r" data-i18n="s.retratos.lead">Retrato individual, gravidez e newborn. Sessões calmas, sem cenários montados, onde a única coisa que me interessa é aquilo que aparece na cara de alguém quando se esquece da câmara.</p>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="r"><span class="eyebrow" data-i18n="lbl.who">Para quem é</span><p data-i18n="s.retratos.who">Quem precisa de um retrato profissional que não pareça uma fotografia de passe. Grávidas a partir das 28 semanas. Recém-nascidos nos primeiros 15 dias, fotografados em casa, na cama dos pais, com a luz da janela.</p></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.incl">O que está incluído</span><ul class="incl">
+      <li data-i18n="s.retratos.i0">Conversa prévia sobre o que quer transmitir</li>
+      <li data-i18n="s.retratos.i1">45 a 60 minutos de sessão</li>
+      <li data-i18n="s.retratos.i2">Retoque natural — pele com textura, nunca plastificada</li>
+      <li data-i18n="s.retratos.i3">Cerca de 30 fotografias editadas em alta resolução</li>
+      <li data-i18n="s.retratos.i4">Versões verticais e horizontais para redes sociais e LinkedIn</li>
+      <li data-i18n="s.retratos.i5">Newborn fotografado em casa, ao ritmo do bebé</li>
+      <li data-i18n="s.retratos.i6">Entrega em até 7 dias úteis</li>
+    </ul></div>
+  </div></div>
+  <div class="shell band--tight"><span class="eyebrow eyebrow--line r" data-i18n="lbl.gal">Da minha câmara</span><div class="gal3">
+    <figure class="r" data-d="0" style="margin:0"><div class="fig"><img src="img/sessao-gravidez-praia-por-do-sol-algarve-md.webp" data-full="img/sessao-gravidez-praia-por-do-sol-algarve-xl.webp" data-cap="Gravidez na duna" alt="Mulher grávida na duna ao pôr do sol" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.retratos.c0">Gravidez na duna</span></figcaption></figure>
+    <figure class="r" data-d="1" style="margin:0"><div class="fig"><img src="img/casal-retrato-preto-e-branco-algarve-md.webp" data-full="img/casal-retrato-preto-e-branco-algarve-xl.webp" data-cap="Preto e branco" alt="Retrato a preto e branco de dois rostos" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.retratos.c1">Preto e branco</span></figcaption></figure>
+    <figure class="r" data-d="2" style="margin:0"><div class="fig"><img src="img/casal-gravidez-praia-algarve-md.webp" data-full="img/casal-gravidez-praia-algarve-xl.webp" data-cap="Sapatinhos na areia" alt="Casal grávido na praia com sapatinhos de bebé" width="1000" height="1400" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.retratos.c2">Sapatinhos na areia</span></figcaption></figure>
+  </div></div>
+  <div class="shell band--tight"><div class="two">
+    <div class="pricebox r"><span class="eyebrow" data-i18n="lbl.inv">Investimento</span><span class="amt" data-i18n="s.retratos.price">Desde 100 €</span><p class="small" data-i18n="s.retratos.pricen">Retrato individual, gravidez ou newborn: sessão de 1 hora a partir de 100 €, com cerca de 30 fotografias editadas.</p><a class="btn btn--sm" href="#/contacto" data-i18n="lbl.quote">Pedir orçamento</a></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.faq">Perguntas frequentes</span><div class="faq">
+      <details><summary data-i18n="s.retratos.q0">Quando devo fazer a sessão de gravidez?</summary><div class="ans" data-i18n="s.retratos.a0">Entre as 28 e as 34 semanas. A barriga já está redonda e ainda se anda com conforto na areia.</div></details>
+      <details><summary data-i18n="s.retratos.q1">Faz sessões newborn em estúdio?</summary><div class="ans" data-i18n="s.retratos.a1">Não. Faço sempre em casa, nos primeiros 15 dias, com luz natural e sem adereços. O bebé manda no ritmo da sessão.</div></details>
+      <details><summary data-i18n="s.retratos.q2">Faz retratos corporativos?</summary><div class="ans" data-i18n="s.retratos.a2">Sim, individuais ou de equipa, no vosso espaço ou em exterior. Para equipas, peça orçamento na página de Marcas.</div></details>
+    </div></div>
+  </div></div>
+  <div class="shell band--tight" style="padding-bottom:clamp(64px,9vw,120px)"><hr class="rule"><div class="two" style="padding-top:clamp(30px,4vw,54px);align-items:center">
+    <h2 class="d3 r" data-i18n="lbl.ctah">Falamos?</h2>
+    <div class="r" data-d="1"><p data-i18n="lbl.ctap">Diga-me a data e o sítio que tem em mente. Respondo em 24 horas com disponibilidade, valores e sugestões.</p><a class="btn" href="#/contacto" data-i18n="lbl.ctab">Falar comigo</a></div>
+  </div></div>
+</section>
+
+<!-- ═══════ SERVIÇO · marcas ═══════ -->
+<section data-route="s/marcas" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/marca-retalho-fachada-loja-algarve-xl.webp" alt="Fachada de uma loja de retalho no Algarve ao fim da tarde, com toldo branco e montra iluminada" width="1800" height="1013" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow" data-i18n="s.marcas.eye">Fotografia para marcas no Algarve</span>
+      <h1 class="d1" style="max-width:16ch" data-i18n="s.marcas.h1">A sua marca também tem uma cara.</h1>
+    </div>
+  </div>
+  <div class="shell band--tight">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/servicos" data-i18n="nav.serv">Serviços</a><span>/</span><span data-i18n="s.marcas.nav">Fotografia para Marcas</span></nav>
+    <p class="lead prose r" data-i18n="s.marcas.lead">Personal branding, produto e conteúdo para redes sociais. Fotografias que parecem suas — feitas com a mesma atenção à luz e à verdade que ponho nas pessoas, aplicada àquilo que vende.</p>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="r"><span class="eyebrow" data-i18n="lbl.who">Para quem é</span><p data-i18n="s.marcas.who">Fundadoras, terapeutas, arquitectos, chefs e pequenas marcas do Algarve que estão fartas de bancos de imagem. Quem vai lançar um site, um curso ou uma marca nova e precisa de um banco de imagens próprio e coerente.</p></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.incl">O que está incluído</span><ul class="incl">
+      <li data-i18n="s.marcas.i0">Briefing de marca: tom, cores, referências e onde as imagens vão viver</li>
+      <li data-i18n="s.marcas.i1">Moodboard e plano de planos antes do dia da sessão</li>
+      <li data-i18n="s.marcas.i2">Meio-dia ou dia completo de produção</li>
+      <li data-i18n="s.marcas.i3">Retrato, ambiente, detalhe, produto e bastidores</li>
+      <li data-i18n="s.marcas.i4">Enquadramentos verticais para Reels e Stories</li>
+      <li data-i18n="s.marcas.i5">Licença comercial para site, redes e publicidade paga</li>
+      <li data-i18n="s.marcas.i6">Entrega em até 10 dias úteis</li>
+    </ul></div>
+  </div></div>
+  <div class="shell band--tight"><span class="eyebrow eyebrow--line r" data-i18n="lbl.gal">Da minha câmara</span>
+    <div class="masonry masonry--2">
+      <figure class="item r" style="margin-bottom:clamp(14px,1.8vw,26px)"><div class="fig" style="aspect-ratio:16/9"><img src="img/marca-retalho-montra-loja-algarve-md.webp" width="1000" height="563" data-full="img/marca-retalho-montra-loja-algarve-xl.webp" data-cap="Montra · retalho" alt="Montra e entrada de uma loja de roupa de criança num centro comercial do Algarve" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.marcas.g0">Montra · retalho</span></figcaption></figure>
+      <figure class="item r" style="margin-bottom:clamp(14px,1.8vw,26px)"><div class="fig" style="aspect-ratio:9/16"><img src="img/marca-produto-mala-detalhe-algarve-md.webp" width="1000" height="1778" data-full="img/marca-produto-mala-detalhe-algarve-xl.webp" data-cap="Detalhe de produto · pele" alt="Grande plano de uma mala branca em pele numa prateleira iluminada" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.marcas.g1">Detalhe de produto · pele</span></figcaption></figure>
+      <figure class="item r" style="margin-bottom:clamp(14px,1.8vw,26px)"><div class="fig" style="aspect-ratio:16/9"><img src="img/marca-retalho-interior-loja-crianca-algarve-md.webp" width="1000" height="563" data-full="img/marca-retalho-interior-loja-crianca-algarve-xl.webp" data-cap="Interior · atmosfera de loja" alt="Interior de uma loja de roupa de criança com araras de madeira e luz quente" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.marcas.g2">Interior · atmosfera de loja</span></figcaption></figure>
+      <figure class="item r" style="margin-bottom:clamp(14px,1.8vw,26px)"><div class="fig" style="aspect-ratio:16/9"><img src="img/marca-produto-bijutaria-expositor-algarve-md.webp" width="1000" height="563" data-full="img/marca-produto-bijutaria-expositor-algarve-xl.webp" data-cap="Bijutaria · cor e textura" alt="Expositor de brincos de resina coloridos numa loja de acessórios" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.marcas.g3">Bijutaria · cor e textura</span></figcaption></figure>
+      <figure class="item r" style="margin-bottom:clamp(14px,1.8vw,26px)"><div class="fig" style="aspect-ratio:9/16"><img src="img/marca-produto-malas-prateleira-algarve-md.webp" width="1000" height="1778" data-full="img/marca-produto-malas-prateleira-algarve-xl.webp" data-cap="Linha de produto · prateleira" alt="Prateleiras com malas de pele e de palha numa loja de acessórios" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.marcas.g4">Linha de produto · prateleira</span></figcaption></figure>
+      <figure class="item r" style="margin-bottom:clamp(14px,1.8vw,26px)"><div class="fig" style="aspect-ratio:16/9"><img src="img/marca-retalho-sinaletica-loja-algarve-md.webp" width="1000" height="563" data-full="img/marca-retalho-sinaletica-loja-algarve-xl.webp" data-cap="Sinalética · identidade no espaço" alt="Placa circular suspensa com o logótipo de uma loja num centro comercial" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.marcas.g5">Sinalética · identidade no espaço</span></figcaption></figure>
+    </div>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="pricebox r"><span class="eyebrow" data-i18n="lbl.inv">Investimento</span><span class="amt" data-i18n="s.marcas.price">Sob orçamento</span><p class="small" data-i18n="s.marcas.pricen">Cada projecto é orçamentado à medida, em função da duração da produção, do número de planos e da utilização das imagens. Licença comercial incluída.</p><a class="btn btn--sm" href="#/contacto" data-i18n="lbl.quote">Pedir orçamento</a></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.faq">Perguntas frequentes</span><div class="faq">
+      <details><summary data-i18n="s.marcas.q0">Quantas fotografias recebo?</summary><div class="ans" data-i18n="s.marcas.a0">O número de imagens depende da duração da produção e fica definido no briefing. Entrego-as organizadas por tema, para saber sempre o que publicar.</div></details>
+      <details><summary data-i18n="s.marcas.q1">Posso usar as imagens em publicidade?</summary><div class="ans" data-i18n="s.marcas.a1">Sim. Todos os pacotes incluem licença comercial. Para campanhas com modelos contratados, tratamos das autorizações de imagem.</div></details>
+      <details><summary data-i18n="s.marcas.q2">Trabalha com agências e estúdios de design?</summary><div class="ans" data-i18n="s.marcas.a2">Frequentemente. Trabalho a partir de direcção de arte existente ou proponho a minha, conforme preferirem.</div></details>
+    </div></div>
+  </div></div>
+  <div class="shell band--tight" style="padding-bottom:clamp(64px,9vw,120px)"><hr class="rule"><div class="two" style="padding-top:clamp(30px,4vw,54px);align-items:center">
+    <h2 class="d3 r" data-i18n="lbl.ctah">Falamos?</h2>
+    <div class="r" data-d="1"><p data-i18n="lbl.ctap">Diga-me a data e o sítio que tem em mente. Respondo em 24 horas com disponibilidade, valores e sugestões.</p><a class="btn" href="#/contacto" data-i18n="lbl.ctab">Falar comigo</a></div>
+  </div></div>
+</section>
+
+<!-- ═══════ SERVIÇO · hospitality ═══════ -->
+<section data-route="s/hospitality" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/villa-piscina-vista-aerea-algarve-xl.webp" alt="Vista aérea de uma villa no Algarve com piscina de mosaico escuro, deck de madeira e palhota" width="1800" height="1436" fetchpriority="low" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow" data-i18n="s.hospitality.eye">Fotografia de hotelaria no Algarve</span>
+      <h1 class="d1" style="max-width:16ch" data-i18n="s.hospitality.h1">Imagens que fazem reservar.</h1>
+    </div>
+  </div>
+  <div class="shell band--tight">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/servicos" data-i18n="nav.serv">Serviços</a><span>/</span><span data-i18n="s.hospitality.nav">Turismo &amp; Hospitality</span></nav>
+    <p class="lead prose r" data-i18n="s.hospitality.lead">Hotéis, villas, restaurantes e experiências fotografados como se alguém já lá estivesse a passar férias. Porque é isso que faz clicar em «reservar»: imaginar-se lá dentro.</p>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="r"><span class="eyebrow" data-i18n="lbl.who">Para quem é</span><p data-i18n="s.hospitality.who">Unidades de alojamento local, boutique hotels, villas de aluguer e restaurantes do Algarve que querem sair da estética de portal de reservas. Também faço conteúdo para campanhas de época e para redes sociais.</p></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.incl">O que está incluído</span><ul class="incl">
+      <li data-i18n="s.hospitality.i0">Visita prévia e plano de luz por divisão e por hora do dia</li>
+      <li data-i18n="s.hospitality.i1">Interiores, exteriores, detalhes e gastronomia</li>
+      <li data-i18n="s.hospitality.i2">Fotografia com pessoas em cena para dar vida ao espaço</li>
+      <li data-i18n="s.hospitality.i3">Nascer e pôr do sol incluídos no dia de produção</li>
+      <li data-i18n="s.hospitality.i4">Correção de perspectiva e tratamento de cor de arquitectura</li>
+      <li data-i18n="s.hospitality.i5">Licença para site, OTAs, redes sociais e imprensa</li>
+      <li data-i18n="s.hospitality.i6">Entrega em até 14 dias úteis</li>
+    </ul></div>
+  </div></div>
+  <div class="shell band--tight"><span class="eyebrow eyebrow--line r" data-i18n="lbl.gal">Da minha câmara</span>
+    <div class="gal3" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
+      <figure class="r" style="margin:0"><div class="fig" style="aspect-ratio:4/3"><img src="img/villa-piscina-vista-aerea-algarve-md.webp" data-full="img/villa-piscina-vista-aerea-algarve-xl.webp" data-cap="Villa privada · piscina e deck vistos de cima" alt="Fotografia aérea da piscina de uma villa de aluguer no Algarve, com deck de madeira e palhota" width="1000" height="798" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.hospitality.c0">Villa privada · vista aérea</span></figcaption></figure>
+      <figure class="r" data-d="1" style="margin:0"><div class="fig" style="aspect-ratio:4/3"><img src="img/quarto-villa-interior-algarve-md.webp" data-full="img/quarto-villa-interior-algarve-xl.webp" data-cap="Quarto duplo com saída para o terraço" alt="Quarto duplo de uma villa no Algarve com camas individuais, candeeiros dourados e saída para o terraço" width="1000" height="667" loading="lazy" decoding="async"></div><figcaption class="cap"><span data-i18n="s.hospitality.c1">Quarto duplo · saída para o terraço</span></figcaption></figure>
+    </div>
+  </div>
+  <div class="shell band--tight"><div class="two">
+    <div class="pricebox r"><span class="eyebrow" data-i18n="lbl.inv">Investimento</span><span class="amt" data-i18n="s.hospitality.price">Sob orçamento</span><p class="small" data-i18n="s.hospitality.pricen">Orçamento à medida, em função da dimensão do espaço, do número de dias de produção e da utilização das imagens.</p><a class="btn btn--sm" href="#/contacto" data-i18n="lbl.quote">Pedir orçamento</a></div>
+    <div class="r" data-d="1"><span class="eyebrow" data-i18n="lbl.faq">Perguntas frequentes</span><div class="faq">
+      <details><summary data-i18n="s.hospitality.q0">Precisamos de preparar o espaço?</summary><div class="ans" data-i18n="s.hospitality.a0">Envio uma checklist de preparação com uma semana de antecedência: têxteis, flores, o que retirar de cima das bancadas. Faz uma diferença enorme no resultado.</div></details>
+      <details><summary data-i18n="s.hospitality.q1">Fotografa também gastronomia?</summary><div class="ans" data-i18n="s.hospitality.a1">Sim, com luz natural sempre que possível e em articulação com a cozinha para os pratos chegarem no momento certo.</div></details>
+      <details><summary data-i18n="s.hospitality.q2">Quanto tempo demora a produção?</summary><div class="ans" data-i18n="s.hospitality.a2">Uma villa de três quartos leva meio-dia. Um hotel pequeno, um dia. Unidades maiores planeamos em dois dias para apanhar as duas horas douradas.</div></details>
+    </div></div>
+  </div></div>
+  <div class="shell band--tight" style="padding-bottom:clamp(64px,9vw,120px)"><hr class="rule"><div class="two" style="padding-top:clamp(30px,4vw,54px);align-items:center">
+    <h2 class="d3 r" data-i18n="lbl.ctah">Falamos?</h2>
+    <div class="r" data-d="1"><p data-i18n="lbl.ctap">Diga-me a data e o sítio que tem em mente. Respondo em 24 horas com disponibilidade, valores e sugestões.</p><a class="btn" href="#/contacto" data-i18n="lbl.ctab">Falar comigo</a></div>
+  </div></div>
+</section>
+<!-- ═══════════════════════════ JOURNAL ═══════════════════════════ -->
+<section data-route="journal" hidden>
+  <div class="shell" style="padding-top:clamp(120px,14vw,190px)">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><span>Journal</span></nav>
+    <span class="eyebrow" data-i18n="jr.eyebrow">Journal · Histórias do Algarve</span>
+    <h1 class="d1" style="max-width:15ch" data-i18n="jr.h1">Aquilo que aprendi a fotografar aqui.</h1>
+    <p class="lead prose" style="margin-top:1.4rem;margin-bottom:clamp(40px,6vw,70px)" data-i18n="jr.sub">Guias práticos sobre locais, preços e como preparar uma sessão no Algarve — escritos para quem está mesmo a planear, não para agradar a motores de busca.</p>
+    <div class="posts">
+      <article class="post r" data-d="0">
+        <div class="fig"><img src="img/casal-passadico-duna-algarve-md.webp" alt="Casal num passadiço sobre as dunas ao fim da tarde, Algarve" width="1000" height="750" loading="lazy" decoding="async"></div>
+        <div class="meta"><span data-i18n="j.quanto-custa-fotografo-algarve.cat">Guia de preços</span> · <span data-i18n="j.quanto-custa-fotografo-algarve.date">14 Set 2026 · 6 min</span></div>
+        <h2 class="d4" data-i18n="j.quanto-custa-fotografo-algarve.t">Quanto custa um fotógrafo no Algarve?</h2>
+        <p class="small" data-i18n="j.quanto-custa-fotografo-algarve.d">Valores reais praticados na região em 2026, o que está — e não está — incluído, e como perceber se um orçamento é caro ou apenas completo.</p>
+        <a class="cover" href="#/j/quanto-custa-fotografo-algarve" aria-label="Quanto custa um fotógrafo no Algarve?"></a>
+      </article>
+      <article class="post r" data-d="1">
+        <div class="fig"><img src="img/familia-pinhal-luz-dourada-algarve-md.webp" alt="Pinhal do Algarve atravessado por luz dourada ao fim da tarde" width="1000" height="750" loading="lazy" decoding="async"></div>
+        <div class="meta"><span data-i18n="j.melhores-locais-sessoes-algarve.cat">Locais</span> · <span data-i18n="j.melhores-locais-sessoes-algarve.date">2 Set 2026 · 7 min</span></div>
+        <h2 class="d4" data-i18n="j.melhores-locais-sessoes-algarve.t">Os melhores locais para sessões fotográficas no Algarve</h2>
+        <p class="small" data-i18n="j.melhores-locais-sessoes-algarve.d">Nove sítios que uso com frequência — praias, pinhais, falésias e vilas — com a melhor hora de luz e o nível de multidão a contar.</p>
+        <a class="cover" href="#/j/melhores-locais-sessoes-algarve" aria-label="Os melhores locais para sessões fotográficas no Algarve"></a>
+      </article>
+      <article class="post r" data-d="2">
+        <div class="fig"><img src="img/elopement-duna-por-do-sol-algarve-md.webp" alt="Noivo pega a noiva ao colo numa duna ao pôr do sol durante um elopement no Algarve" width="1000" height="750" loading="lazy" decoding="async"></div>
+        <div class="meta"><span data-i18n="j.elopement-algarve-guia.cat">Casamentos</span> · <span data-i18n="j.elopement-algarve-guia.date">18 Ago 2026 · 8 min</span></div>
+        <h2 class="d4" data-i18n="j.elopement-algarve-guia.t">Elopement no Algarve: guia completo</h2>
+        <p class="small" data-i18n="j.elopement-algarve-guia.d">Como organizar uma cerimónia só para dois no sul de Portugal: legalidades, locais, orçamento e o ritmo ideal de um dia sem convidados.</p>
+        <a class="cover" href="#/j/elopement-algarve-guia" aria-label="Elopement no Algarve: guia completo"></a>
+      </article>
+      <article class="post r" data-d="0">
+        <div class="fig"><img src="img/casal-rostos-luz-dourada-algarve-md.webp" alt="Grande plano de um casal com os rostos encostados em luz dourada" width="1000" height="750" loading="lazy" decoding="async"></div>
+        <div class="meta"><span data-i18n="j.escolher-fotografa-algarve.cat">Conselhos</span> · <span data-i18n="j.escolher-fotografa-algarve.date">30 Jul 2026 · 4 min</span></div>
+        <h2 class="d4" data-i18n="j.escolher-fotografa-algarve.t">Como escolher a fotógrafa certa no Algarve</h2>
+        <p class="small" data-i18n="j.escolher-fotografa-algarve.d">Cinco perguntas que vale a pena fazer antes de reservar — e um sinal de alerta que muita gente ignora.</p>
+        <a class="cover" href="#/j/escolher-fotografa-algarve" aria-label="Como escolher a fotógrafa certa no Algarve"></a>
+      </article>
+    </div>
+  </div>
+  <div class="shell band"><hr class="rule"><div class="two" style="padding-top:clamp(30px,4vw,54px);align-items:center">
+    <h2 class="d3 r" data-i18n="jr.ctah">Está a planear alguma coisa?</h2>
+    <div class="r" data-d="1"><p data-i18n="jr.ctap">Escreva-me com a data e o sítio. Dou-lhe a minha opinião honesta, mesmo que não acabe por reservar comigo.</p><a class="btn" href="#/contacto" data-i18n="jr.ctab">Falar comigo</a></div>
+  </div></div>
+</section>
+
+<!-- ═══════ ARTIGO · quanto-custa-fotografo-algarve ═══════ -->
+<section data-route="j/quanto-custa-fotografo-algarve" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/casal-passadico-duna-algarve-xl.webp" alt="Casal num passadiço sobre as dunas ao fim da tarde, Algarve" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow"><span data-i18n="j.quanto-custa-fotografo-algarve.cat">Guia de preços</span> · <span data-i18n="j.quanto-custa-fotografo-algarve.date">14 Set 2026 · 6 min</span></span>
+      <h1 class="d1" style="max-width:18ch" data-i18n="j.quanto-custa-fotografo-algarve.t">Quanto custa um fotógrafo no Algarve?</h1>
+    </div>
+  </div>
+  <div class="shell band--tight"><div class="article">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/journal">Journal</a><span>/</span><span data-i18n="j.quanto-custa-fotografo-algarve.cat">Guia de preços</span></nav>
+    <p class="lead" data-i18n="j.quanto-custa-fotografo-algarve.d">Valores reais praticados na região em 2026, o que está — e não está — incluído, e como perceber se um orçamento é caro ou apenas completo.</p>
+    <h2 class="d3" data-i18n="j.quanto-custa-fotografo-algarve.b0">A resposta curta</h2>
+    <p data-i18n="j.quanto-custa-fotografo-algarve.b1">No Algarve, o preço de uma sessão depende sobretudo de três coisas: quanto tempo dura, quantas fotografias recebe editadas e quanto o fotógrafo tem de se deslocar. Uma sessão de uma hora com galeria editada anda entre os 100 € e os 400 €. Um casamento situa-se entre os 800 € e os 3.000 €, consoante as horas de cobertura e a existência de segundo fotógrafo.</p>
+    <p data-i18n="j.quanto-custa-fotografo-algarve.b2">A diferença dentro destas faixas raramente é aleatória: reflecte o tempo de edição, o prazo de entrega, o equipamento e o tipo de cobertura. Vale mais a pena perceber o que está incluído em cada proposta do que comparar apenas o número.</p>
+    <p class="pull" data-i18n="j.quanto-custa-fotografo-algarve.b3">O preço de uma fotografia raramente é o preço do dia. É o preço de tudo o que acontece antes e depois dele.</p>
+    <h2 class="d3" data-i18n="j.quanto-custa-fotografo-algarve.b4">Porque é que os valores variam tanto</h2>
+    <p data-i18n="j.quanto-custa-fotografo-algarve.b5">Duas propostas com o mesmo número podem ser coisas completamente diferentes. Vale a pena comparar sempre estes seis pontos:</p>
+    <ul>
+      <li data-i18n="j.quanto-custa-fotografo-algarve.b6_0">Número de fotografias editadas — e se a edição é individual ou em lote</li>
+      <li data-i18n="j.quanto-custa-fotografo-algarve.b6_1">Prazo de entrega, que varia entre 7 dias e 3 meses</li>
+      <li data-i18n="j.quanto-custa-fotografo-algarve.b6_2">Direitos de utilização, sobretudo em fotografia comercial</li>
+      <li data-i18n="j.quanto-custa-fotografo-algarve.b6_3">Deslocação: muitos fotógrafos cobram fora de um raio de 30 km</li>
+      <li data-i18n="j.quanto-custa-fotografo-algarve.b6_4">Segundo fotógrafo, assistente e equipamento de iluminação</li>
+      <li data-i18n="j.quanto-custa-fotografo-algarve.b6_5">Álbuns, impressões e produtos físicos, quase sempre à parte</li>
+    </ul>
+    <h2 class="d3" data-i18n="j.quanto-custa-fotografo-algarve.b7">O que costuma ficar de fora</h2>
+    <p data-i18n="j.quanto-custa-fotografo-algarve.b8">As surpresas mais frequentes são o custo por hora extra no dia do casamento, as deslocações fora da região e a compra de fotografias adicionais quando a galeria entregue é pequena. Peça sempre estes três valores por escrito antes de assinar.</p>
+    <h2 class="d3" data-i18n="j.quanto-custa-fotografo-algarve.b9">Os meus valores</h2>
+    <p data-i18n="j.quanto-custa-fotografo-algarve.b10">Trabalho com preços fixos e publicados: sessões a partir de 100 €, com uma hora de fotografia e cerca de 30 imagens editadas, e casamentos a partir de 800 €. O valor final depende da duração da cobertura, do número de locais e da deslocação — envio sempre um orçamento personalizado em 24 horas. Pode ver o detalhe em cada página de serviço.</p>
+    <div class="related">
+      <a class="lnk" href="#/s/casamentos"><span data-i18n="j.quanto-custa-fotografo-algarve.b11_0">Fotografia de casamento no Algarve</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/s/casais"><span data-i18n="j.quanto-custa-fotografo-algarve.b11_1">Sessões de casal</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/s/familias"><span data-i18n="j.quanto-custa-fotografo-algarve.b11_2">Sessões de família</span><span class="ar" aria-hidden="true">→</span></a>
+    </div>
+  </div></div>
+</section>
+
+<!-- ═══════ ARTIGO · melhores-locais-sessoes-algarve ═══════ -->
+<section data-route="j/melhores-locais-sessoes-algarve" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/familia-pinhal-luz-dourada-algarve-xl.webp" alt="Pinhal do Algarve atravessado por luz dourada ao fim da tarde" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow"><span data-i18n="j.melhores-locais-sessoes-algarve.cat">Locais</span> · <span data-i18n="j.melhores-locais-sessoes-algarve.date">2 Set 2026 · 7 min</span></span>
+      <h1 class="d1" style="max-width:18ch" data-i18n="j.melhores-locais-sessoes-algarve.t">Os melhores locais para sessões fotográficas no Algarve</h1>
+    </div>
+  </div>
+  <div class="shell band--tight"><div class="article">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/journal">Journal</a><span>/</span><span data-i18n="j.melhores-locais-sessoes-algarve.cat">Locais</span></nav>
+    <p class="lead" data-i18n="j.melhores-locais-sessoes-algarve.d">Nove sítios que uso com frequência — praias, pinhais, falésias e vilas — com a melhor hora de luz e o nível de multidão a contar.</p>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b0">O Algarve tem duzentos quilómetros de costa e uma diferença enorme entre o barlavento e o sotavento. Escolher bem o sítio é metade do trabalho — a outra metade é escolher bem a hora.</p>
+    <h2 class="d3" data-i18n="j.melhores-locais-sessoes-algarve.b1">Praia de Faro e Ria Formosa</h2>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b2">Dunas altas, passadiços de madeira e uma luz que ao fim do dia fica cor de mel. É o sítio para onde levo mais casais, sobretudo fora da época alta. Melhor hora: 60 minutos antes do pôr do sol.</p>
+    <h2 class="d3" data-i18n="j.melhores-locais-sessoes-algarve.b3">Pinhais de Vilamoura e Quinta do Lago</h2>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b4">O meu segredo para sessões de família no verão: sombra, chão macio de agulhas de pinheiro, espaço para as crianças correrem e feixes de luz a atravessar os troncos. Nunca está cheio.</p>
+    <h2 class="d3" data-i18n="j.melhores-locais-sessoes-algarve.b5">Falésias de Lagos e Ponta da Piedade</h2>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b6">A postal do Algarve, com rocha dourada e água turquesa. Espectacular, mas cheio entre junho e setembro — funciona melhor ao nascer do sol ou em meia estação.</p>
+    <h2 class="d3" data-i18n="j.melhores-locais-sessoes-algarve.b7">Carvoeiro e Algar Seco</h2>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b8">Formações rochosas dramáticas e escadas entre falésias. Excelente para sessões de casal com um lado mais editorial e cinematográfico.</p>
+    <h2 class="d3" data-i18n="j.melhores-locais-sessoes-algarve.b9">Salinas de Tavira e Praia do Barril</h2>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b10">O sotavento é mais calmo e mais plano. As salinas ao pôr do sol tornam-se espelhos cor-de-rosa; o Barril tem as âncoras enterradas na areia, que dão um cenário único.</p>
+    <h2 class="d3" data-i18n="j.melhores-locais-sessoes-algarve.b11">Alvor, Sagres e as vilas brancas</h2>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b12">O passadiço de Alvor ao amanhecer é das coisas mais bonitas da região. Sagres é vento, falésia negra e fim do mundo — perfeito para elopements. E há sempre as ruas caiadas de Loulé, Silves ou Ferragudo para quem prefere pedra a areia.</p>
+    <p class="pull" data-i18n="j.melhores-locais-sessoes-algarve.b13">Não escolha o sítio pela fotografia que viu no Instagram. Escolha-o pela hora a que consegue lá estar.</p>
+    <h2 class="d3" data-i18n="j.melhores-locais-sessoes-algarve.b14">Como escolho convosco</h2>
+    <p data-i18n="j.melhores-locais-sessoes-algarve.b15">Depois de reservarem, envio duas ou três sugestões para a vossa data concreta, já com a hora exacta do pôr do sol, o estado da maré e uma nota sobre estacionamento e caminhada até ao local. Na maior parte das vezes acabamos num sítio que não estava na lista inicial — e é quase sempre o melhor.</p>
+    <div class="related">
+      <a class="lnk" href="#/s/casais"><span data-i18n="j.melhores-locais-sessoes-algarve.b16_0">Sessões de casal no Algarve</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/j/elopement-algarve-guia"><span data-i18n="j.melhores-locais-sessoes-algarve.b16_1">Elopement no Algarve: guia</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/portfolio"><span data-i18n="j.melhores-locais-sessoes-algarve.b16_2">Ver portfólio</span><span class="ar" aria-hidden="true">→</span></a>
+    </div>
+  </div></div>
+</section>
+
+<!-- ═══════ ARTIGO · elopement-algarve-guia ═══════ -->
+<section data-route="j/elopement-algarve-guia" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/elopement-duna-por-do-sol-algarve-xl.webp" alt="Noivo pega a noiva ao colo numa duna ao pôr do sol durante um elopement no Algarve" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow"><span data-i18n="j.elopement-algarve-guia.cat">Casamentos</span> · <span data-i18n="j.elopement-algarve-guia.date">18 Ago 2026 · 8 min</span></span>
+      <h1 class="d1" style="max-width:18ch" data-i18n="j.elopement-algarve-guia.t">Elopement no Algarve: guia completo</h1>
+    </div>
+  </div>
+  <div class="shell band--tight"><div class="article">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/journal">Journal</a><span>/</span><span data-i18n="j.elopement-algarve-guia.cat">Casamentos</span></nav>
+    <p class="lead" data-i18n="j.elopement-algarve-guia.d">Como organizar uma cerimónia só para dois no sul de Portugal: legalidades, locais, orçamento e o ritmo ideal de um dia sem convidados.</p>
+    <p data-i18n="j.elopement-algarve-guia.b0">Um elopement não é um casamento pequeno. É outra coisa: um dia desenhado à volta de duas pessoas, sem timings de convidados, sem mesa de honra e sem discursos. No Algarve, com o clima e a costa que temos, funciona particularmente bem.</p>
+    <h2 class="d3" data-i18n="j.elopement-algarve-guia.b1">Casar legalmente em Portugal</h2>
+    <p data-i18n="j.elopement-algarve-guia.b2">Estrangeiros podem casar legalmente em Portugal, mas o processo na Conservatória do Registo Civil demora e exige documentação traduzida. A alternativa que a maioria dos casais escolhe é tratar da parte legal no seu país e fazer em Portugal uma cerimónia simbólica, conduzida por um celebrante — com a mesma emoção e zero burocracia.</p>
+    <h2 class="d3" data-i18n="j.elopement-algarve-guia.b3">Os melhores locais para um elopement</h2>
+    <ul>
+      <li data-i18n="j.elopement-algarve-guia.b4_0">Sagres e Costa Vicentina, para quem quer vento, falésia e dramatismo</li>
+      <li data-i18n="j.elopement-algarve-guia.b4_1">Praia da Marinha e Benagil, para a rocha dourada clássica</li>
+      <li data-i18n="j.elopement-algarve-guia.b4_2">Dunas da Ria Formosa, discretas e quase sempre vazias</li>
+      <li data-i18n="j.elopement-algarve-guia.b4_3">Quintas do interior, entre Loulé, Silves e Monchique</li>
+      <li data-i18n="j.elopement-algarve-guia.b4_4">Passadiços de Alvor ao nascer do sol</li>
+    </ul>
+    <p data-i18n="j.elopement-algarve-guia.b5">Algumas praias exigem autorização camarária para cerimónias com estrutura. Para um elopement simples, com duas pessoas e um celebrante, raramente é necessário — mas confirmo sempre antes.</p>
+    <p class="pull" data-i18n="j.elopement-algarve-guia.b6">Sem convidados, o dia deixa de ter horário. Passa a ter luz.</p>
+    <h2 class="d3" data-i18n="j.elopement-algarve-guia.b7">Um dia possível</h2>
+    <p data-i18n="j.elopement-algarve-guia.b8">Preparativos calmos ao início da tarde, no alojamento. Cerimónia cerca de duas horas antes do pôr do sol, quando o sol já baixou o suficiente para ninguém franzir os olhos. Depois, um passeio de uma hora só para fotografias, a hora dourada inteira. Jantar tardio num sítio à beira-mar. Nada disto precisa de correr contra o relógio.</p>
+    <h2 class="d3" data-i18n="j.elopement-algarve-guia.b9">Orçamento realista</h2>
+    <p data-i18n="j.elopement-algarve-guia.b10">Contando fotografia, celebrante, flores, um bom jantar e alojamento de dois ou três dias, a maioria dos elopements no Algarve fica entre 2.500 € e 6.000 € — uma fracção do custo de um casamento tradicional, com o dia inteiro dedicado a vocês.</p>
+    <div class="related">
+      <a class="lnk" href="#/s/casamentos"><span data-i18n="j.elopement-algarve-guia.b11_0">Fotografia de casamento e elopement</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/j/melhores-locais-sessoes-algarve"><span data-i18n="j.elopement-algarve-guia.b11_1">Melhores locais no Algarve</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/contacto"><span data-i18n="j.elopement-algarve-guia.b11_2">Falar comigo</span><span class="ar" aria-hidden="true">→</span></a>
+    </div>
+  </div></div>
+</section>
+
+<!-- ═══════ ARTIGO · escolher-fotografa-algarve ═══════ -->
+<section data-route="j/escolher-fotografa-algarve" hidden>
+  <div class="ph">
+    <div class="fig"><img src="img/casal-rostos-luz-dourada-algarve-xl.webp" alt="Grande plano de um casal com os rostos encostados em luz dourada" width="1800" height="1200" loading="lazy" decoding="async"></div>
+    <div class="ph-in">
+      <span class="eyebrow"><span data-i18n="j.escolher-fotografa-algarve.cat">Conselhos</span> · <span data-i18n="j.escolher-fotografa-algarve.date">30 Jul 2026 · 4 min</span></span>
+      <h1 class="d1" style="max-width:18ch" data-i18n="j.escolher-fotografa-algarve.t">Como escolher a fotógrafa certa no Algarve</h1>
+    </div>
+  </div>
+  <div class="shell band--tight"><div class="article">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><a href="#/journal">Journal</a><span>/</span><span data-i18n="j.escolher-fotografa-algarve.cat">Conselhos</span></nav>
+    <p class="lead" data-i18n="j.escolher-fotografa-algarve.d">Cinco perguntas que vale a pena fazer antes de reservar — e um sinal de alerta que muita gente ignora.</p>
+    <p data-i18n="j.escolher-fotografa-algarve.b0">Há centenas de fotógrafos no Algarve e quase todos têm um portfólio bonito. A diferença raramente está nas melhores fotografias de cada um — está na fotografia número quarenta de uma galeria completa.</p>
+    <h2 class="d3" data-i18n="j.escolher-fotografa-algarve.b1">1. Peça uma galeria completa</h2>
+    <p data-i18n="j.escolher-fotografa-algarve.b2">Um portfólio mostra os melhores dez momentos de cem trabalhos. Uma galeria completa mostra o que vai realmente receber. Se não lhe mostrarem uma, desconfie.</p>
+    <h2 class="d3" data-i18n="j.escolher-fotografa-algarve.b3">2. Veja se gosta das pessoas, não só das paisagens</h2>
+    <p data-i18n="j.escolher-fotografa-algarve.b4">O Algarve é lindo; é fácil fazer uma fotografia bonita aqui. Olhe para as caras: parecem confortáveis? Parecem elas próprias? É isso que vai sentir na sua sessão.</p>
+    <h2 class="d3" data-i18n="j.escolher-fotografa-algarve.b5">3. Pergunte quem edita</h2>
+    <p data-i18n="j.escolher-fotografa-algarve.b6">Muitos fotógrafos enviam o trabalho para edição externa. Não é necessariamente mau, mas muda a coerência do resultado e o prazo de entrega.</p>
+    <h2 class="d3" data-i18n="j.escolher-fotografa-algarve.b7">4. Confirme o que acontece se algo correr mal</h2>
+    <p data-i18n="j.escolher-fotografa-algarve.b8">Seguro profissional, duplo cartão de memória, backup imediato e uma rede de colegas para substituição em caso de doença. São perguntas pouco românticas e absolutamente essenciais.</p>
+    <h2 class="d3" data-i18n="j.escolher-fotografa-algarve.b9">5. Fale com a pessoa antes de decidir</h2>
+    <p data-i18n="j.escolher-fotografa-algarve.b10">Uma chamada de quinze minutos diz-lhe mais do que trezentas fotografias. Vai passar horas ao lado desta pessoa num dos dias mais importantes da sua vida: tem de ser alguém com quem se sinta à vontade.</p>
+    <p class="pull" data-i18n="j.escolher-fotografa-algarve.b11">O sinal de alerta não é o preço. É não conseguir ver uma galeria completa antes de reservar.</p>
+    <div class="related">
+      <a class="lnk" href="#/j/quanto-custa-fotografo-algarve"><span data-i18n="j.escolher-fotografa-algarve.b12_0">Quanto custa um fotógrafo no Algarve</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/portfolio"><span data-i18n="j.escolher-fotografa-algarve.b12_1">Ver portfólio</span><span class="ar" aria-hidden="true">→</span></a>
+      <a class="lnk" href="#/contacto"><span data-i18n="j.escolher-fotografa-algarve.b12_2">Pedir orçamento</span><span class="ar" aria-hidden="true">→</span></a>
+    </div>
+  </div></div>
+</section>
+<!-- ═══════════════════════════ SOBRE ═══════════════════════════ -->
+<section data-route="sobre" hidden>
+  <div class="shell" style="padding-top:clamp(120px,14vw,190px)">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><span data-i18n="nav.about">Sobre</span></nav>
+    <span class="eyebrow" data-i18n="ab.eyebrow2">Bianca Dafny · Fotógrafa no Algarve</span>
+    <h1 class="d1" style="max-width:17ch" data-i18n="ab.h1">Passo a vida à procura da última meia hora de luz.</h1>
+  </div>
+
+  <div class="shell band--tight">
+    <div class="about">
+      <figure class="portrait r" style="margin:0">
+        <div class="fig"><img id="foto-bianca" src="img/casal-rostos-luz-dourada-algarve-md.webp" data-full="img/casal-rostos-luz-dourada-algarve-xl.webp" alt="Fotografia de Bianca Dafny, fotógrafa no Algarve" width="1000" height="1500" loading="lazy" decoding="async"></div>
+        <figcaption data-i18n="ab.cap">Algarve, fim de tarde</figcaption>
+      </figure>
+      <div class="prose r" data-d="1">
+        <p class="lead" data-i18n="ab2.p1">Chamo-me Bianca Dafny. Vivo no Algarve e é aqui que fotografo pessoas: casamentos, famílias, casais e marcas.</p>
+        <p data-i18n="ab2.p2">Comecei por acidente, com uma câmara emprestada e a mania de fotografar toda a gente à minha volta. Percebi depressa que não me interessavam os retratos perfeitos. Interessava-me aquele meio segundo a seguir à gargalhada, quando a pessoa ainda não voltou a compor a cara.</p>
+        <p data-i18n="ab2.p3">Mudei-me para o sul e nunca mais consegui sair. Há qualquer coisa na luz daqui — nos pinhais de Vilamoura em agosto, nas falésias de Lagos em novembro, na Ria Formosa a qualquer hora — que continua a parecer-me um exagero. Aprendi a região a pé e de carro, a horas absurdas, à procura de sítios que ainda não estivessem gastos.</p>
+        <p data-i18n="ab2.p4">Trabalho sempre com luz natural. Dirijo pouco e observo muito. Quase nunca peço para olharem para mim.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="shell band--tight">
+    <div class="two">
+      <div class="r">
+        <span class="eyebrow" data-i18n="ab2.e1">O que podem esperar de mim</span>
+        <ul class="incl">
+          <li data-i18n="ab2.l1">Uma conversa antes, para perceber quem são e o que os faz rir.</li>
+          <li data-i18n="ab2.l2">Direção simples e concreta. Nunca «sorriam para a câmara».</li>
+          <li data-i18n="ab2.l3">Respeito pelo tempo das crianças e pelo desconforto de quem odeia fotografias.</li>
+          <li data-i18n="ab2.l4">Edição fiel: pele com textura, cores do Algarve, nada de filtros da moda.</li>
+          <li data-i18n="ab2.l5">Prazos cumpridos. Sempre.</li>
+          <li data-i18n="ab2.l6">Português, inglês e espanhol — e paciência infinita para as três.</li>
+        </ul>
+      </div>
+      <div class="r" data-d="1">
+        <span class="eyebrow" data-i18n="ab2.e2">O que me torna diferente</span>
+        <p data-i18n="ab2.p5">Não sou a fotógrafa mais rápida nem a mais barata do Algarve. Aceito poucos trabalhos por mês porque gosto de saber o nome dos vossos filhos antes de chegar ao sítio, e porque a edição de uma galeria demora-me o tempo que tiver de demorar.</p>
+        <p data-i18n="ab2.p6">Em troca, recebem fotografias que não precisam de explicação. Daqui a vinte anos, alguém vai pegar nelas e perceber exactamente como era estar ali.</p>
+        <div class="quote" style="margin-top:2rem">
+          <p class="d4 it" data-i18n="ab2.q">«A melhor fotografia da sessão é quase sempre aquela em que se esqueceram de mim.»</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="shell band--tight">
+    <span class="eyebrow eyebrow--line r" data-i18n="ab2.e3">Algumas imagens do arquivo</span>
+    <div class="gal3">
+      <figure class="r" style="margin:0"><div class="fig"><img src="img/detalhe-vestido-renda-areia-algarve-md.webp" data-full="img/detalhe-vestido-renda-areia-algarve-xl.webp" data-cap="Renda e areia" alt="Detalhe de vestido de renda e pés descalços na areia" width="1000" height="1400" loading="lazy" decoding="async"></div></figure>
+      <figure class="r" data-d="1" style="margin:0"><div class="fig"><img src="img/familia-praia-preto-e-branco-algarve-md.webp" data-full="img/familia-praia-preto-e-branco-algarve-xl.webp" data-cap="Fim de tarde na praia" alt="Família a caminhar à beira-mar a preto e branco" width="1000" height="1400" loading="lazy" decoding="async"></div></figure>
+      <figure class="r" data-d="2" style="margin:0"><div class="fig"><img src="img/casal-pinhal-preto-e-branco-algarve-md.webp" data-full="img/casal-pinhal-preto-e-branco-algarve-xl.webp" data-cap="Vento no pinhal" alt="Casal a preto e branco com o cabelo ao vento num pinhal" width="1000" height="1400" loading="lazy" decoding="async"></div></figure>
+    </div>
+  </div>
+
+  <div class="cta">
+    <div class="fig"><img src="img/noivos-pergola-horizontal-algarve-md.webp" alt="" aria-hidden="true" width="1000" height="667" loading="lazy" decoding="async"></div>
+    <div class="cta-in shell">
+      <h2 class="d2" data-i18n="ab2.ctah">Se chegou até aqui, provavelmente damo-nos bem.</h2>
+      <p data-i18n="ab2.ctap">Conte-me o que está a planear. Prometo responder como pessoa e não como formulário.</p>
+      <a class="btn btn--ghost" href="#/contacto" data-i18n="cta.b">Entrar em contacto</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CONTACTO ═══════════════════════════ -->
+<section data-route="contacto" hidden>
+  <div class="shell" style="padding-top:clamp(120px,14vw,190px)">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="#/" data-i18n="crumb.home">Início</a><span>/</span><span data-i18n="nav.contact">Contacto</span></nav>
+    <span class="eyebrow" data-i18n="ct.eyebrow">Contacto · Algarve, Portugal</span>
+    <h1 class="d1" style="max-width:14ch" data-i18n="ct.h1">Vamos criar algo bonito.</h1>
+    <p class="lead prose" style="margin-top:1.4rem;margin-bottom:clamp(40px,5vw,66px)" data-i18n="ct.sub">Preencha o que souber — o resto descobrimos juntos. Respondo a todos os pedidos em 24 horas, dias úteis.</p>
+  </div>
+
+  <div class="shell band--tight" style="padding-top:0">
+    <div class="two">
+      <div>
+        <form id="form" novalidate>
+          <div class="form">
+            <div class="field">
+              <label for="f-nome" data-i18n="ct.f.name">Nome</label>
+              <input id="f-nome" name="nome" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-email" data-i18n="ct.f.email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="f-tel" data-i18n="ct.f.tel">Telefone (opcional)</label>
+              <input id="f-tel" name="telefone" type="tel" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="f-tipo" data-i18n="ct.f.type">Tipo de sessão</label>
+              <select id="f-tipo" name="tipo">
+                <option data-i18n="ct.o.wed">Casamento</option>
+                <option data-i18n="ct.o.elo">Elopement</option>
+                <option data-i18n="ct.o.cou">Casal</option>
+                <option data-i18n="ct.o.fam">Família</option>
+                <option data-i18n="ct.o.pre">Gravidez / Newborn</option>
+                <option data-i18n="ct.o.por">Retrato</option>
+                <option data-i18n="ct.o.bra">Marca / Empresa</option>
+                <option data-i18n="ct.o.hos">Hotel / Turismo</option>
+                <option data-i18n="ct.o.oth">Outro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-data" data-i18n="ct.f.date">Data (ou aproximada)</label>
+              <input id="f-data" name="data" type="date">
+            </div>
+            <div class="field">
+              <label for="f-local" data-i18n="ct.f.place">Localização</label>
+              <input id="f-local" name="local" type="text" placeholder="Lagos, Vilamoura, Faro…">
+            </div>
+            <div class="field">
+              <label for="f-pessoas" data-i18n="ct.f.people">Número de pessoas</label>
+              <input id="f-pessoas" name="pessoas" type="number" min="1" inputmode="numeric" placeholder="2">
+            </div>
+            <div class="field field--full">
+              <label for="f-msg" data-i18n="ct.f.msg">Mensagem</label>
+              <textarea id="f-msg" name="mensagem" placeholder="Conte-me um pouco sobre vocês e sobre o que está a imaginar."></textarea>
+            </div>
+            <div class="field field--full">
+              <button class="btn" type="submit" data-i18n="ct.f.send">Enviar pedido</button>
+              <p class="small" style="margin-top:1rem" data-i18n="ct.f.note">Ao enviar, abre-se o seu programa de email com a mensagem já escrita. Prefere WhatsApp? Use o botão ao lado.</p>
+            </div>
+          </div>
+        </form>
+        <div class="sent" id="sent" hidden>
+          <h2 class="d3" data-i18n="ct.done.h">Obrigada — está quase.</h2>
+          <p style="margin-top:1rem" data-i18n="ct.done.p">Abri o seu email com o pedido já preenchido. Basta carregar em enviar. Se não abriu, escreva-me directamente para biancadafnyrocha17@gmail.com.</p>
+          <button class="lnk" type="button" id="again"><span data-i18n="ct.done.b">Preencher outro pedido</span><span class="ar" aria-hidden="true">→</span></button>
+        </div>
+      </div>
+
+      <div>
+        <ul class="contact-list">
+          <li><h4 data-i18n="ct.c.mail">Email</h4><a href="mailto:biancadafnyrocha17@gmail.com" data-track="email">biancadafnyrocha17@gmail.com</a></li>
+          <li><h4>WhatsApp</h4><a href="https://wa.me/351910895893" target="_blank" rel="noopener" data-track="whatsapp">+351 910 895 893</a></li>
+          <li><h4>Instagram</h4><a href="https://instagram.com/biancadafny.fotografia" target="_blank" rel="noopener" data-track="instagram">@biancadafny.fotografia</a></li>
+          <li><h4 data-i18n="ct.c.base">Base</h4><span class="d4" data-i18n="ct.c.basev">Algarve, Portugal</span></li>
+          <li><h4 data-i18n="ct.c.hours">Resposta</h4><span class="d4" data-i18n="ct.c.hoursv">Em 24 horas, dias úteis</span></li>
+        </ul>
+        <div class="pricebox" style="margin-top:2.4rem">
+          <span class="eyebrow" data-i18n="ct.box.e">Antes de escrever</span>
+          <p class="small" style="margin:0" data-i18n="ct.box.p">Se souber a data e o local, diga — consigo responder com muito mais detalhe. Se ainda não souber nada, diga isso também: ajudo a decidir.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="shell band--tight">
+    <span class="eyebrow eyebrow--line r" data-i18n="ct.ig.e">Instagram</span>
+    <div class="two" style="align-items:center">
+      <h2 class="d2 r" data-i18n="ct.ig.h">O trabalho do dia a dia vive aqui.</h2>
+      <div class="r" data-d="1">
+        <p data-i18n="ct.ig.p">Bastidores, sessões recentes e a luz do Algarve em tempo real.</p>
+        <a class="lnk" href="https://instagram.com/biancadafny.fotografia" target="_blank" rel="noopener" data-track="instagram"><span data-i18n="ct.ig.b">See more on Instagram</span><span class="ar" aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell">
+    <div class="foot-grid">
+      <div>
+        <h4 data-i18n="ft.nav">Navegar</h4>
+        <ul>
+          <li><a href="#/portfolio" data-i18n="nav.port">Portfólio</a></li>
+          <li><a href="#/servicos" data-i18n="nav.serv">Serviços</a></li>
+          <li><a href="#/sobre" data-i18n="nav.about">Sobre</a></li>
+          <li><a href="#/journal">Journal</a></li>
+          <li><a href="#/contacto" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.serv">Serviços</h4>
+        <ul>
+          <li><a href="#/s/casamentos" data-i18n="s.casamentos.nav">Casamentos &amp; Elopements</a></li>
+          <li><a href="#/s/familias" data-i18n="s.familias.nav">Famílias</a></li>
+          <li><a href="#/s/casais" data-i18n="s.casais.nav">Casais</a></li>
+          <li><a href="#/s/retratos" data-i18n="s.retratos.nav">Retratos &amp; Gravidez</a></li>
+          <li><a href="#/s/marcas" data-i18n="s.marcas.nav">Fotografia para Marcas</a></li>
+          <li><a href="#/s/hospitality" data-i18n="s.hospitality.nav">Turismo &amp; Hospitality</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.where">Onde fotografo</h4>
+        <ul>
+          <li><span>Lagos · Portimão · Alvor</span></li>
+          <li><span>Albufeira · Carvoeiro · Lagoa</span></li>
+          <li><span>Vilamoura · Quinta do Lago · Vale do Lobo</span></li>
+          <li><span>Loulé · Faro · Tavira · Sagres</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.contact">Contacto</h4>
+        <ul>
+          <li><a href="mailto:biancadafnyrocha17@gmail.com" data-track="email">biancadafnyrocha17@gmail.com</a></li>
+          <li><a href="https://wa.me/351910895893" target="_blank" rel="noopener" data-track="whatsapp">+351 910 895 893</a></li>
+          <li><a href="https://instagram.com/biancadafny.fotografia" target="_blank" rel="noopener" data-track="instagram">@biancadafny.fotografia</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-mark" aria-hidden="true">Bianca Dafny</div>
+    <div class="foot-bot">
+      <span>© <span class="num">2026</span> Bianca Dafny Fotografia · <span data-i18n="ft.rights">Todos os direitos reservados</span></span>
+      <span data-i18n="ft.made">Fotografia profissional no Algarve, Portugal</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mcta" id="mcta">
+  <a href="#/portfolio" data-i18n="m.port">Portfólio</a>
+  <a href="https://wa.me/351910895893" target="_blank" rel="noopener" data-track="whatsapp">WhatsApp</a>
+  <a class="pri" href="#/contacto" data-i18n="m.quote">Pedir orçamento</a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galeria" hidden>
+  <div class="lb-bar">
+    <span class="num" id="lb-count">1 / 1</span>
+    <button type="button" id="lb-close" aria-label="Fechar">✕</button>
+  </div>
+  <img id="lb-img" src="" alt="">
+  <div class="lb-nav">
+    <button type="button" id="lb-prev" aria-label="Anterior">←</button>
+    <span class="lb-cap" id="lb-cap"></span>
+    <button type="button" id="lb-next" aria-label="Seguinte">→</button>
+  </div>
+</div>
+
+<div class="cur" id="cur" aria-hidden="true"><span data-i18n="cur">Ver</span></div>
+<script id="i18n-en" type="application/json">{"s.casamentos.eye": "Wedding photographer in the Algarve", "s.casamentos.h1": "Your day, told exactly as it happened.", "s.casamentos.nav": "Weddings & Elopements", "s.casamentos.lead": "I photograph weddings and elopements across the Algarve — from countryside estates to barefoot ceremonies on the sand. No endless pose checklists, no one shouting instructions. Just the day happening, with someone paying close attention.", "s.casamentos.who": "Couples who prefer honest pictures to staged ones — and who want to look at them in twenty years and still recognise themselves. From 120-guest weddings in Lagos to two-person elopements at sunset in Sagres.", "s.casamentos.i0": "Planning meeting and location scouting (in person or online)", "s.casamentos.i1": "6, 8, 10 hours or full-day coverage", "s.casamentos.i2": "Golden-hour couple session, away from the guests", "s.casamentos.i3": "Every photograph from the day, edited in colour and black and white", "s.casamentos.i4": "Private online gallery with downloads and sharing", "s.casamentos.i5": "Second shooter and film available on request", "s.casamentos.i6": "Delivered in 4 to 6 weeks", "s.casamentos.c0": "Dune elopement · Praia de Faro", "s.casamentos.c1": "Lace and sand", "s.casamentos.c2": "Under the wisteria", "s.casamentos.price": "From €800", "s.casamentos.pricen": "Elopements from €100, with one hour of photography. A wedding's final figure depends on hours of coverage, number of locations and travel — I always send a personalised quote.", "s.casamentos.q0": "How far in advance should I book?", "s.casamentos.a0": "For weddings between May and September, ideally 8 to 12 months ahead. I take on a limited number of weddings each year so I can give each one my full attention.", "s.casamentos.q1": "Do you travel outside the Algarve?", "s.casamentos.a1": "Yes. Alentejo and Lisbon with minimal extra cost; the rest of Portugal, Spain and international destinations with a travel and accommodation quote.", "s.casamentos.q2": "What if it rains?", "s.casamentos.a2": "Rain in the Algarve is rare — and it makes beautiful pictures. I always carry a plan B of covered locations and clear umbrellas in the car.", "s.casamentos.mt": "Algarve Wedding Photographer | Bianca Dafny Photography", "s.casamentos.md": "Algarve wedding photographer. Weddings and elopements in Lagos, Albufeira, Vilamoura and across the region — documentary photography in natural light. From €800.", "s.familias.eye": "Family photographer in the Algarve", "s.familias.h1": "Children don't pose. Thank goodness.", "s.familias.nav": "Families", "s.familias.lead": "Family sessions in the pine woods, on the beach or at home, at the children's pace. Nobody has to sit still, nobody has to smile on cue — which is exactly why these pictures end up looking like you.", "s.familias.who": "Families on holiday in the Algarve who want to take home more than phone snapshots. Families who live here and just realised it's been three years since they were all in one picture. Grandparents, cousins, big gatherings — those too.", "s.familias.i0": "Help choosing the location and the right light window", "s.familias.i1": "Preparation guide with clothing suggestions before the session", "s.familias.i2": "1-hour session (2 hours in the extended option)", "s.familias.i3": "Around 30 edited high-resolution photographs", "s.familias.i4": "Individual portraits of each child", "s.familias.i5": "Private gallery with high-resolution downloads", "s.familias.i6": "Delivered within 10 working days", "s.familias.c0": "Walking through the pines", "s.familias.c1": "Late afternoon by the sea", "s.familias.c2": "Waiting for number two", "s.familias.price": "From €100", "s.familias.pricen": "1-hour session €100, with around 30 edited photographs. Longer sessions and extended families on request.", "s.familias.q0": "What's the best age to photograph children?", "s.familias.a0": "All of them work — only the approach changes. With babies we shoot in arms and at home; between 2 and 5 the session is all movement and play; after that we can manage some calm portraits too.", "s.familias.q1": "What if my child won't cooperate?", "s.familias.a1": "There's no such thing. Tantrums, running off and hiding are part of it — and honestly they make some of the best pictures. I never force a child into anything.", "s.familias.q2": "Can we do the session at our villa?", "s.familias.a2": "Of course. Sessions at home or at your rental villa are among my favourites: breakfast, bath time, the sofa. All it takes is natural light.", "s.familias.mt": "Family Photographer in the Algarve | Bianca Dafny Photography", "s.familias.md": "Family photographer in the Algarve. Natural sessions on the beach, in the pine woods or at home, in Lagos, Albufeira, Vilamoura and Faro. From €100.", "s.casais.eye": "Couples photographer in the Algarve", "s.casais.h1": "One golden hour, entirely yours.", "s.casais.nav": "Couples", "s.casais.lead": "Couple sessions, proposals and anniversaries photographed at the best moment of the day. You arrive nervous, leave saying it felt like a date — and take home pictures that look nothing like studio work.", "s.casais.who": "Couples who don't like being photographed (most of my clients). People passing through the Algarve who want to keep the trip. And anyone about to propose who wants the moment captured without the other person suspecting a thing.", "s.casais.i0": "Choosing the location together: beach, cliff, pine wood or whitewashed village", "s.casais.i1": "Time scheduled around the sunset on your chosen date", "s.casais.i2": "1 hour of shooting with unobtrusive direction", "s.casais.i3": "Around 30 edited photographs, in colour and black and white", "s.casais.i4": "Optional surprise proposal, planned with me", "s.casais.i5": "Private gallery with high-resolution downloads", "s.casais.i6": "Delivered within 10 working days", "s.casais.c0": "An embrace on the boardwalk", "s.casais.c1": "Wind in the pines", "s.casais.c2": "Faces, up close", "s.casais.price": "From €100", "s.casais.pricen": "1-hour session €100, with around 30 edited photographs. Surprise proposals and two-location sessions on request.", "s.casais.q0": "We have no idea how to pose. Is that a problem?", "s.casais.a0": "It's the sentence I hear most, and it has never been a problem. I give simple, concrete prompts — walk, lean your forehead in, whisper a story — and photograph what happens in between.", "s.casais.q1": "Where's the best place for a couple session in the Algarve?", "s.casais.a1": "It depends on the light and the season. In summer I prefer dunes and pine woods, which empty out at the end of the day; off-season, the cliffs of Lagos and Carvoeiro are spectacular. I always suggest two or three options for your date.", "s.casais.q2": "Can we bring a change of clothes?", "s.casais.a2": "Yes, though it's usually unnecessary. I'd rather you were comfortable in one outfit than lose twenty minutes of light changing.", "s.casais.mt": "Couples Photographer in the Algarve | Bianca Dafny Photography", "s.casais.md": "Couples photographer in the Algarve. Golden-hour sessions, proposals and anniversaries in Lagos, Carvoeiro, Alvor and Faro. From €100.", "s.retratos.eye": "Portrait photographer in the Algarve", "s.retratos.h1": "A portrait is a conversation, held still.", "s.retratos.nav": "Portraits & Maternity", "s.retratos.lead": "Individual portraits, maternity and newborn. Calm sessions with no built sets, where the only thing that interests me is what appears on someone's face the moment they forget the camera.", "s.retratos.who": "Anyone who needs a professional portrait that doesn't look like a passport photo. Expectant mothers from 28 weeks. Newborns in their first two weeks, photographed at home, in their parents' bed, by window light.", "s.retratos.i0": "A conversation beforehand about what you want the images to say", "s.retratos.i1": "45 to 60 minutes of shooting", "s.retratos.i2": "Natural retouching — skin keeps its texture, never plastic", "s.retratos.i3": "Around 30 edited high-resolution photographs", "s.retratos.i4": "Vertical and horizontal crops for social media and LinkedIn", "s.retratos.i5": "Newborn sessions at home, at the baby's pace", "s.retratos.i6": "Delivered within 7 working days", "s.retratos.c0": "Maternity on the dune", "s.retratos.c1": "Black and white", "s.retratos.c2": "Little shoes in the sand", "s.retratos.price": "From €100", "s.retratos.pricen": "Individual portrait, maternity or newborn: a 1-hour session from €100, with around 30 edited photographs.", "s.retratos.q0": "When should I do my maternity session?", "s.retratos.a0": "Between 28 and 34 weeks. The bump is round and you can still walk comfortably on sand.", "s.retratos.q1": "Do you do newborn sessions in a studio?", "s.retratos.a1": "No. I always shoot at home, within the first fifteen days, in natural light and without props. The baby sets the pace.", "s.retratos.q2": "Do you do corporate headshots?", "s.retratos.a2": "Yes, individual or team, at your space or outdoors. For teams, request a quote on the Brands page.", "s.retratos.mt": "Portrait & Maternity Photographer in the Algarve | Bianca Dafny", "s.retratos.md": "Portrait, maternity and newborn photography in the Algarve. Natural sessions at home or outdoors in Faro, Loulé, Albufeira and Lagos. From €100.", "s.marcas.eye": "Brand photography in the Algarve", "s.marcas.h1": "Your brand has a face, too.", "s.marcas.nav": "Brand Photography", "s.marcas.lead": "Personal branding, product and social content. Photographs that look like you — made with the same attention to light and truth I bring to people, applied to what you sell.", "s.marcas.who": "Founders, therapists, architects, chefs and small Algarve brands who are tired of stock photography. Anyone launching a website, a course or a new brand who needs a coherent image library of their own.", "s.marcas.i0": "Brand briefing: tone, colours, references and where the images will live", "s.marcas.i1": "Moodboard and shot plan before the shoot day", "s.marcas.i2": "Half-day or full-day production", "s.marcas.i3": "Portrait, environment, detail, product and behind the scenes", "s.marcas.i4": "Vertical framing for Reels and Stories", "s.marcas.i5": "Commercial licence for website, social and paid media", "s.marcas.i6": "Delivered within 10 working days", "s.marcas.price": "On request", "s.marcas.pricen": "Every project is quoted individually, based on production time, number of shots and how the images will be used. Commercial licence included.", "s.marcas.q0": "How many photographs do I get?", "s.marcas.a0": "The number of images depends on how long the production runs and is agreed at the briefing. They arrive organised by theme, so you always know what to post next.", "s.marcas.q1": "Can I use the images in advertising?", "s.marcas.a1": "Yes. Every package includes a commercial licence. For campaigns with hired models, we handle the image releases.", "s.marcas.q2": "Do you work with agencies and design studios?", "s.marcas.a2": "Often. I can work from existing art direction or propose my own, whichever you prefer.", "s.marcas.mt": "Brand Photography in the Algarve | Bianca Dafny Photography", "s.marcas.md": "Brand photography in the Algarve: personal branding, product and social content. Commercial licence included.", "s.hospitality.eye": "Hospitality photography in the Algarve", "s.hospitality.h1": "Images that get you booked.", "s.hospitality.nav": "Tourism & Hospitality", "s.hospitality.lead": "Hotels, villas, restaurants and experiences photographed as though someone were already on holiday inside them. Because that's what makes people click 'book': picturing themselves there.", "s.hospitality.who": "Local accommodation, boutique hotels, rental villas and Algarve restaurants that want to escape the booking-portal look. I also produce seasonal campaign and social content.", "s.hospitality.i0": "Advance visit and a light plan by room and time of day", "s.hospitality.i1": "Interiors, exteriors, details and food", "s.hospitality.i2": "Lifestyle imagery with people, to bring the space alive", "s.hospitality.i3": "Sunrise and sunset included in the production day", "s.hospitality.i4": "Perspective correction and architectural colour grading", "s.hospitality.i5": "Licence for website, OTAs, social media and press", "s.hospitality.i6": "Delivered within 14 working days", "s.hospitality.price": "On request", "s.hospitality.pricen": "Quoted individually, based on the size of the property, the number of production days and how the images will be used.", "s.hospitality.q0": "Do we need to prepare the space?", "s.hospitality.a0": "I send a preparation checklist a week ahead: linens, flowers, what to clear off the counters. It makes an enormous difference to the result.", "s.hospitality.q1": "Do you photograph food as well?", "s.hospitality.a1": "Yes, in natural light whenever possible and in coordination with the kitchen so dishes arrive at the right moment.", "s.hospitality.q2": "How long does the shoot take?", "s.hospitality.a2": "A three-bedroom villa takes half a day. A small hotel, one day. Larger properties we plan over two days to catch both golden hours.", "s.hospitality.mt": "Hotel & Tourism Photography in the Algarve | Bianca Dafny", "s.hospitality.md": "Photography for hotels, villas and restaurants in the Algarve. Interiors, lifestyle and food with a commercial licence.", "j.quanto-custa-fotografo-algarve.t": "How much does a photographer cost in the Algarve?", "j.quanto-custa-fotografo-algarve.d": "Real 2026 rates in the region, what is and isn't included, and how to tell whether a quote is expensive or simply complete.", "j.quanto-custa-fotografo-algarve.cat": "Pricing guide", "j.quanto-custa-fotografo-algarve.date": "14 Sep 2026 · 6 min", "j.quanto-custa-fotografo-algarve.mt": "How much does a photographer cost in the Algarve? 2026 prices", "j.melhores-locais-sessoes-algarve.t": "The best locations for a photo session in the Algarve", "j.melhores-locais-sessoes-algarve.d": "Nine places I use often — beaches, pine woods, cliffs and villages — with the best light window and how crowded each one gets.", "j.melhores-locais-sessoes-algarve.cat": "Locations", "j.melhores-locais-sessoes-algarve.date": "2 Sep 2026 · 7 min", "j.melhores-locais-sessoes-algarve.mt": "Best photo session locations in the Algarve | Bianca Dafny", "j.elopement-algarve-guia.t": "Eloping in the Algarve: the complete guide", "j.elopement-algarve-guia.d": "How to plan a ceremony for two in southern Portugal: legalities, locations, budget and the ideal rhythm of a day without guests.", "j.elopement-algarve-guia.cat": "Weddings", "j.elopement-algarve-guia.date": "18 Aug 2026 · 8 min", "j.elopement-algarve-guia.mt": "Eloping in the Algarve: complete 2026 guide | Bianca Dafny", "j.escolher-fotografa-algarve.t": "How to choose the right photographer in the Algarve", "j.escolher-fotografa-algarve.d": "Five questions worth asking before you book — and one red flag most people ignore.", "j.escolher-fotografa-algarve.cat": "Advice", "j.escolher-fotografa-algarve.date": "30 Jul 2026 · 4 min", "j.escolher-fotografa-algarve.mt": "How to choose the right photographer in the Algarve", "j.quanto-custa-fotografo-algarve.b0": "The short answer", "j.quanto-custa-fotografo-algarve.b1": "In the Algarve, the price of a session comes down to three things: how long it lasts, how many edited photographs you receive, and how far the photographer has to travel. A one-hour session with an edited gallery runs between €100 and €400. A wedding falls between €800 and €3,000, depending on hours of coverage and whether there's a second shooter.", "j.quanto-custa-fotografo-algarve.b2": "The spread inside those ranges is rarely random: it reflects editing time, delivery deadlines, equipment and the kind of coverage involved. It's worth understanding what each quote includes rather than comparing numbers alone.", "j.quanto-custa-fotografo-algarve.b3": "The price of a photograph is rarely the price of the day. It's the price of everything that happens before and after it.", "j.quanto-custa-fotografo-algarve.b4": "Why the numbers vary so much", "j.quanto-custa-fotografo-algarve.b5": "Two quotes with the same number can be entirely different things. It's always worth comparing these six points:", "j.quanto-custa-fotografo-algarve.b6_0": "Number of edited photographs — and whether editing is individual or batch", "j.quanto-custa-fotografo-algarve.b6_1": "Delivery time, which ranges from 7 days to 3 months", "j.quanto-custa-fotografo-algarve.b6_2": "Usage rights, especially in commercial photography", "j.quanto-custa-fotografo-algarve.b6_3": "Travel: many photographers charge beyond a 30 km radius", "j.quanto-custa-fotografo-algarve.b6_4": "Second shooter, assistant and lighting equipment", "j.quanto-custa-fotografo-algarve.b6_5": "Albums, prints and physical products, almost always extra", "j.quanto-custa-fotografo-algarve.b7": "What tends to be left out", "j.quanto-custa-fotografo-algarve.b8": "The most common surprises are the hourly rate for overtime on the wedding day, travel outside the region, and buying extra images when the delivered gallery is small. Always ask for those three figures in writing before signing.", "j.quanto-custa-fotografo-algarve.b9": "My own rates", "j.quanto-custa-fotografo-algarve.b10": "I work with fixed, published prices: sessions from €100, with one hour of photography and around 30 edited images, and weddings from €800. The final figure depends on hours of coverage, number of locations and travel — I always send a personalised quote within 24 hours. You'll find the detail on each service page.", "j.quanto-custa-fotografo-algarve.b11_0": "Algarve wedding photography", "j.quanto-custa-fotografo-algarve.b11_1": "Couple sessions", "j.quanto-custa-fotografo-algarve.b11_2": "Family sessions", "j.melhores-locais-sessoes-algarve.b0": "The Algarve has two hundred kilometres of coastline and an enormous difference between its western and eastern halves. Choosing the right place is half the work — the other half is choosing the right hour.", "j.melhores-locais-sessoes-algarve.b1": "Praia de Faro and the Ria Formosa", "j.melhores-locais-sessoes-algarve.b2": "High dunes, wooden boardwalks and light that turns honey-coloured at the end of the day. It's where I take most couples, especially outside high season. Best time: 60 minutes before sunset.", "j.melhores-locais-sessoes-algarve.b3": "The pine woods of Vilamoura and Quinta do Lago", "j.melhores-locais-sessoes-algarve.b4": "My secret for summer family sessions: shade, a soft floor of pine needles, room for children to run and beams of light cutting through the trunks. It's never crowded.", "j.melhores-locais-sessoes-algarve.b5": "The cliffs of Lagos and Ponta da Piedade", "j.melhores-locais-sessoes-algarve.b6": "The Algarve postcard: golden rock and turquoise water. Spectacular, but packed between June and September — it works best at sunrise or in the shoulder season.", "j.melhores-locais-sessoes-algarve.b7": "Carvoeiro and Algar Seco", "j.melhores-locais-sessoes-algarve.b8": "Dramatic rock formations and staircases between cliffs. Excellent for couple sessions with a more editorial, cinematic feel.", "j.melhores-locais-sessoes-algarve.b9": "The Tavira salt pans and Praia do Barril", "j.melhores-locais-sessoes-algarve.b10": "The eastern Algarve is calmer and flatter. The salt pans turn into pink mirrors at sunset; Barril has anchors buried in the sand, which makes an unrepeatable backdrop.", "j.melhores-locais-sessoes-algarve.b11": "Alvor, Sagres and the whitewashed villages", "j.melhores-locais-sessoes-algarve.b12": "The Alvor boardwalk at dawn is one of the most beautiful things in the region. Sagres is wind, black cliffs and the end of the world — perfect for elopements. And there are always the whitewashed streets of Loulé, Silves or Ferragudo for those who prefer stone to sand.", "j.melhores-locais-sessoes-algarve.b13": "Don't choose a location because of a picture you saw on Instagram. Choose it by the hour you can actually be there.", "j.melhores-locais-sessoes-algarve.b14": "How I choose with you", "j.melhores-locais-sessoes-algarve.b15": "Once you've booked, I send two or three suggestions for your exact date, with the precise sunset time, the tide and a note about parking and the walk in. Most of the time we end up somewhere that wasn't on the original list — and it's almost always the best one.", "j.melhores-locais-sessoes-algarve.b16_0": "Couple sessions in the Algarve", "j.melhores-locais-sessoes-algarve.b16_1": "Algarve elopement guide", "j.melhores-locais-sessoes-algarve.b16_2": "See the portfolio", "j.elopement-algarve-guia.b0": "An elopement isn't a small wedding. It's a different thing entirely: a day built around two people, with no guest timings, no top table and no speeches. In the Algarve, with our climate and coastline, it works particularly well.", "j.elopement-algarve-guia.b1": "Getting legally married in Portugal", "j.elopement-algarve-guia.b2": "Foreign nationals can legally marry in Portugal, but the civil registry process takes time and requires translated paperwork. The route most couples choose is to handle the legal part at home and hold a symbolic ceremony in Portugal, led by a celebrant — same emotion, zero bureaucracy.", "j.elopement-algarve-guia.b3": "The best places to elope", "j.elopement-algarve-guia.b4_0": "Sagres and the Costa Vicentina, for wind, cliffs and drama", "j.elopement-algarve-guia.b4_1": "Praia da Marinha and Benagil, for the classic golden rock", "j.elopement-algarve-guia.b4_2": "The Ria Formosa dunes, discreet and nearly always empty", "j.elopement-algarve-guia.b4_3": "Countryside estates between Loulé, Silves and Monchique", "j.elopement-algarve-guia.b4_4": "The Alvor boardwalks at sunrise", "j.elopement-algarve-guia.b5": "Some beaches require a municipal permit for ceremonies with any structure. For a simple elopement with two people and a celebrant it's rarely needed — but I always check first.", "j.elopement-algarve-guia.b6": "Without guests, the day stops having a schedule. It starts having light.", "j.elopement-algarve-guia.b7": "One possible day", "j.elopement-algarve-guia.b8": "A calm start in the early afternoon, getting ready at your accommodation. Ceremony about two hours before sunset, when the sun is low enough that nobody squints. Then an hour of walking, just for pictures, through the whole golden hour. A late dinner somewhere by the sea. None of it needs to race the clock.", "j.elopement-algarve-guia.b9": "A realistic budget", "j.elopement-algarve-guia.b10": "Counting photography, celebrant, flowers, a good dinner and two or three nights' accommodation, most Algarve elopements land between €2,500 and €6,000 — a fraction of a traditional wedding, with the whole day devoted to the two of you.", "j.elopement-algarve-guia.b11_0": "Wedding and elopement photography", "j.elopement-algarve-guia.b11_1": "Best locations in the Algarve", "j.elopement-algarve-guia.b11_2": "Get in touch", "j.escolher-fotografa-algarve.b0": "There are hundreds of photographers in the Algarve and nearly all of them have a beautiful portfolio. The difference is rarely in anyone's best pictures — it's in picture number forty of a full gallery.", "j.escolher-fotografa-algarve.b1": "1. Ask for a full gallery", "j.escolher-fotografa-algarve.b2": "A portfolio shows the best ten moments out of a hundred jobs. A full gallery shows what you'll actually receive. If nobody will show you one, be suspicious.", "j.escolher-fotografa-algarve.b3": "2. Look at the people, not just the landscapes", "j.escolher-fotografa-algarve.b4": "The Algarve is beautiful; it's easy to make a pretty picture here. Look at the faces: do they seem comfortable? Do they seem like themselves? That's what your session will feel like.", "j.escolher-fotografa-algarve.b5": "3. Ask who does the editing", "j.escolher-fotografa-algarve.b6": "Many photographers outsource their editing. It isn't necessarily bad, but it changes the consistency of the result and the delivery time.", "j.escolher-fotografa-algarve.b7": "4. Confirm what happens if something goes wrong", "j.escolher-fotografa-algarve.b8": "Professional insurance, dual memory cards, immediate backup and a network of colleagues to step in if they fall ill. Unromantic questions, absolutely essential ones.", "j.escolher-fotografa-algarve.b9": "5. Talk to them before deciding", "j.escolher-fotografa-algarve.b10": "A fifteen-minute call tells you more than three hundred photographs. You'll spend hours beside this person on one of the most important days of your life: it has to be someone you feel at ease with.", "j.escolher-fotografa-algarve.b11": "The red flag isn't the price. It's not being able to see a full gallery before you book.", "j.escolher-fotografa-algarve.b12_0": "How much a photographer costs", "j.escolher-fotografa-algarve.b12_1": "See the portfolio", "j.escolher-fotografa-algarve.b12_2": "Request a quote", "skip": "Skip to content", "nav.home": "Home", "nav.port": "Portfolio", "nav.serv": "Services", "nav.about": "About", "nav.contact": "Contact", "nav.journal": "Journal", "crumb.home": "Home", "cur": "View", "hero.eyebrow": "Photographer in the Algarve · Portugal", "hero.h1": "Photography with soul, light and stories from the Algarve.", "hero.sub": "Professional photography in the Algarve for people, brands and moments worth remembering.", "hero.cta1": "See my work", "hero.cta2": "Let's create something", "hero.scroll": "Scroll", "man.quote": "I don't only photograph moments.<br>I photograph what is <span class=\"it\">felt</span>.", "man.p1": "I work with natural light, unhurried time and quiet direction — just enough for you to feel at ease in front of the camera.", "man.p2": "It began with an old obsession: the way late-afternoon light falls across the pine woods and dunes of the Algarve, and the way people change the moment they stop posing. It's there, in the gap between the pose and the real laugh, that I usually press the shutter.", "man.link": "About my approach", "svc.eyebrow": "What I photograph", "svc.h2": "Six ways of telling the same thing: the truth of whoever is in front of the camera.", "svc.1.t": "Weddings &amp; Elopements", "svc.2.t": "Families", "svc.3.t": "Couples", "svc.4.t": "Portraits &amp; Maternity", "svc.5.t": "Brand Photography", "svc.6.t": "Tourism &amp; Hospitality", "svc.1.d": "Full days or two-person escapes on the cliffs, shot like a documentary with beautiful light.", "svc.2.d": "Sessions in motion, with children being children and nobody saying “look over here”.", "svc.3.d": "Proposals, anniversaries, or simply because. One golden hour that belongs to you.", "svc.4.d": "Individual portraits, maternity, newborn at home. Intimacy without artifice.", "svc.5.d": "Personal branding, product and social content with the right look for your brand.", "svc.6.d": "Hotels, villas, restaurants and experiences. Images that get you booked.", "sel.eyebrow": "Selected stories", "sel.link": "See the full portfolio", "alg.eyebrow": "The Algarve through my lens", "alg.h2": "I know the exact hour each beach turns beautiful.", "alg.p1": "Twenty minutes of light can change everything. So I plan each session around the tide, the season and the place — never the other way round.", "alg.p2": "From the pine woods of Vilamoura to the fire-coloured cliffs of Lagos, by way of the Tavira salt pans and the Ria Formosa boardwalks, I choose the places that aren't on everyone's list yet.", "alg.cap": "Pine wood by the beach · last hour of sun", "ab.eyebrow": "About me", "ab.h2": "I'm Bianca. I don't ask for smiles — I wait for them.", "ab.p1": "I live in the Algarve, work across southern Portugal, and believe a good photograph starts long before the shutter: it starts with the conversation.", "ab.p2": "I don't like rigid sessions or smiles on demand. I like getting you walking, talking, laughing at something of your own — and staying close by, almost invisible, catching what happens next.", "ab.link": "Read my story", "tst.eyebrow": "What people say", "tst.1.q": "«We arrived nervous and ten minutes later we were just being ourselves. The photographs are exactly that.»", "tst.1.a": "Marta &amp; João · Wedding in Lagos", "tst.2.q": "«Our son didn't sit still for a second and Bianca simply followed him. We have our whole family in those pictures.»", "tst.2.a": "The Andrade family · Vilamoura", "tst.3.q": "«Booked her for our villa's new website. Bookings went up. The photos feel like the Algarve, not like a catalogue.»", "tst.3.a": "Casa Aurora · Quinta do Lago", "faq.eyebrow": "Frequently asked", "faq.h2": "What people ask me before booking.", "faq.note": "Can't find your question? Write to me — I usually reply the same day.", "faq.1.q": "How much does a photographer cost in the Algarve?", "faq.1.a": "A session starts at €100 and includes around 30 edited high-resolution photographs. Weddings start at €800. The final figure depends on hours of coverage, number of locations and travel — which is why I always send a personalised quote within 24 hours.", "faq.2.q": "Which areas of the Algarve do you cover?", "faq.2.a": "I photograph across the Algarve, working regularly in Lagos, Portimão, Alvor, Carvoeiro, Albufeira, Vilamoura, Quinta do Lago, Loulé, Faro and Tavira, and travelling from Sagres to Vila Real de Santo António. Beyond the region — the Alentejo, Lisbon or international destinations — travel is included in the quote. Tell me where you are and I'll suggest the best spots nearby.", "faq.3.q": "When do I receive the photographs?", "faq.3.a": "A preview of 10 to 15 images within 48 hours. The full gallery within 10 working days for sessions and 4 to 6 weeks for weddings, in a private online gallery with high-resolution downloads.", "faq.4.q": "What if we don't know how to pose?", "faq.4.a": "Good. Almost nobody does — and that's what makes the pictures true. I give simple, concrete prompts (walk, talk, lean in) and the rest happens by itself. You also get a short preparation guide before the session with clothing ideas.", "faq.5.q": "What's the best time of day to shoot in the Algarve?", "faq.5.a": "My favourite is golden hour — the 60 to 90 minutes before sunset — and, in summer, sunrise, with empty beaches and clean light. But it isn't the only option: I also shoot mid-morning, early afternoon, or on overcast days, which give a soft, beautiful light. I always work around children's routines and your schedule. Once the date is set, I'll tell you the hour I recommend for that location.", "faq.6.q": "How do I book a date?", "faq.6.a": "Through the contact form or by WhatsApp. The date is held once the contract is signed and a 30% deposit is paid. For summer weddings, I recommend booking 8 to 12 months ahead.", "cta.h": "Shall we tell your story?", "cta.p": "Tell me who you are, what you're celebrating and where. I'll reply with availability, prices and an idea or two for locations.", "cta.b": "Get in touch", "pf.eyebrow": "Selected archive · 2023—2026", "pf.h1": "Stories photographed in the Algarve.", "pf.sub": "A small, deliberate selection. I'd rather show a few good images than everything I've ever made — full galleries I send by email, depending on what you're looking for.", "pf.f.all": "All", "pf.f.wed": "Weddings &amp; Elopements", "pf.f.cou": "Couples", "pf.f.fam": "Families", "pf.f.pre": "Maternity", "pf.f.por": "Portraits", "pf.f.alg": "Algarve", "pf.empty": "There are no public images in this category yet. Write to me and I'll send a private gallery.", "pf.cta.h": "Did something here look like you?", "pf.cta.p": "Tell me what you're celebrating and I'll send full galleries like these, plus availability and prices.", "pf.cta.b": "Request a quote", "sv.eyebrow": "Photography services in the Algarve", "sv.h1": "Every story asks for a different rhythm.", "sv.sub": "I work with a handful of clients each month so I can be fully present for each one. Pick whichever is closest to you — and if none of them fits, write to me and we'll design it together.", "sv.1.d": "From €800 · full day, half day or a two-person escape.", "sv.2.d": "From €100 · 1 hour, on the beach, in the pines or at home.", "sv.3.d": "From €100 · dating, proposals or anniversaries.", "sv.4.d": "From €100 · individual portraits, maternity and newborn.", "sv.5.d": "On request · personal branding, product and content.", "sv.6.d": "On request · hotels, villas, restaurants and experiences.", "sv.how.eyebrow": "How it works", "sv.how.1t": "Conversation", "sv.how.1p": "Tell me who you are, what you're celebrating and your possible dates. I reply within 24 hours with availability and prices.", "sv.how.2t": "Booking", "sv.how.2p": "A simple contract and a 30% deposit. The date is yours and we start planning the place and the right hour of light.", "sv.how.3t": "The session", "sv.how.3p": "On the day you'll barely notice me. You walk, talk and laugh — I move around you and keep catching it.", "sv.how.4t": "Delivery", "sv.how.4p": "A preview within 48 hours and a private gallery with high-resolution downloads, ready to print.", "lbl.who": "Who it's for", "lbl.incl": "What's included", "lbl.gal": "From my camera", "lbl.inv": "Investment", "lbl.faq": "Frequently asked", "lbl.quote": "Request a quote", "lbl.ctah": "Shall we talk?", "lbl.ctap": "Tell me the date and place you have in mind. I reply within 24 hours with availability, prices and suggestions.", "lbl.ctab": "Talk to me", "jr.eyebrow": "Journal · Stories from the Algarve", "jr.h1": "What I've learned photographing here.", "jr.sub": "Practical guides on locations, prices and how to prepare a session in the Algarve — written for people who are actually planning one, not to please search engines.", "jr.ctah": "Planning something?", "jr.ctap": "Write to me with the date and the place. I'll give you my honest opinion, even if you end up booking with someone else.", "jr.ctab": "Talk to me", "ab.eyebrow2": "Bianca Dafny · Photographer in the Algarve", "ab.h1": "I spend my life chasing the last half-hour of light.", "ab.cap": "Algarve, late afternoon", "ab2.p1": "My name is Bianca Dafny. I live in the Algarve, and this is where I photograph people: weddings, families, couples and brands.", "ab2.p2": "I started by accident, with a borrowed camera and a habit of photographing everyone around me. I realised quickly that perfect portraits didn't interest me. What interested me was the half-second after the laugh, before the face composes itself again.", "ab2.p3": "I moved south and never managed to leave. There's something about the light here — the Vilamoura pine woods in August, the Lagos cliffs in November, the Ria Formosa at any hour — that still strikes me as excessive. I learned the region on foot and by car, at absurd hours, looking for places that weren't worn out yet.", "ab2.p4": "I always work with natural light. I direct little and watch a lot. I almost never ask anyone to look at me.", "ab2.e1": "What you can expect from me", "ab2.l1": "A conversation first, to understand who you are and what makes you laugh.", "ab2.l2": "Simple, concrete direction. Never “smile at the camera”.", "ab2.l3": "Respect for children's timing and for anyone who hates being photographed.", "ab2.l4": "Faithful editing: skin with texture, Algarve colours, no trend filters.", "ab2.l5": "Deadlines met. Always.", "ab2.l6": "Portuguese, English and Spanish — and infinite patience in all three.", "ab2.e2": "What makes me different", "ab2.p5": "I'm not the fastest or the cheapest photographer in the Algarve. I take on few jobs each month because I like knowing your children's names before I arrive, and because editing a gallery takes however long it takes.", "ab2.p6": "In return, you get photographs that need no explanation. Twenty years from now, someone will pick them up and understand exactly what it was like to be there.", "ab2.q": "«The best photograph of the session is almost always the one where you forgot I was there.»", "ab2.e3": "A few images from the archive", "ab2.ctah": "If you've read this far, we'll probably get along.", "ab2.ctap": "Tell me what you're planning. I promise to answer like a person, not a form.", "ct.eyebrow": "Contact · Algarve, Portugal", "ct.h1": "Let's create something beautiful.", "ct.sub": "Fill in what you know — we'll work out the rest together. I answer every enquiry within 24 hours, on working days.", "ct.f.name": "Name", "ct.f.email": "Email", "ct.f.tel": "Phone (optional)", "ct.f.type": "Type of session", "ct.f.date": "Date (or approximate)", "ct.f.place": "Location", "ct.f.people": "Number of people", "ct.f.msg": "Message", "ct.f.send": "Send enquiry", "ct.f.note": "Sending opens your email app with the message already written. Prefer WhatsApp? Use the button beside it.", "ct.o.wed": "Wedding", "ct.o.elo": "Elopement", "ct.o.cou": "Couple", "ct.o.fam": "Family", "ct.o.pre": "Maternity / Newborn", "ct.o.por": "Portrait", "ct.o.bra": "Brand / Business", "ct.o.hos": "Hotel / Tourism", "ct.o.oth": "Other", "ct.done.h": "Thank you — almost there.", "ct.done.p": "I've opened your email app with the enquiry already filled in. Just press send. If nothing opened, write to me directly at biancadafnyrocha17@gmail.com.", "ct.done.b": "Send another enquiry", "ct.c.mail": "Email", "ct.c.base": "Based in", "ct.c.basev": "Algarve, Portugal", "ct.c.hours": "Reply time", "ct.c.hoursv": "Within 24 hours, working days", "ct.box.e": "Before you write", "ct.box.p": "If you know the date and the place, say so — I can answer in much more detail. If you know nothing yet, say that too: I'll help you decide.", "ct.ig.e": "Instagram", "ct.ig.h": "The day-to-day work lives here.", "ct.ig.p": "Behind the scenes, recent sessions and Algarve light in real time.", "ct.ig.b": "See more on Instagram", "ft.nav": "Navigate", "ft.serv": "Services", "ft.where": "Where I shoot", "ft.contact": "Contact", "ft.rights": "All rights reserved", "ft.made": "Professional photography in the Algarve, Portugal", "m.port": "Portfolio", "m.quote": "Request a quote", "s.hospitality.c0": "Private villa · from above", "s.hospitality.c1": "Twin room · opening onto the terrace", "s.marcas.g0": "Shopfront · retail", "s.marcas.g1": "Product detail · leather", "s.marcas.g2": "Interior · store atmosphere", "s.marcas.g3": "Jewellery · colour and texture", "s.marcas.g4": "Product line · shelf", "s.marcas.g5": "Signage · identity in place"}</script>
+<script id="pagemeta" type="application/json">{"home": {"pt": ["Fotógrafa no Algarve | Bianca Dafny Fotografia", "Fotógrafa no Algarve: casamentos, elopements, casais, famílias e retratos com luz natural. Sessões em Lagos, Albufeira, Vilamoura, Faro e todo o Algarve."], "en": ["Photographer in the Algarve | Bianca Dafny Photography", "Algarve photographer: weddings, elopements, couples, families and portraits in natural light. Sessions in Lagos, Albufeira, Vilamoura, Faro and across the Algarve."]}, "portfolio": {"pt": ["Portfólio | Fotógrafa no Algarve | Bianca Dafny", "Portfólio de fotografia no Algarve: casamentos, elopements, casais, famílias, gravidez e retratos."], "en": ["Portfolio | Algarve Photographer | Bianca Dafny", "Algarve photography portfolio: weddings, elopements, couples, families, maternity and portraits."]}, "servicos": {"pt": ["Serviços de Fotografia no Algarve | Bianca Dafny", "Serviços de fotografia no Algarve: casamentos, famílias, casais, retratos, marcas e hotelaria. Preços desde 100 €."], "en": ["Photography Services in the Algarve | Bianca Dafny", "Photography services in the Algarve: weddings, families, couples, portraits, brands and hospitality. From €100."]}, "sobre": {"pt": ["Sobre | Bianca Dafny, Fotógrafa no Algarve", "Conheça Bianca Dafny, fotógrafa no Algarve. Luz natural, direção discreta e fotografia honesta de casamentos, famílias e casais."], "en": ["About | Bianca Dafny, Algarve Photographer", "Meet Bianca Dafny, photographer in the Algarve. Natural light, quiet direction and honest photography of weddings, families and couples."]}, "journal": {"pt": ["Journal | Histórias e guias do Algarve | Bianca Dafny", "Guias sobre locais para sessões fotográficas, preços de fotógrafos e casamentos no Algarve."], "en": ["Journal | Algarve stories and guides | Bianca Dafny", "Guides on photo session locations, photographer pricing and weddings in the Algarve."]}, "contacto": {"pt": ["Contacto | Fotógrafa no Algarve | Bianca Dafny", "Peça o seu orçamento de fotografia no Algarve. Resposta em 24 horas por email ou WhatsApp."], "en": ["Contact | Algarve Photographer | Bianca Dafny", "Request your Algarve photography quote. Reply within 24 hours by email or WhatsApp."]}, "s/casamentos": {"pt": ["Fotógrafa de Casamento no Algarve | Bianca Dafny Fotografia", "Fotógrafa de casamento no Algarve. Casamentos e elopements em Lagos, Albufeira, Vilamoura e toda a região. Desde 800 €."], "en": ["Algarve Wedding Photographer | Bianca Dafny Photography", "Algarve wedding photographer. Weddings and elopements in Lagos, Albufeira, Vilamoura and across the region — documentary photography in natural light. From €800."]}, "s/familias": {"pt": ["Fotógrafa de Famílias no Algarve | Bianca Dafny", "Fotógrafa de famílias no Algarve. Sessões naturais na praia, no pinhal ou em casa. Desde 100 €."], "en": ["Family Photographer in the Algarve | Bianca Dafny Photography", "Family photographer in the Algarve. Natural sessions on the beach, in the pine woods or at home, in Lagos, Albufeira, Vilamoura and Faro. From €100."]}, "s/casais": {"pt": ["Fotógrafa de Casais no Algarve | Bianca Dafny", "Fotógrafa de casais no Algarve. Sessões na hora dourada e pedidos de casamento. Desde 100 €."], "en": ["Couples Photographer in the Algarve | Bianca Dafny Photography", "Couples photographer in the Algarve. Golden-hour sessions, proposals and anniversaries in Lagos, Carvoeiro, Alvor and Faro. From €100."]}, "s/retratos": {"pt": ["Fotógrafa de Retratos e Gravidez no Algarve | Bianca Dafny", "Retrato, gravidez e newborn no Algarve. Sessões naturais em casa ou exterior. Desde 100 €."], "en": ["Portrait & Maternity Photographer in the Algarve | Bianca Dafny", "Portrait, maternity and newborn photography in the Algarve. Natural sessions at home or outdoors in Faro, Loulé, Albufeira and Lagos. From €100."]}, "s/marcas": {"pt": ["Fotografia para Marcas no Algarve | Bianca Dafny", "Personal branding, produto e conteúdo para redes sociais no Algarve. Licença comercial incluída."], "en": ["Brand Photography in the Algarve | Bianca Dafny Photography", "Brand photography in the Algarve: personal branding, product and social content. Commercial licence included."]}, "s/hospitality": {"pt": ["Fotografia de Hotelaria e Turismo no Algarve | Bianca Dafny", "Fotografia para hotéis, villas e restaurantes no Algarve. Interiores, lifestyle e gastronomia."], "en": ["Hotel & Tourism Photography in the Algarve | Bianca Dafny", "Photography for hotels, villas and restaurants in the Algarve. Interiors, lifestyle and food with a commercial licence."]}, "j/quanto-custa-fotografo-algarve": {"pt": ["Quanto custa um fotógrafo no Algarve? Preços 2026 | Bianca Dafny", "Quanto custa um fotógrafo no Algarve em 2026: preços reais de sessões, casamentos e elopements, e o que está incluído."], "en": ["How much does a photographer cost in the Algarve? 2026 prices", "Real 2026 rates in the region, what is and isn't included, and how to tell whether a quote is expensive or simply complete."]}, "j/melhores-locais-sessoes-algarve": {"pt": ["Melhores locais para sessões fotográficas no Algarve | Bianca Dafny", "Os melhores locais para fotografar no Algarve: praias, pinhais, falésias e vilas, com a melhor hora de luz."], "en": ["Best photo session locations in the Algarve | Bianca Dafny", "Nine places I use often — beaches, pine woods, cliffs and villages — with the best light window and how crowded each one gets."]}, "j/elopement-algarve-guia": {"pt": ["Elopement no Algarve: guia completo 2026 | Bianca Dafny", "Como organizar um elopement no Algarve: legalidades, melhores locais, orçamento e o ritmo ideal do dia."], "en": ["Eloping in the Algarve: complete 2026 guide | Bianca Dafny", "How to plan a ceremony for two in southern Portugal: legalities, locations, budget and the ideal rhythm of a day without guests."]}, "j/escolher-fotografa-algarve": {"pt": ["Como escolher a fotógrafa certa no Algarve | Bianca Dafny", "Cinco perguntas a fazer antes de reservar um fotógrafo no Algarve — e um sinal de alerta a não ignorar."], "en": ["How to choose the right photographer in the Algarve", "Five questions worth asking before you book — and one red flag most people ignore."]}}</script>
+
+<script>
+(function(){
+  "use strict";
+  var root = document.documentElement;
+  root.classList.add("js");
+  root.lang = "pt-PT";
+
+  /* move SEO nodes into <head> (the artifact skeleton renders this file inside <body>) */
+  document.querySelectorAll("[data-head]").forEach(function(el){ document.head.appendChild(el); });
+  ["meta[property='og:image']","meta[name='twitter:image']"].forEach(function(sel){
+    var el = document.querySelector(sel);
+    if (el) try { el.setAttribute("content", new URL(el.getAttribute("content"), location.href).href); } catch(e){}
+  });
+
+  var EN   = JSON.parse(document.getElementById("i18n-en").textContent);
+  var META = JSON.parse(document.getElementById("pagemeta").textContent);
+  var SITE = /^https?:$/.test(location.protocol) ? location.origin + "/" : "https://biancadafny.pt/";
+  var lang = "pt";
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ───────────── analytics helper ───────────── */
+  window.dataLayer = window.dataLayer || [];
+  function track(name, params){
+    try{
+      window.dataLayer.push(Object.assign({event:name}, params||{}));
+      if (typeof window.gtag === "function") window.gtag("event", name, params||{});
+    }catch(e){}
+  }
+  document.addEventListener("click", function(e){
+    var a = e.target.closest("[data-track]");
+    if (a) track("contact_click", {method: a.dataset.track, lang: lang});
+    var c = e.target.closest('a[href^="#/contacto"], a[href^="#/portfolio"]');
+    if (c) track("cta_click", {target: c.getAttribute("href"), label: (c.textContent||"").trim().slice(0,40)});
+  });
+
+  /* ───────────── i18n ───────────── */
+  var nodes = Array.prototype.slice.call(document.querySelectorAll("[data-i18n]"));
+  var PT = new Map();
+  nodes.forEach(function(n){ PT.set(n, n.innerHTML); });
+
+  function setLang(l, silent){
+    lang = (l === "en") ? "en" : "pt";
+    root.lang = lang === "en" ? "en" : "pt-PT";
+    nodes.forEach(function(n){
+      var k = n.getAttribute("data-i18n");
+      var v = lang === "en" ? EN[k] : PT.get(n);
+      if (v != null && n.innerHTML !== v) n.innerHTML = v;
+    });
+    document.querySelectorAll("[data-lang]").forEach(function(b){
+      var on = b.dataset.lang === lang;
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    try{ localStorage.setItem("bd-lang", lang); }catch(e){}
+    applyMeta(route());
+    if (!silent) track("language_switch", {language: lang});
+  }
+  document.querySelectorAll("[data-lang]").forEach(function(b){
+    b.addEventListener("click", function(){ setLang(b.dataset.lang); });
+  });
+
+  /* ───────────── routing ───────────── */
+  var sections = Array.prototype.slice.call(document.querySelectorAll("[data-route]"));
+  var hdr = document.getElementById("hdr");
+
+  function route(){
+    var h = location.hash.replace(/^#\/?/, "").replace(/\/$/, "");
+    if (!h) return "home";
+    return sections.some(function(s){ return s.dataset.route === h; }) ? h : "home";
+  }
+
+  function applyMeta(r){
+    var m = META[r] && META[r][lang];
+    if (!m) return;
+    document.title = m[0];
+    var d = document.querySelector('meta[name="description"]');
+    if (d) d.setAttribute("content", m[1]);
+    var ogt = document.querySelector('meta[property="og:title"]');
+    if (ogt) ogt.setAttribute("content", m[0]);
+    var ogd = document.querySelector('meta[property="og:description"]');
+    if (ogd) ogd.setAttribute("content", m[1]);
+    var tw = document.querySelector('meta[name="twitter:title"]');
+    if (tw) tw.setAttribute("content", m[0]);
+    var twd = document.querySelector('meta[name="twitter:description"]');
+    if (twd) twd.setAttribute("content", m[1]);
+    var url = SITE + (lang === "en" ? "en/" : "") + (r === "home" ? "" : r + "/");
+    var can = document.querySelector('link[rel="canonical"]');
+    if (can) can.setAttribute("href", url);
+    var ogu = document.querySelector('meta[property="og:url"]');
+    if (!ogu){ ogu = document.createElement("meta"); ogu.setAttribute("property","og:url"); document.head.appendChild(ogu); }
+    ogu.setAttribute("content", url);
+    var ogl = document.querySelector('meta[property="og:locale"]');
+    if (ogl) ogl.setAttribute("content", lang === "en" ? "en_GB" : "pt_PT");
+    buildLD(r, m);
+  }
+
+  function buildLD(r, m){
+    var biz = {
+      "@type": ["LocalBusiness","ProfessionalService"],
+      "@id": SITE + "#business",
+      "name": "Bianca Dafny Fotografia",
+      "image": SITE + "img/noivos-pergola-horizontal-algarve-xl.webp",
+      "url": SITE,
+      "email": "biancadafnyrocha17@gmail.com",
+      "telephone": "+351910895893",
+      "priceRange": "€€",
+      "description": m[1],
+      "founder": {"@type":"Person","name":"Bianca Dafny","jobTitle": lang === "en" ? "Photographer" : "Fotógrafa","url": SITE + "sobre/"},
+      "address": {"@type":"PostalAddress","addressRegion":"Algarve","addressCountry":"PT"},
+      "areaServed": ["Algarve","Lagos","Portimão","Albufeira","Vilamoura","Loulé","Faro","Tavira","Carvoeiro","Lagoa","Sagres","Alvor","Quinta do Lago","Vale do Lobo"].map(function(n){ return {"@type":"Place","name":n}; }),
+      "knowsLanguage": ["pt","en","es"],
+      "sameAs": ["https://instagram.com/biancadafny.fotografia"],
+      "makesOffer": [
+        {"@type":"Offer","name": lang==="en"?"Wedding photography":"Fotografia de casamento","priceCurrency":"EUR","price":"800","url":SITE+"s/casamentos/"},
+        {"@type":"Offer","name": lang==="en"?"Family session":"Sessão de família","priceCurrency":"EUR","price":"100","url":SITE+"s/familias/"},
+        {"@type":"Offer","name": lang==="en"?"Couple session":"Sessão de casal","priceCurrency":"EUR","price":"100","url":SITE+"s/casais/"}
+      ]
+    };
+    var site = {"@type":"WebSite","@id":SITE+"#website","url":SITE,"name":"Bianca Dafny Fotografia",
+      "inLanguage": lang === "en" ? "en" : "pt-PT","publisher":{"@id":SITE+"#business"}};
+    var graph = [biz, site];
+
+    var sec = document.querySelector('[data-route="' + r + '"]');
+    var crumbs = [{"@type":"ListItem","position":1,"name": lang==="en"?"Home":"Início","item":SITE}];
+    if (r !== "home"){
+      var parts = r.split("/");
+      if (parts.length > 1){
+        var parent = parts[0] === "s" ? (lang==="en"?"Services":"Serviços") : "Journal";
+        crumbs.push({"@type":"ListItem","position":2,"name":parent,"item":SITE + (parts[0]==="s"?"servicos/":"journal/")});
+        crumbs.push({"@type":"ListItem","position":3,"name":m[0].split("|")[0].trim(),"item":SITE+r+"/"});
+      } else {
+        crumbs.push({"@type":"ListItem","position":2,"name":m[0].split("|")[0].trim(),"item":SITE+r+"/"});
+      }
+    }
+    graph.push({"@type":"BreadcrumbList","itemListElement":crumbs});
+
+    if (sec){
+      var det = sec.querySelectorAll(".faq details");
+      if (det.length){
+        graph.push({"@type":"FAQPage","mainEntity": Array.prototype.map.call(det, function(d){
+          return {"@type":"Question","name": d.querySelector("summary").textContent.trim(),
+            "acceptedAnswer":{"@type":"Answer","text": d.querySelector(".ans").textContent.trim()}};
+        })});
+      }
+      if (r.indexOf("s/") === 0){
+        graph.push({"@type":"Service","serviceType": m[0].split("|")[0].trim(),"provider":{"@id":SITE+"#business"},
+          "areaServed":{"@type":"Place","name":"Algarve, Portugal"},"description":m[1],"url":SITE+r+"/"});
+      }
+      if (r.indexOf("j/") === 0){
+        var img = sec.querySelector("img");
+        graph.push({"@type":"Article","headline": sec.querySelector("h1").textContent.trim(),
+          "description": m[1], "image": img ? SITE + img.getAttribute("src") : undefined,
+          "author":{"@type":"Person","name":"Bianca Dafny"},
+          "publisher":{"@id":SITE+"#business"},
+          "inLanguage": lang === "en" ? "en" : "pt-PT",
+          "mainEntityOfPage": SITE + r + "/"});
+      }
+    }
+    var el = document.getElementById("ld");
+    if (!el){ el = document.createElement("script"); el.type = "application/ld+json"; el.id = "ld"; document.head.appendChild(el); }
+    el.textContent = JSON.stringify({"@context":"https://schema.org","@graph":graph});
+  }
+
+  function show(r, initial){
+    sections.forEach(function(s){ s.hidden = (s.dataset.route !== r); });
+    document.querySelectorAll("[data-nav]").forEach(function(a){
+      var on = a.dataset.nav === r || (r.indexOf("s/") === 0 && a.dataset.nav === "servicos") || (r.indexOf("j/") === 0 && a.dataset.nav === "journal");
+      a.classList.toggle("on", on);
+      if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    var sec = document.querySelector('[data-route="' + r + '"]');
+    var overlaid = !!(sec && sec.firstElementChild && /hero|ph/.test(sec.firstElementChild.className));
+    hdr.classList.toggle("onimg", overlaid);
+    document.body.classList.remove("menu");
+    document.getElementById("burger").setAttribute("aria-expanded","false");
+    document.getElementById("menu").setAttribute("aria-hidden","true");
+    applyMeta(r);
+    if (!initial){
+      window.scrollTo({top:0, behavior: reduce ? "auto" : "instant"});
+      track("page_view", {page_path: "/" + (r === "home" ? "" : r), page_title: document.title, language: lang});
+    }
+    observe(sec || document);
+  }
+
+  window.addEventListener("hashchange", function(){ show(route()); });
+
+  /* ───────────── reveal ───────────── */
+  var io = null;
+  if ("IntersectionObserver" in window && !reduce){
+    io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, {rootMargin: "0px 0px -8% 0px", threshold: 0.04});
+  }
+  function observe(scope){
+    var els = scope.querySelectorAll(".r, .fig");
+    Array.prototype.forEach.call(els, function(el){
+      if (el.classList.contains("in")) return;
+      if (!io){ el.classList.add("in"); return; }
+      var top = el.getBoundingClientRect().top;
+      if (top < window.innerHeight * 0.92){ el.classList.add("in"); }
+      else io.observe(el);
+    });
+  }
+
+  /* ───────────── header behaviour ───────────── */
+  var lastY = 0, mcta = document.getElementById("mcta");
+  function onScroll(){
+    var y = window.scrollY || 0;
+    hdr.classList.toggle("solid", y > 80);
+    hdr.classList.toggle("up", y > 240 && y > lastY && !document.body.classList.contains("menu"));
+    mcta.classList.toggle("show", y > 520);
+    lastY = y;
+  }
+  window.addEventListener("scroll", onScroll, {passive:true});
+
+  /* ───────────── mobile menu ───────────── */
+  var burger = document.getElementById("burger"), menu = document.getElementById("menu");
+  burger.addEventListener("click", function(){
+    var open = !document.body.classList.contains("menu");
+    document.body.classList.toggle("menu", open);
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+    menu.setAttribute("aria-hidden", open ? "false" : "true");
+    if (open) hdr.classList.remove("up");
+  });
+
+  /* ───────────── portfolio filters ───────────── */
+  var filters = document.getElementById("filters");
+  if (filters){
+    var items = Array.prototype.slice.call(document.querySelectorAll("#masonry .item"));
+    var empty = document.getElementById("pf-empty");
+    filters.addEventListener("click", function(e){
+      var b = e.target.closest("button[data-f]");
+      if (!b) return;
+      filters.querySelectorAll("button").forEach(function(x){ x.classList.toggle("on", x === b); });
+      var f = b.dataset.f, n = 0;
+      items.forEach(function(it){
+        var ok = f === "all" || (" " + it.dataset.cat + " ").indexOf(" " + f + " ") > -1;
+        it.classList.toggle("hide", !ok);
+        if (ok) n++;
+      });
+      empty.hidden = n > 0;
+      track("portfolio_filter", {category: f});
+    });
+  }
+
+  /* ───────────── lightbox ───────────── */
+  var lb = document.getElementById("lb"), lbImg = document.getElementById("lb-img"),
+      lbCap = document.getElementById("lb-cap"), lbCount = document.getElementById("lb-count");
+  var list = [], idx = 0;
+
+  function openLB(img){
+    var sec = img.closest("[data-route]") || document;
+    list = Array.prototype.filter.call(sec.querySelectorAll("img[data-full]"), function(i){
+      var it = i.closest(".item");
+      return !it || !it.classList.contains("hide");
+    });
+    idx = list.indexOf(img);
+    if (idx < 0) idx = 0;
+    lb.hidden = false;
+    document.body.style.overflow = "hidden";
+    render();
+    requestAnimationFrame(function(){ document.body.classList.add("lb-open"); });
+    document.getElementById("lb-close").focus();
+    track("lightbox_open", {image: img.getAttribute("src")});
+  }
+  function render(){
+    var img = list[idx];
+    if (!img) return;
+    lbImg.src = img.dataset.full || img.src;
+    lbImg.alt = img.alt || "";
+    lbCap.textContent = img.dataset.cap || img.alt || "";
+    lbCount.textContent = (idx + 1) + " / " + list.length;
+  }
+  function move(d){ idx = (idx + d + list.length) % list.length; render(); }
+  function closeLB(){
+    document.body.classList.remove("lb-open");
+    document.body.style.overflow = "";
+    setTimeout(function(){ if (!document.body.classList.contains("lb-open")) lb.hidden = true; }, 420);
+  }
+  document.addEventListener("click", function(e){
+    var img = e.target.closest("img[data-full]");
+    if (img){ e.preventDefault(); openLB(img); return; }
+    if (e.target.closest("#lb-close")) closeLB();
+    if (e.target.closest("#lb-prev")) move(-1);
+    if (e.target.closest("#lb-next")) move(1);
+    if (e.target === lb) closeLB();
+  });
+  document.addEventListener("keydown", function(e){
+    if (lb.hidden) return;
+    if (e.key === "Escape") closeLB();
+    if (e.key === "ArrowLeft") move(-1);
+    if (e.key === "ArrowRight") move(1);
+  });
+  var tx = 0;
+  lb.addEventListener("touchstart", function(e){ tx = e.changedTouches[0].clientX; }, {passive:true});
+  lb.addEventListener("touchend", function(e){
+    var dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 55) move(dx < 0 ? 1 : -1);
+  }, {passive:true});
+
+  /* ───────────── cursor ───────────── */
+  var cur = document.getElementById("cur");
+  if (window.matchMedia("(hover:hover) and (pointer:fine)").matches && !reduce){
+    var cx = 0, cy = 0, rx = 0, ry = 0, raf = null, active = false;
+    document.addEventListener("mousemove", function(e){
+      cx = e.clientX; cy = e.clientY;
+      var over = !!e.target.closest("img[data-full]") && lb.hidden;
+      if (over !== active){ active = over; cur.classList.toggle("on", over); }
+      if (!raf) raf = requestAnimationFrame(loop);
+    });
+    function loop(){
+      rx += (cx - rx) * 0.18; ry += (cy - ry) * 0.18;
+      cur.style.transform = "translate(" + rx + "px," + ry + "px) translate(-50%,-50%) scale(" + (active ? 1 : 0) + ")";
+      raf = (Math.abs(cx - rx) > 0.4 || Math.abs(cy - ry) > 0.4 || active) ? requestAnimationFrame(loop) : null;
+    }
+  }
+
+  /* ───────────── contact form ───────────── */
+  var form = document.getElementById("form"), sent = document.getElementById("sent");
+  if (form){
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      var f = new FormData(form);
+      var get = function(k){ return (f.get(k) || "").toString().trim(); };
+      if (!get("nome") || !get("email")){
+        var bad = !get("nome") ? document.getElementById("f-nome") : document.getElementById("f-email");
+        bad.focus();
+        bad.style.borderColor = "#B4544A";
+        return;
+      }
+      var L = lang === "en";
+      var lines = [
+        (L ? "Name: " : "Nome: ") + get("nome"),
+        "Email: " + get("email"),
+        (L ? "Phone: " : "Telefone: ") + (get("telefone") || "—"),
+        (L ? "Session type: " : "Tipo de sessão: ") + get("tipo"),
+        (L ? "Date: " : "Data: ") + (get("data") || "—"),
+        (L ? "Location: " : "Localização: ") + (get("local") || "—"),
+        (L ? "People: " : "Número de pessoas: ") + (get("pessoas") || "—"),
+        "",
+        get("mensagem") || ""
+      ];
+      var subject = (L ? "Photography enquiry — " : "Pedido de fotografia — ") + get("tipo") + " · " + get("nome");
+      window.location.href = "mailto:biancadafnyrocha17@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\n"));
+      track("generate_lead", {session_type: get("tipo"), language: lang, location: get("local")});
+      form.hidden = true;
+      sent.hidden = false;
+      sent.scrollIntoView({block:"center", behavior: reduce ? "auto" : "smooth"});
+    });
+    document.getElementById("again").addEventListener("click", function(){
+      form.reset(); form.hidden = false; sent.hidden = true;
+      document.getElementById("f-nome").focus();
+    });
+  }
+
+  /* ───────────── boot ───────────── */
+  try{
+    var saved = localStorage.getItem("bd-lang");
+    if (saved === "en" || saved === "pt") lang = saved;
+    else if ((navigator.language || "").toLowerCase().indexOf("pt") !== 0) lang = "en";
+  }catch(e){}
+  setLang(lang, true);
+  show(route(), true);
+  onScroll();
+})();
+</script>
+</body>
+</html>

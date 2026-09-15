@@ -1,0 +1,37 @@
+SITE BIANCA DAFNY FOTOGRAFIA — PUBLICAR NA VERCEL
+=================================================
+
+CAMINHO A — sem terminal (recomendado se nunca usou GitHub)
+  1. github.com > Sign up (grátis) > New repository
+     Nome: site-bianca-dafny | Public | Create repository
+  2. Na página do repositório: "uploading an existing file"
+  3. Arrastar TODO o conteúdo desta pasta (index.html, vercel.json,
+     robots.txt, sitemap.xml e a pasta img) > Commit changes
+  4. vercel.com > Sign up with GitHub > Add New… > Project
+  5. Import do repositório > Framework Preset: Other > Deploy
+  Em 40 segundos o site está online num endereço .vercel.app
+
+CAMINHO B — com terminal (mais rápido)
+  1. Instalar: npm i -g vercel
+  2. Nesta pasta: vercel
+  3. Login pelo browser, aceitar as opções por defeito
+  4. Publicar em definitivo: vercel --prod
+
+LIGAR O DOMÍNIO DA DOMINIOS.PT
+  Na Vercel: Project > Settings > Domains > Add > escrever o domínio.
+  A Vercel mostra os valores exactos a usar. Normalmente:
+    Tipo A     | Nome: @    | Valor: 76.76.21.21
+    Tipo CNAME | Nome: www  | Valor: (o valor que a Vercel mostrar,
+                              algo como xxxxxxxx.vercel-dns-017.com)
+  Copiar SEMPRE os valores que aparecem no painel da Vercel.
+  Na Dominios.pt: Área de Cliente > Domínios > Gerir DNS > adicionar
+  esses dois registos. Demora de 10 minutos a 2 horas a propagar.
+  O certificado HTTPS é emitido automaticamente pela Vercel.
+
+DEPOIS DE O DOMÍNIO ESTAR LIGADO
+  Editar robots.txt e sitemap.xml e trocar SEU-DOMINIO.pt pelo domínio real.
+  Depois: Google Search Console > adicionar propriedade > submeter o sitemap.
+
+ATUALIZAR O SITE MAIS TARDE
+  Caminho A: substituir o ficheiro no GitHub — a Vercel republica sozinha.
+  Caminho B: correr "vercel --prod" outra vez nesta pasta.
