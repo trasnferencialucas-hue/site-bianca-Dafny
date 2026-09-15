@@ -1,37 +1,61 @@
-SITE BIANCA DAFNY FOTOGRAFIA — PUBLICAR NA VERCEL
-=================================================
+SITE BIANCA DAFNY FOTOGRAFIA — 32 PÁGINAS (PT + EN)
+Domínio configurado: https://biancadafnyfotografia.com
+===================================================
 
-CAMINHO A — sem terminal (recomendado se nunca usou GitHub)
-  1. github.com > Sign up (grátis) > New repository
-     Nome: site-bianca-dafny | Public | Create repository
-  2. Na página do repositório: "uploading an existing file"
-  3. Arrastar TODO o conteúdo desta pasta (index.html, vercel.json,
-     robots.txt, sitemap.xml e a pasta img) > Commit changes
-  4. vercel.com > Sign up with GitHub > Add New… > Project
-  5. Import do repositório > Framework Preset: Other > Deploy
-  Em 40 segundos o site está online num endereço .vercel.app
+ENDEREÇOS GERADOS
+  PORTUGUÊS                                  INGLÊS
+  /                                          /en
+  /portfolio                                 /en/portfolio
+  /servicos                                  /en/services
+  /fotografa-casamento-algarve               /en/algarve-wedding-photographer
+  /fotografa-familias-algarve                /en/family-photographer-algarve
+  /fotografa-casais-algarve                  /en/couples-photographer-algarve
+  /fotografa-retratos-algarve                /en/portrait-maternity-photographer-algarve
+  /fotografia-marcas-algarve                 /en/brand-photography-algarve
+  /fotografia-hotelaria-algarve              /en/hotel-photography-algarve
+  /sobre                                     /en/about
+  /journal                                   /en/journal
+  /journal/quanto-custa-fotografo-algarve    /en/journal/algarve-photographer-prices
+  /journal/melhores-locais-sessoes-algarve   /en/journal/best-photo-locations-algarve
+  /journal/elopement-algarve-guia            /en/journal/algarve-elopement-guide
+  /journal/escolher-fotografa-algarve        /en/journal/how-to-choose-photographer-algarve
+  /contacto                                  /en/contact
 
-CAMINHO B — com terminal (mais rápido)
-  1. Instalar: npm i -g vercel
-  2. Nesta pasta: vercel
-  3. Login pelo browser, aceitar as opções por defeito
-  4. Publicar em definitivo: vercel --prod
+PUBLICAR NA VERCEL — sem terminal
+  1. github.com > New repository > nome: site-bianca-dafny > Public > Create
+  2. "uploading an existing file" > arrastar TUDO o que está dentro desta pasta
+     (index.html, style.css, site.js, vercel.json, sitemap.xml, robots.txt,
+      404.html, favicon.svg e as pastas img, en, journal e as restantes)
+  3. vercel.com > Sign up with GitHub > Add New… > Project > importar o repositório
+  4. Framework Preset: Other > Deploy
 
-LIGAR O DOMÍNIO DA DOMINIOS.PT
-  Na Vercel: Project > Settings > Domains > Add > escrever o domínio.
-  A Vercel mostra os valores exactos a usar. Normalmente:
-    Tipo A     | Nome: @    | Valor: 76.76.21.21
-    Tipo CNAME | Nome: www  | Valor: (o valor que a Vercel mostrar,
-                              algo como xxxxxxxx.vercel-dns-017.com)
-  Copiar SEMPRE os valores que aparecem no painel da Vercel.
-  Na Dominios.pt: Área de Cliente > Domínios > Gerir DNS > adicionar
-  esses dois registos. Demora de 10 minutos a 2 horas a propagar.
-  O certificado HTTPS é emitido automaticamente pela Vercel.
+PUBLICAR NA VERCEL — com terminal
+  npm i -g vercel        (uma vez)
+  vercel                 (dentro desta pasta, faz login e publica)
+  vercel --prod          (publica em definitivo)
 
-DEPOIS DE O DOMÍNIO ESTAR LIGADO
-  Editar robots.txt e sitemap.xml e trocar SEU-DOMINIO.pt pelo domínio real.
-  Depois: Google Search Console > adicionar propriedade > submeter o sitemap.
+LIGAR O DOMÍNIO biancadafnyfotografia.com
+  1. Registar o domínio (Dominios.pt ou outro registrador).
+  2. Vercel > Settings > Domains > Add > biancadafnyfotografia.com
+     Aceitar também a sugestão de www.biancadafnyfotografia.com.
+  3. A Vercel mostra os valores exactos. Normalmente:
+       Tipo A     | Nome: @    | Valor: 76.76.21.21
+       Tipo CNAME | Nome: www  | Valor: (o que a Vercel indicar)
+     Copiar SEMPRE o que aparece no painel da Vercel.
+  4. Colar esses registos no painel de DNS do registrador.
+     Propaga entre 10 minutos e 2 horas. O HTTPS é emitido automaticamente.
 
-ATUALIZAR O SITE MAIS TARDE
-  Caminho A: substituir o ficheiro no GitHub — a Vercel republica sozinha.
-  Caminho B: correr "vercel --prod" outra vez nesta pasta.
+A SEGUIR
+  Google Search Console > adicionar propriedade biancadafnyfotografia.com
+  > submeter  https://biancadafnyfotografia.com/sitemap.xml
+
+O QUE JÁ ESTÁ CONFIGURADO
+  · endereços canónicos e hreflang PT/EN em todas as páginas
+  · dados estruturados por página (LocalBusiness, Service, Article, FAQ, Breadcrumb)
+  · sitemap.xml com os 32 endereços e os pares de idioma
+  · cache de um ano nas imagens, cabeçalhos de segurança, HTTPS forçado
+  · página de erro 404 com o desenho do site
+
+ATUALIZAR MAIS TARDE
+  Sem terminal: substituir o ficheiro no GitHub — a Vercel republica sozinha.
+  Com terminal: correr "vercel --prod" outra vez nesta pasta.

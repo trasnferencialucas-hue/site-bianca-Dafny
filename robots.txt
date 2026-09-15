@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://SEU-DOMINIO.pt/sitemap.xml
+Sitemap: https://biancadafnyfotografia.com/sitemap.xml
