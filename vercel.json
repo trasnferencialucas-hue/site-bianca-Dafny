@@ -42,5 +42,18 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.biancadafnyfotografia.com"
+        }
+      ],
+      "destination": "https://biancadafnyfotografia.com/$1",
+      "permanent": true
+    }
   ]
 }
