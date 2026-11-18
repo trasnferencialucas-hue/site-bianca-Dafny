@@ -34,12 +34,13 @@
   });
 
   /* ── cabeçalho ─────────────────────────────────────────── */
-  var hdr = document.querySelector(".hdr"), mcta = document.querySelector(".mcta"), lastY = 0;
+  var hdr = document.querySelector(".hdr"), mcta = document.querySelector(".mcta"), waBtn = document.getElementById("wa"), lastY = 0;
   function onScroll(){
     var y = window.scrollY || 0;
     hdr.classList.toggle("solid", y > 80);
     hdr.classList.toggle("up", y > 240 && y > lastY && !document.body.classList.contains("menu"));
     if (mcta) mcta.classList.toggle("show", y > 520);
+    if (waBtn) waBtn.classList.toggle("show", y > 380);
     lastY = y;
   }
   window.addEventListener("scroll", onScroll, {passive:true});
