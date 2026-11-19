@@ -288,4 +288,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://biancadafnyfotografia.com/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://biancadafnyfotografia.com/contacto"/>
   </url>
+  <url>
+    <loc>https://biancadafnyfotografia.com/portfolio/aniversario-2-anos-pinhal-algarve</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-pt" href="https://biancadafnyfotografia.com/portfolio/aniversario-2-anos-pinhal-algarve"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biancadafnyfotografia.com/en/portfolio/2nd-birthday-pine-forest-algarve"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biancadafnyfotografia.com/portfolio/aniversario-2-anos-pinhal-algarve"/>
+  </url>
+  <url>
+    <loc>https://biancadafnyfotografia.com/en/portfolio/2nd-birthday-pine-forest-algarve</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-pt" href="https://biancadafnyfotografia.com/portfolio/aniversario-2-anos-pinhal-algarve"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://biancadafnyfotografia.com/en/portfolio/2nd-birthday-pine-forest-algarve"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://biancadafnyfotografia.com/portfolio/aniversario-2-anos-pinhal-algarve"/>
+  </url>
 </urlset>

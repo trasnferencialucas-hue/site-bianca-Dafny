@@ -184,5 +184,28 @@
     });
   }
 
+  /* ── tira da sessão: o scroll vertical move a tira na horizontal ── */
+  var pin = document.getElementById("pin");
+  if (pin && !reduce && window.matchMedia("(min-width:960px) and (hover:hover)").matches){
+    var trk = pin.querySelector(".track"), tick = false, over = 0;
+    var measure = function(){
+      over = Math.max(0, trk.scrollWidth - window.innerWidth);
+      pin.style.setProperty("--pin-h", Math.round(window.innerHeight + over * 1.25) + "px");
+      update();
+    };
+    var update = function(){
+      tick = false;
+      var r = pin.getBoundingClientRect(), total = r.height - window.innerHeight;
+      var p = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 0;
+      pin.style.setProperty("--p", p.toFixed(4));
+    };
+    pin.classList.add("pin-on");
+    trk.removeAttribute("tabindex");
+    window.addEventListener("scroll", function(){ if (!tick){ tick = true; requestAnimationFrame(update); } }, {passive:true});
+    window.addEventListener("resize", measure);
+    window.addEventListener("load", measure);
+    measure();
+  }
+
   track("page_view", {page_path: location.pathname, page_title: document.title});
 })();
