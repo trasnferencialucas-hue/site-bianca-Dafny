@@ -431,3 +431,8 @@ body.menu .wa,body.lb-open .wa{opacity:0;visibility:hidden}
 .feat:hover .fig img{transform:scale(1.04)}
 .feat h2{margin-bottom:1rem}
 .feat p{max-width:52ch}
+
+/* botão de WhatsApp na página de contacto */
+.contact-list a.btn{font-family:var(--f-body);font-size:.98rem;font-weight:500;letter-spacing:0;display:flex;width:fit-content;margin-top:.9rem}
+.contact-list li>a:first-of-type{display:block}
+.btn--wa svg{width:19px;height:19px;fill:currentColor;flex:none}
