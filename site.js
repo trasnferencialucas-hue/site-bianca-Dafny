@@ -184,6 +184,29 @@
     });
   }
 
+  /* ── topo da página inicial: o índice troca a fotografia ── */
+  var stack = document.getElementById("hero-stack");
+  if (stack && window.matchMedia("(hover:hover) and (pointer:fine)").matches){
+    var figs = Array.prototype.slice.call(stack.children), first = figs[0], loaded = false;
+    var showK = function(k){ figs.forEach(function(f){ f.classList.toggle("on", f.dataset.k === k); }); };
+    var loadAll = function(){
+      if (loaded) return; loaded = true;
+      figs.forEach(function(f){
+        var i = f.querySelector("img[data-src]");
+        if (i){ if (i.dataset.srcset) i.srcset = i.dataset.srcset; i.src = i.dataset.src; }
+      });
+    };
+    (window.requestIdleCallback || function(fn){ return setTimeout(fn, 1800); })(loadAll);
+    var index = document.querySelector(".hero-index");
+    Array.prototype.forEach.call(index.querySelectorAll("a"), function(a){
+      var on = function(){ loadAll(); showK(a.dataset.k); };
+      a.addEventListener("mouseenter", on);
+      a.addEventListener("focus", on);
+    });
+    index.addEventListener("mouseleave", function(){ showK(first.dataset.k); });
+    index.addEventListener("focusout", function(){ showK(first.dataset.k); });
+  }
+
   /* ── tira da sessão: o scroll vertical move a tira na horizontal ── */
   var pin = document.getElementById("pin");
   if (pin && !reduce && window.matchMedia("(min-width:960px) and (hover:hover)").matches){
